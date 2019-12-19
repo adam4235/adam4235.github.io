@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Constants and Expressions</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<style>
+.bordertable, .bordertable th, .bordertable td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="types.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="control_flow.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Constants and Expressions</h1>
+<p></p>
+<p>
+The simplest expressions in C* consist of constants, variables, and function calls.  The types of constants are given in the following table:
+</p>
+<table class="bordertable">
+<tr>
+<th>Examples</th>
+<th>Corresponding Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>42</td>
+<td>int</td>
+<td>Integer constant</td>
+</tr>
+<tr>
+<td>1.0, 5.4e-3</td>
+<td>float,double,ldouble</td>
+<td>floating point constant</td>
+</tr>
+<tr>
+<td>true</td>
+<td>bool</td>
+<td>Boolean value</td>
+</tr>
+<tr>
+<td>null</td>
+<td>pointer</td>
+<td>Used to represent a pointer that isn't pointing at an object</td>
+</tr>
+<tr>
+<td>'c', '\t'</td>
+<td>char</td>
+<td>Character constant</td>
+</tr>
+</table>
+<p>
+There are also string and array constants, which are described later in the <a href="arrays.html">array</a> section.  (String literals are just syntactic sugar for array literals of characters.)
+</p>
+<p>
+The numeric constants don't support suffixes, as in C++.  Floating point constants can be assigned to any floating point type, and there is only 1 size of integer.  Also, floating point constants may no longer have a trailing decimal, as in "<code>1.</code>" - write "<code>1.0</code>" instead.  These constants were removed for pragmatic reasons (and because mathematicians don't write numbers that way anyway).
+</p>
+<p>
+Also note that <code>null</code> is now a keyword, where in C++ null pointers were represented by the value <code>0</code> (with <code>NULL</code> typically defined as a macro).
+</p>
+<p>
+Operators in C* can be thought of as special syntax for function calls.  There are many built-in operators, as well as some operators whose syntax is provided but which have no predefined meaning.  Since all the operators can be overloaded, even to accept primitive types (see the later section on <a href="functions.html">functions</a>), this allows the language to have operations with nice-looking syntax, without the bloat of having all those operations built-in.  For example, some languages contain a ** operation for power; C* includes ** as an operator that the user can define however they want.  The precedence and syntax (e.g. binary or unary) of these operators is fixed.
+</p>
+<p>
+The chart of operators, in order from tighest to loosest precedence, is given in the table below.
+</p>
+<table class="bordertable">
+<tr>
+<th>Operator</th>
+<th>Associativity</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>not x</td>
+<td>Right</td>
+<td>Logical not for boolean values</td>
+</tr>
+<tr>
+<td>++ x</td>
+<td>Right</td>
+<td>Increment for numbers</td>
+</tr>
+<tr>
+<td>-- x</td>
+<td>Right</td>
+<td>Decrement for numbers</td>
+</tr>
+<tr>
+<td>- x</td>
+<td>Right</td>
+<td>Negative for numbers</td>
+</tr>
+<tr>
+<td>~ x</td>
+<td>Right</td>
+<td>Same as C++, except ~ is user-defined</td>
+</tr>
+<tr>
+<td>x ** y</td>
+<td>Nonassociative</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x ?</td>
+<td>Nonassociative</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x * y</td>
+<td>Left</td>
+<td>Multiplication of numbers</td>
+</tr>
+<tr>
+<td>x / y</td>
+<td>Left</td>
+<td>Floating-point division (even if operands are integers)</td>
+</tr>
+<tr>
+<td>x \ y</td>
+<td>Left</td>
+<td>Integer division (operands must be integers)</td>
+</tr>
+<tr>
+<td>x % y</td>
+<td>Left</td>
+<td>Modulus of numbers</td>
+</tr>
+<tr>
+<td>x + y</td>
+<td>Left</td>
+<td>Addition of numbers</td>
+</tr>
+<tr>
+<td>x - y</td>
+<td>Left</td>
+<td>Subtraction of numbers</td>
+</tr>
+<tr>
+<td>x &lt; y</td>
+<td>Left</td>
+<td>Less than for numbers</td>
+</tr>
+<tr>
+<td>x &gt; y</td>
+<td>Left</td>
+<td>Greater than for numbers</td>
+</tr>
+<tr>
+<td>x &lt;= y</td>
+<td>Left</td>
+<td>Less than or equal for numbers</td>
+</tr>
+<tr>
+<td>x &gt;= y</td>
+<td>Left</td>
+<td>Greater than or equal for numbers</td>
+</tr>
+<tr>
+<td>x == y</td>
+<td>Left</td>
+<td>Equality</td>
+</tr>
+<tr>
+<td>x != y</td>
+<td>Left</td>
+<td>Inequality</td>
+</tr>
+<tr>
+<td>x ~== y</td>
+<td>Left</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x &amp; y</td>
+<td>Left</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x xor y</td>
+<td>Left</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x | y</td>
+<td>Left</td>
+<td>User-defined</td>
+</tr>
+<tr>
+<td>x and y</td>
+<td>Left</td>
+<td>Logical and for booleans</td>
+</tr>
+<tr>
+<td>x or y</td>
+<td>Left</td>
+<td>Logical or for booleans</td>
+</tr>
+<tr>
+<td>x := y, x += y, etc.</td>
+<td>Left</td>
+<td>Assignment</td>
+</tr>
+</table>
+<p>
+Note the removal of the comma operator.  Also, the ?: syntax from C/C++ is removed, and replaced with if/else expressions.  For example:
+</p>
+<pre>
+a := if (x) b else c;
+</pre>
+<p>
+This notation should be familiar to functional programmers.  (Regular if/else blocks are also allowed, of course.)
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="types.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="control_flow.html">Next</a></td>
+</tr>
+</table>

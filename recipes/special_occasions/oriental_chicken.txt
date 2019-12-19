@@ -1,0 +1,50 @@
+oriental_chicken
+vegetable:1
+meat:1
+yield (meals * people):6
+prep.:
+cook:
+recipe source:Hannah
+
+0.33 c corn starch
+2 lb boneless pork shoulder, cubed
+0.33 c vegetable oil
+2 # onions
+2 cloves garlic
+2 slices gingerroot OR
+1 bit nothing
+14 oz pineapple chunks
+1 can mandarin oranges
+0.25 c vinegar
+0.25 c lemon juice
+0.25 c soy sauce
+0.5 c sugar
+2 tbsp corn starch
+0.5 c water
+2 # sweet green peppers
+1 bit salt
+1 bit pepper
+6 cooked_c rice
+
+-chop onions
+-mince garlic
+-chop gingerroot
+-slice green peppers
+-cook rice
+-Put 1/3 c cornstarch in sturdy paper bag.
+-Add pork cubes in batches and shake to coat.
+-Heat oil in skillet or wok
+-Cook pork in oil, simmering for 10 min or until browned.
+-Add onions, garlic, and gingerroot.
+-Simmer 5 min longer
+-Drain pineapple chunks and mandarin oranges, reserving liquid.  Set fruit aside
+-Stir reserved liquid into skillet along with vinegar, lemon juice, and soy sauce.
+-Simmer 5 more min
+-In small bowl, mix together sugar, 2 tbsp corn starch, and water.
+-Add to skillet, bring to a boil
+-Add green peppers.
+-Simmer 3 min or until sauce has thickened.
+-Add salt and pepper
+-Stir in reserved fruit.
+-Simmer until fruit is heated through.
+-Serve it on top of rice.

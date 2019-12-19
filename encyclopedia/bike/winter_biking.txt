@@ -1,0 +1,15 @@
+Rob Johnstone's winter bike advice:
+I ride a bit in the winter, and it's true that the salt and sand are really hard on the bike. Basically, they get picked up and flung at the drivetrain and will erode and rust the drivetrain components. You can expect to wear out your chain and cassette much more quickly with winter riding. Salt is also a concern for the frame (particularly if it's steel). 
+
+To help keep your drivetrain working reasonably well, you should clean it periodically (particularly if it ever gets really muddy). There are some guides on the net for how to do that, but basically a stiff brush, rags, and degreasing goo (orange oil works well) is all you need. 
+
+You should definitely lubricate the drivetrain frequently in the winter (like every few rides). It will work much better and last much longer. I use one called Wet Ride you can get at the Radical Edge or I've also heard that automotive ATF will work reasonably well (although it's a little thinner and messier).
+
+If your frame is steel, a little WD40 sprayed into anywhere you can see exposed steel (like the inside of the tubes) will help keep rust from forming.
+
+Mostly the bearings are pretty tolerant of cold weather, but if you submerge your bottom bracket (the spindle/bearing on which the pedals rotate), bad things might happen. If you do get it wet, definitely don't let it freeze up that way (take it inside and let it dry off and it might be ok).
+
+Regarding cables, it may be possible (depending on your particular configuration) to have them replaced and to have the replacement cables run with housing all the way to the brakes/derailleurs (rather than having an exposed wire component). You can sort of seal the ends of the housing with tape. That should stop water from getting in. You can also put a few drops of lubricant on the cable itself which can help keep it mobile even if there's a little ice.
+
+Lastly, fenders of some kind are inexpensive and will keep you much drier/happier.
+

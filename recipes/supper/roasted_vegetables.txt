@@ -1,0 +1,25 @@
+roasted_vegetables
+vegetable:2
+meat:0
+yield (meals * people):3
+prep.:15
+cook:60
+recipe source:Eating by the Seasons, better one in Simply in Season
+
+2 # carrots
+1 bunch beets
+1 # onions
+2 # potatoes
+1 # squash
+2 # sweet potatoes
+2 cloves garlic
+1 bunch oil
+
+-Chop the vegetables into good-sized chunks, putting them on a baking sheet.  (Leave the garlic as whole cloves.)  
+-Preheat oven to 400F.  
+-Brush the vegetables with oil on both sides.  
+-Optionally add 1 tbsp dried herbs or 3 tbsp fresh herbs such as rosemary, thyme, parsley, oregano
+-Bake for 50 min, flipping partway through.  Garlic takes less time, and might be best left out.  Onions also may take less time.
+
+Note: original recipe had parsnips and turnips, but I don't like those
+

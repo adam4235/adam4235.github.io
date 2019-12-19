@@ -1,0 +1,9 @@
+vegetable:9
+meat:9
+yield (meals * people): 2
+
+1 c frozen blueberries
+0.25 c sugar
+1 tbsp corn starch
+
+mix everything together.  Microwave at 550W for 2 min.  Stir.  Microwave again for 1.5 min.  Stir.  If it's not thick & creamy, keep microwaving and stirring until it is.

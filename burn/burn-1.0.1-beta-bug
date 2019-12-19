@@ -1,0 +1,219 @@
+#!/bin/bash
+
+#Write a CD easily.
+#
+#You need a way to allow regular users to mount ISO images
+#One way is to use sudo with the following rule in /etc/sudoers:
+#ALL     localhost=NOPASSWD:/bin/mount *-o loop*,/bin/umount *mount_iso*
+#but this isn't perfect because now they can unmount a filesystem containing
+#mount_iso in the name
+#
+#It's best to run it as root or in a way that can get realtime priority
+#so that the CD is written with realtime priority.
+#With newer 2.6 kernels you can't run programs suid root which use the SCSI subsystem,
+#which includes cdrecord.
+#
+#Also, to use the invocation which burns an existing ISO image, you must
+#be root to be able to mount it, which is used for verification.
+#
+#But if you don't trust my code, I don't blame you if you don't run it as root :)
+#
+#Things it does automatically:
+#1. Figures out the SCSI device
+#2. Makes an ISO filesystem from the files (but you can also write an existing one)
+#3. Adds a volume label based on the directory name passed
+#4. Erases and writes CD-RWs in one step (after confirming it with the user)
+#5. For data CDs, adds Joliet and Rock Ridge extensions, and uses the new ISO 1999 standard
+#   I chose to use the ISO9660 1999 (version 2) standard because it means the stupid 8
+#   directory deep limit is gone and so is the 8.3 limit (without Rock Ridge or Joliet,
+#   that is).  There is still a 197 character pathname limit.  I tested one of the CDs
+#   on Windows 98 and it works there (supposedly before the standard was invented), so
+#   it should work on most OS's and all new ones.
+#6. For data CDs, verifies that it's correct bit-by-bit using diff
+#7. Beeps when finished
+#
+#You can pass a single directory as a parameter; in that case
+#it will use the directory name as the volume label for the CD.
+#Or you can pass an already made ISO image.
+#Or you can pass a bunch of audio files (*.cdr).
+#For mp3s, first use my script mp32cdr, i.e. "mp32cdr *.mp3".
+
+#Depends on: cdrdao, cdrecord, mkisofs, diff, eject, mount, umount, grep, expr, file
+#Needs Linux 2.6 because it uses dev=/dev/cdrw or similar
+
+#Problems:
+#1. The script assumes that some commands (e.g. cdrdao disk-info) don't change their
+# output format across version and even between versions.  (In the case of disk-info,
+# I don't think I can find it out myself because in the cdrdao code, it seems to have
+# different implementations for different types of drivers).
+#2. A user should be able to mount a file loopback if they own the ISO image and they have write
+#permission on the mount point.  If they don't have write permission on the ISO image, they
+#should still be able to mount it read-only.  This seems to be a limitation of mount.
+#3. I somehow screwed up my cd writer so that the device /dev/cdrw can't be opened by
+#executing the script while the tray was open, which caused it to sit there with no output,
+#(probably at the cdrdao disinfo part), then closing the terminal window.  Afterwards something
+#seems to be polling the cd writer every few seconds because the light keeps going on and off.
+#I doubt this is burn's fault.
+#4. It would be better if any bunch of audio files could be made into an audio CD.
+#I could do this for mp3s, but when I try to pass wav files directly all the wav files
+#I've tried fail with an error like:
+#cdrecord: Inappropriate audio coding in 'file.wav'
+#even though I used the -pad option.  If someone knows what's going on please tell me.
+
+#Author: Adam Richard
+#ftgog
+#Send bug reports to me at richard.adam@gmail.com.
+#You may use this "code" however you want, but you may not call it your own.
+
+#These 3 parameters are configurable
+TMP="$TMPDIR"                #where to write the temporary ISO image
+CD_BURNER="/dev/cdrw"        #device file for the cd writer
+WRITER_MOUNT="/mnt/cdrom2"   #where to mount the CD
+
+if (mount | grep "$CD_BURNER"); then
+	echo "The CD in the drive is mounted.  Unmount it first."
+	exit 1
+fi
+
+if [ -z "$TMP" ]; then
+	echo "You have to set a temporary directory first."
+	echo "Either set the TMPDIR environment variable or set TMP at the top of the script."
+	exit 1
+fi
+
+if ! [ -d "$TMP" ]; then
+	echo "The temporary directory \`$TMP' doesn't exist."
+	exit 1
+fi
+
+function getout() {
+	if [ "$MOUNT_TMP" -o "$TMP_FILE" ]
+	then rm -r "$MOUNT_TMP" "$TMP_FILE"
+	fi
+	exit 1
+}
+
+AUDIO="false"        #whether to make an audio CD.  The user doesn't need to change this.
+
+#Initialize in case they were exported by a parent process
+MOUNT_TMP=""
+TMP_FILE=""
+
+if [ "$#" -eq 0 ]; then
+	echo "Usage: $0 <directory>"
+	echo "OR $0 <iso image>"
+	echo "OR $0 audio-file <audio-file> ..."
+	exit 1
+elif [ -d "$1" ]; then
+	MKISO="true"
+elif [ -f "$1" ]; then
+	MOUNT_TMP=`mktemp -d "$TMP"/mount_iso.XXXXXX`  #where to mount the ISO image (if that's what was passed)
+
+	#Check whether the first file is an audio file.  application/octet-stream is for *.cdr files
+	#(audio tracks as they come ripped from a CD)
+	if file -ki "$1" | grep "audio/" || file -ki "$1" | grep "application/octet-stream"
+	then
+		if file -ki "$1" | grep "application/octet-stream"; then
+			AUDIO="true"
+		else
+			echo "Sorry, for audio CDs you must first convert the file to *.cdr format."
+			getout
+		fi
+	fi
+
+	#Check if it's a valid ISO image by trying to mount it.  cdrecord doesn't check this;
+	#it will write any file as if it contains a valid ISO9660 filesystem, which I think is a bad
+	#idea because it wastes CDs.
+	if mount -t iso9660 -o loop,ro "$1" "$MOUNT_TMP"; then
+	#If there's a single file that can be mounted, assume it's an ISO image
+		MKISO="false"
+		if [ "$AUDIO" = "true" ]
+		then
+			echo "Error: the file \`$1' seems to be both an audio file and an ISO image, so I don't know what kind of CD to make."
+			echo "This is a mistake on my part; I didn't think such as thing is possible."
+			echo "Feel free to report a bug."
+			getout
+		fi
+	elif [ "$AUDIO" = "false" ]; then
+		if file -ki "$1" | grep "application/x-iso9660"
+		then
+			echo "Although the file \`$1' seems to be an ISO image, it couldn't be mounted loopback (you probably lack permission), so I can't put it on a CD."
+			echo "You could run this script as root and see if that works."
+			getout
+		else
+			echo "Error: the file \`$1' seems to be neither an audio file nor an ISO image, so I can't put it on a CD."
+			getout
+		fi
+	fi
+else
+	echo "The parameter \`$1' is not a directory, ISO image or audio file."
+	echo "$0 expects one of those as input.  The CD was not made."
+	exit 1
+fi
+
+#Determine whether a CD-RW is inserted, and whether it is blank.
+#If it's a non-blank CD-RW, offer to erase it and write the new stuff in one command.
+#
+#If there's no CD in the drive, it will keep giving a warning until you insert one.
+infocmd="cdrdao disk-info --device $CD_BURNER --driver generic-mmc -v 0"
+if $infocmd | grep 'CD-R empty *: *yes'; then   #CD-R empty actually refers to whether it's blank, CD-RW or not
+	BLANK=  #don't need to blank it if it's already blank
+elif $infocmd | grep 'CD-RW *: *yes'; then
+	echo -n "Overwrite the contents of the CD-RW in the drive? [y]"
+	read ans
+	if [ "$ans" = "y" -o "$ans" = "" ]
+	then BLANK="-blank=fast"
+	else getout
+	fi
+elif $infocmd | grep 'CD-R empty *: *no'; then
+	echo "Non-blank CD-R seems to be in the drive.  Can't write to it."
+	getout
+else
+	echo "No CD burner found attached to computer."
+	getout
+fi
+
+if [ "$AUDIO" = "true" ]; then
+#if making an audio CD
+	cdrecord -v $BLANK -dao dev=$CD_BURNER -pad -audio $*
+else
+	if [ "$MKISO" = "true" ]; then
+		TMP_FILE=`mktemp "$TMP"/burn.XXXXXX`
+
+		#mkisofs -r gives the file reasonable permissions for a data CD. (See man mkisofs for details).
+		#The modification times are, thankfully, retained.
+		mkisofs -J -r -V `basename "$1"` -iso-level 4 -o "$TMP_FILE" $*
+
+		if [ ! -s "$TMP_FILE" ]; then         #if making the filesystem failed, get out of here
+			getout
+		fi
+		cdrecord -v $BLANK -dao dev=$CD_BURNER -data "$TMP_FILE"
+		rm "$TMP_FILE"
+	else
+		cdrecord -v $BLANK -dao dev=$CD_BURNER -data "$1"
+	fi
+
+	#Verify that the directory contents and CD are exactly the same.
+
+	#For some reason, you can't mount a CD right after burning it.  You have to eject it then put
+	#it back in, then mount it.
+	if eject $CD_BURNER && eject -t $CD_BURNER && mount "$WRITER_MOUNT"
+	then
+		if [ "$MKISO" = "true" ]; then ORIGINAL_DIR="$1"; else ORIGINAL_DIR="$MOUNT_TMP"; fi
+		if diff -r "$ORIGINAL_DIR" "$WRITER_MOUNT"
+		then
+			echo "CD created successfully."
+		else
+			echo "Verification failed!"
+		fi
+		umount "$WRITER_MOUNT"   #leave it unmounted
+	else
+		echo "Couldn't mount the medium that was written, so couldn't verify that it was correct."
+	fi
+	if [ "$MKISO" = "false" ]; then
+		umount "$MOUNT_TMP"
+		rmdir "$MOUNT_TMP"
+	fi
+fi
+
+echo -e "\a"  #Beep to notify me when done

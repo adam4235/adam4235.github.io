@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>pick_file script - Adam Richard's web page</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<link rel="alternate" type="application/rss+xml" title="RSS Blog" href="rss.xml" />
+</head>
+<body>
+	<h1>pick_file script</h1>
+	<p>
+		pick_file is a script for Linux that lets you open a file by typing part of its name, kind of like <a href="https://qsapp.com/">QuickSilver</a>.  In its normal use, it creates a database of all the files in your home directory.  Then you press a keyboard shortcut (e.g. Win + Space), which you've assigned to the pick_file script, and it gives you a list of all those files at the top of the screen.  As you start typing part of a file name, the list is shortened to only those files that match what you're typing, and then you press enter to open that file.
+	</p>
+	<p>
+		I wrote this script after selling my Macbook and therefore not having Quicksilver anymore.  I used Gnome-Do, a similar program for Linux, for a while, but noticed that it takes 40MB of memory to sit in the background.  It's also too slow - it took almost one second after pressing Win+Space for it to appear.  Then I realized that the thing I really find useful in these apps is the ability to open any file by starting to type part of its name, rather than having to browse to it on my filesystem.  The pick_file script is faster than Gnome-Do, because it uses dmenu for user interaction, and it doesn't sit in the background at all when you're not using it.
+	</p>
+	<p>
+		<b>Requirements</b> - you need to install the following software for these scripts to work:
+	</p>
+	<ol>
+		<li><a href="http://tools.suckless.org/dmenu/">dmenu</a></li>
+		<li>slocate / updatedb (these are already installed on many Linux distributions)</li>
+        <li>xdg-open (which is already installed on many Linux distributions)</li>
+		<li>bash (or an sh-compatible scripting language), which most Linux users have already</li>
+	</ol>
+	<p><b>Download:</b><br />
+		<a href="pick_file">pick_file</a><br />
+	</p>
+    <p>Here's the script:</p>
+        <pre>
+#!/bin/bash
+
+#This script lets a user select a file to open by typing part of its
+#name, kind of like Quicksilver (only lighter-weight).  It's meant to
+#be invoked by a shortcut key such as Windows-space.
+#
+#Depends on:
+# dmenu
+# locate / updatedb
+# xdg-open
+
+#Set this variable to the directory you want to open files in
+DIRECTORY_TO_INCLUDE="$HOME"
+TEMP_FILE="/tmp/filenames"
+TEMP_DB="/tmp/files_db"
+TEMP_RESULT="/tmp/result.txt"
+
+make_files_db() {
+    #Create the database
+    #Unforunately there seems to be no good way to use updatedb to create just a single database with files from
+    #multiple different directories.
+    #There are 2 versions of updatedb, and GNU locate has an extra option --localpaths which lets you specify
+    #multiple paths with one command.  mlocate, the version I'm using, doesn't.
+    #However, mlocate is apparently newer, and has the improvement that it reuses the old database
+    #to save time, and apparently if you install both then they'll both build their databases in the background.
+    updatedb -l 0 -U "$DIRECTORY_TO_INCLUDE" -o "$TEMP_DB" --prune-bind-mounts no
+
+    #Save only the filenames, not the full path, in the temporary file (see below for why).
+    #Skip hidden files.
+    #The "while read line" trick is like a for loop, but iterates over lines instead of space-delimited
+    #items.  I found the trick here:
+    #http://ubergibson.com/article/iterating-through-lines-in-the-bash-shell
+    locate "$DIRECTORY_TO_INCLUDE" -d "$TEMP_DB" | grep -v "/\." | while read line ; do basename "$line" ; done  > "$TEMP_FILE"
+}
+
+if [ "$1" == "-r" ]
+then
+    #User selected to rebuild the temporary file
+    make_files_db
+    echo "Temporary file rebuilt"
+    exit 0
+elif [ ! -f "$TEMP_FILE" ]
+then
+    echo "Building temporary file... (Use $0 -r to rebuild it - it's recommended to set this to happen regularly, e.g. daily or when your computer starts)"
+    make_files_db
+fi
+
+#Select a file to edit.
+#The selection menu only displays the file's name here, not
+#the full path.
+#The reason for that is that otherwise there would be too many choices matching the letters you type -
+#if the letters match a directory name, then all the files in that directory would also be included in the choices.
+chosen_file=`cat "$TEMP_FILE" | dmenu -i`
+
+open_file() {
+    #For many programs there's a benefit to setting the current directory to the directory of the file
+    cd `dirname $1`
+
+    #Open the file according to how they configured that type of file in their desktop environment
+    xdg-open "$1"
+}
+
+if [ -n "$chosen_file" ]  #If a file was selected
+then
+	#Prepend a / to increase the chances of matching only one file.
+    #The first grep is for directories, and ensures that only the directory itself is matched and not things in the directory.
+    #The second grep excludes hidden files.
+    locate -d "$TEMP_DB" /$chosen_file | grep "$chosen_file$" | grep -v "/\." > "$TEMP_RESULT"
+
+	#Count how many files have the filename that was selected.
+	lines=`cat "$TEMP_RESULT" | wc -l`
+
+	if [ "1" = "$lines" ]
+	then
+		#If there's exactly one file of that name, edit it.
+
+		#Get the full path of the file
+		full_file=`cat "$TEMP_RESULT"`
+	
+		open_file "$full_file"
+	elif [ "0" = "$lines" ]
+	then
+		echo "Not found"
+	else
+		#There were multiple files that share the same filename.
+		#Ask the user which file they want to edit by displaying the full path
+		#this time.
+		full_file=`cat "$TEMP_RESULT" | dmenu -i -p "Which $chosen_file?"`
+
+		if [ -n "$full_file" ]
+		then
+			open_file "$full_file"
+		fi
+	fi
+fi
+        </pre>
+	<p>This script is free to download, share and modify.</p>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+nut_loaf
+vegetable:1
+meat:1
+yield (meals * people):8
+prep.:15
+cook:40
+recipe source:http://www.veg-world.com/recipes/nutroast.htm, then modified with http://www.veganlunchbox.com/loaf_studio.html
+
+2 bit oil
+2 # onion
+2 cloves garlic
+10 # mushrooms
+1 # carrot
+1 c water
+1 # soup cubes
+3 c chopped nuts
+6 slices bread
+2 tbsp soy sauce
+2.5 tbsp ground flax seed
+0.5 tsp thyme
+1 tsp sage
+2 tsp basil
+0.5 tsp parsley
+0.5 tsp oregano
+2 tbsp nutritional yeast flakes
+2 bit black pepper
+
+-Chop and fry onion
+-Chop and add mushrooms
+-Chop and add garlic
+-Add stock and water, stirring constantly until it comes to a boil.
+-Simmer for 2-3 min.
+-Preheat oven to 375F
+-Make bread into breadcrumbs
+-Add them and everything else, stirring well.
+-Grease a baking dish.
+-put in the mixture
+-Bake for 30-40 min.
+
+Note: original recipe didn't have nutritional yeast.  Is it necessary?
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Enums</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="heap.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="classes.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Enums</h1>
+<p></p>
+<p>
+Enumerations in C* let you have variables that are one of a finite set of values.  They work almost the same as in C++.
+</p>
+<pre>
+enum Ans { yes, no, maybe } answer;
+</pre>
+<p>
+This declarations declares 5 symbols in the current scope - an enum type Ans, the enumerators yes, no, and maybe, which are the domain of Ans, and the variable answer of type Ans.
+</p>
+<p>
+There are no implicit casts to or from int for enums in C*, and enumerators can't be given a numeric value.  Explicit casts to int are allowed, but good programming practice involves avoiding such casts as much as possible, since there is no logical connection between a set of named choices and a set of numbers.
+</p>
+<p>
+As in C++, you can omit either the type or the initial variable declarations:
+</p>
+<pre>
+enum { yes, no, maybe } answer;  //unnamed enum
+enum Ans { yes, no, maybe };  //declare type only
+Ans answer;  //Declare a variable later
+</pre>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="heap.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="classes.html">Next</a></td>
+</tr>
+</table>

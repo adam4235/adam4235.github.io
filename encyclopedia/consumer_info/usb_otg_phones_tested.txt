@@ -1,0 +1,14 @@
+Phones that I've tested USB OTG with:
+
+Worked:
+Samsung Galaxy S3
+Samsung Galaxy S4
+Samsung Galaxy Core
+LG 3
+Nexus 5
+
+Didn't work:
+Samsung Galaxy Ace II
+
+In general, phones that claim to support "USB host" (see phone spec websites like gsmarena) seem to work.
+

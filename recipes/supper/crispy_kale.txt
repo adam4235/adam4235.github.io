@@ -1,0 +1,19 @@
+crispy_kale
+vegetable:1
+meat:0
+yield (meals * people):3
+prep.:5
+cook:10
+recipe source:The 30-minute vegan
+
+1 bunches kale
+2 tbsp oil
+
+Preheat oven (or toaster oven) to 325F 
+Rip off leaves from the kale (leave the stem)
+Spin dry the kale
+Add it to a metal pan (or 2 pans) - NOT glass pans!  (It doesn't get crispy in glass pans, for some reason.)
+Cook for 15-20 min, flipping halfway through
+
+Note: original recipe had nutritional yeast and salt added at the end
+

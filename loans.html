@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Loans script - Adam Richard's web page</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<link rel="alternate" type="application/rss+xml" title="RSS Blog" href="rss.xml" />
+</head>
+<body>
+    <h1>Loans script</h1>
+    <p>
+        Loans is a program to do loan calculations, useful if you lend people money.  It takes as input some information about the loan and when amounts have been paid back, and generates a "bank statement" showing interest accumulated and the amount still owed.  It can also show the amount of interest accumulated in a particular year, for tax purposes.</a>
+    </p>
+    <p>
+        It takes a plain text file as input, so to run it from a Linux terminal you would use a command like the following:
+    </p>
+<pre>
+loans.pl loan.txt 
+</pre>
+    <p>
+    where loan.txt is your input file.  An example input file to specify a $10000 loan at 3% interest per year compounded quarterly might look something like this:
+    </p>
+<pre>
+InterestRate 3
+10000 05-May-2017
+PaidBack 300 01-Jan-2018
+PaidBack 200 01-Feb-2018
+</pre>
+    <p>
+    The PaidBack lines mean $300 was repaid on Jan 1 and $200 was repaid on Feb 1.  It produces output looking like this:
+    </p>
+    <pre>
+InterestRate 3
+10000 05-May-2017
+Interest 75.56
+10075.56 05-Aug-2017
+Interest 76.13
+10151.69 05-Nov-2017
+PaidBack 300 01-Jan-2018
+9851.69 01-Jan-2018
+PaidBack 200 01-Feb-2018
+9651.69 01-Feb-2018
+Interest 75.78
+9727.47 05-Feb-2018
+Interest 71.1
+9798.57 05-May-2018
+Interest 74.04
+9872.61 05-Aug-2018
+Interest 74.6
+9947.21 05-Nov-2018
+Interest 59.64
+10006.85 17-Jan-2019
+    </pre>
+    <p>
+        Interest lines show interest accumulated on a particular date.  By default, interest is compounded quarterly.  The end of the input shows the current value of the loan, including any partial interest earned since the last compounding.
+    </p>
+    <p>
+        The input file can also specify regular (recurring) payments.  For example, input like this:
+    </p>
+    <pre>
+InterestRate 3
+10000 05-May-2017
+PayBackRegular 200 01-Feb-2018
+    </pre>
+    <p>
+    means "starting on Feb 1 2018, pay back $200 per month on the loan".  This avoids having to type out lots of PaidBack lines in this case.
+    </p>
+    <p>
+        You can also show the interest accumulated in a particular year, for tax purposes.  For example:
+    </p>
+    <pre>
+loans.pl -t 2018 loan.txt
+    </pre>
+    <p>
+        shows the interest earned in the year 2018.
+    </p>
+	<p>
+		<b>Requirements:</b> - This is a perl script, so you need perl to run it.  If you're using Linux, you might already have perl installed.
+	</p>
+    <p>
+        <b>Download:</b><br />
+        <a href="loans.pl">loans.pl</a>
+    </p>
+</body>
+</html>
+

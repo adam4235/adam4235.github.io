@@ -1,0 +1,2 @@
+I used a program called UNetbootin to put Linux on a USB key, then boot the netbook from that. UNetbootin is a program that runs from Windows, Mac, or Linux, and if you have an internet connection and a USB key, it does everything for you.  You can either tell it what Linux distribution you want or supply your own .iso file.
+

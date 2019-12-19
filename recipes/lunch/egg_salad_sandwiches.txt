@@ -1,0 +1,11 @@
+vegetable:0
+meat:1
+servings (meals * people):1
+prep.:
+cook:
+
+1 # <hard_boiled_eggs>
+1 bit mayonaisse
+1 bit lettuce
+
+Put it all together and store it in the fridge

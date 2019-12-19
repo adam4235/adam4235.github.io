@@ -1,0 +1,6 @@
+To log in automatically to Linux without getting a display manager:
+
+-get the mingetty program
+-edit your /etc/initrc to use mingetty instead of agetty, with the --autologin option.  This logs in the user to a non-GUI environment.
+-edit the user's .bash_profile (or whatever shell they use) to run "exec xinit".  This is better than "exec startx" because there's one less process running.  The "exec" causes bash to exit and makes for yet another less process running.
+-edit the user's .xinitrc file with "exec awesome" (or whatever window manager is run) to start the window manager.  .xinitrc is run on startup of X.  Any programs you want to start in the GUI should go /before/ the "exec awesome" command and should be following by & to run in the background.

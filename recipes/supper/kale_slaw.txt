@@ -1,0 +1,32 @@
+kale_slaw
+vegetable:1
+meat:1
+yield (meals * people):5
+prep.:20
+cook:0
+recipe source: http://www.rawfoodrecipes.com/recipes/raw-kale-slaw-with-bbq-walnut-crumble.html, modified
+
+3 c cabbage
+2.5 c kale
+1 # carrot
+0.25 # onion
+0.25 tsp celery seed
+0.33 c cashews
+0.33 c sunflower seeds
+0.33 c water
+3 tbsp oil
+2 tsp maple syrup - bring jar to market
+1 tsp salt
+1 tsp paprika
+0.75 tsp chili powder
+0.125 tsp cayenne
+1.5 c walnuts
+1 tbsp dry onion
+
+Shred / grate the vegetables, putting them in the bowl.
+Add the celery seed, and mix up.
+Blend everything else in a food processor.
+Mix that into the vegetables.
+
+Note: original recipe had 0.25 tsp chipotle instead of cayenne and 0.25 tsp of the chili powder.  I found it still tasted good with that substitution, and there are no other recipes I have that need chipotle.
+Also original had Apple Cider Vinegar

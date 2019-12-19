@@ -1,0 +1,28 @@
+blueberry_bran_muffins
+vegetable:0
+meat:0
+yield (meals * people):18
+prep.:20
+cook:25
+recipe source:mom
+
+2 c all-purpose flour
+1.5 c wheat germ
+0.75 c whole wheat flour
+0.75 c brown sugar
+4 tsp baking powder
+2 tsp baking soda
+0.5 c molasses
+0.33 c vegetable oil
+2 # eggs
+2 c buttermilk
+1.5 c blueberries
+
+-Combine dry ingedients (first 6 - up to but not including molasses) in a mixing bowl.  Mix together well.
+-Get blueberries ready
+-Combine wet ingredients (all others except blueberries) in a larger mixing bowl.  Blend well.
+-Preheat oven to 375F
+-Add dry ingredients to wet ingredients and stir into wet ingredients just until moisened.
+-Quickly stir in blueberries
+-Put in muffin tins (if they're not non-stick, you may have to add oil or paper lining)
+-Bake for 25 minutes

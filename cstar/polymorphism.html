@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Polymorphism and the C* Object Model</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="inheritance.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="constructors.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Polymorphism and the C* Object Model</h1>
+<p></p>
+<p>
+<b>The Problem</b>
+</p>
+<p>
+Both Java and C++ have design flaws in the way they handle objects.
+</p>
+<p>
+The C++ approach is for objects to go on the stack, assignment normally does an object (deep) copy of the whole object and results in a new object, and cleanup is done automatically when the object goes out of scope via destructors.  Because of this memory management policy, when you copy a subclass of an object into a variable of a superclass's type, the object is truncated and there is no polymorphism.
+</p>
+<pre>
+Point p;
+ColourPoint q();
+p = q;  //p still holds a Point; an implicit conversion from ColourPoint to Point took place to truncate the object
+p.draw();  //Call the Point draw function, not the ColourPoint one
+</pre>
+<p>
+To get polymorphism in the C++ model, you have to use a pointer to the object, and allocate a new object on the heap.
+</p>
+<pre>
+Point* p = new ColourPoint();  //Now p points to a ColourPoint, and calling functions on it will call the overridden functions in ColourPoint
+</pre>
+<p>
+The object now has to be properly deleted later, and there is extra confusion added because of the need to dereference pointers when there is really no aliasing going on at all.
+</p>
+<p>
+Java tried to solve this problem with a reference semantics.  In Java, all objects are allocated on the heap, assignment does a shallow copy and introduces an alias, and memory is cleaned up by a separate garbage collection process.  This is an improvement, because now all object variables are references so polymorphism always works.  But there is still the problem of inadvertant aliasing - if you change one object, it will change it for all the other variables that were referring to the object.  This is a confusing default semantics.  In addition, primitive types work differently than objects, because assignment for primitives copies the value, rather than the reference.
+</p>
+<p>
+<b>The Solution</b>
+</p>
+<p>
+The C* semantics are to have objects conceptually placed on the "stack" and cleaned up automatically when they go out of scope, to have assignment do a deep object copy, and to have polymorphism work on these "stack" variables.  That is, a variable of type Point can hold an object of type Point or any of its subclasses, and calling a function on the object calls the overridden function of the run-time type.  Internally, this is implemented by wrapping all abjects in auto pointers which put the object on the heap and manage cleanup.  This is slow, but an optimizer can remove the auto-pointer wrapper if it can be proved that the variable will never hold a subtype of the static type.
+</p>
+<p>
+This means that many fewer pointers and "new" expressions need be present in C* compared to C++.  Pointers are still needed for recursive data structures, since they can be null and stack variables can't be.  But for the most part, a lot less memory management is needed in C*, lessing the impact of the fact that it doesn't have a garbage collector (yet).
+</p>
+<p>
+There is an exception to the C* semantics - try/catch blocks.  The exception caught in a catch block is not translated to an auto pointer, because C++ already causes any derived class to be caught.  This means that polymorphism doesn't work for caught exceptions, and that, as in C++, you can't catch a virtual (abstract) type.  This design flaw may be fixed in the future; making polymorphism work the same in catch blocks as it does elsewhere is difficult to implement.
+</p>
+<p>
+<b>Casts</b>
+</p>
+<p>
+Casting an object to a subtype or a supertype doesn't call the constructor, as it did in C++, but just treats the object as an instance of the cast-to type.
+</p>
+<pre>
+ColourPoint c;
+Point p := cast[Point](c);  //Copy the Point part of c into p
+(cast[Point](c)).draw();  //Call Point.draw, rather than ColourPoint.draw
+</pre>
+<p>
+Note that the C++-style of calling a particular super method by qualifying it with a class name doesn't always work.  In C*, you can use a cast instead.
+</p>
+<pre>
+c.Point.draw();  //Error (no nested class Point in class ColourPoint)
+(cast[Point](c)).draw();  //Do this instead
+</pre>
+<p>
+The first version would be confusing code anyway, because it's hard to tell whether c.(Point.draw) or (c.Point).draw is intended.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="inheritance.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="constructors.html">Next</a></td>
+</tr>
+</table>

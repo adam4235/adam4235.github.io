@@ -1,0 +1,28 @@
+scrambled_eggs_and_noodles
+vegetable:0
+meat:1
+yield (meals * people):3
+prep.:30
+cook:30
+recipe source:Doris Litke
+
+2 c noodles
+3 T butter
+1 # onion
+3 # eggs, beaten
+1/3 c milk
+1/2 t salt
+1/4 t pepper
+1 bit paprika
+1 bit parsley
+
+-Cook and drain noodles according to package directions.
+-Heat butter in a skillet, just before noodles are done
+-Add noodles and stir-fry
+-Chop onion in the meantime
+-Add it when the noodles are beginning to brown
+-Beat eggs in a bowl
+-Add the milk, salt and pepper to the eggs
+-Once onions are softened and noodles are nicely browned, pour the egg mixture over them
+-Scramble until eggs are set.
+-Garnish with paprika & parsley

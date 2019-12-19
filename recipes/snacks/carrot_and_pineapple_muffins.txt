@@ -1,0 +1,27 @@
+carrot_and_pineapple_muffins
+vegetable:0
+meat:0
+yield (meals * people):12
+prep.:20
+cook:25
+recipe source:mom
+
+1 c all-purpose flour
+0.5 c whole wheat flour
+1 tsp baking powder
+1 tsp baking soda
+0.5 tsp salt
+1 tsp cinnamon
+0.5 c sugar
+0.5 c vegetable oil
+2 # eggs
+0.5 c crushed pineapple with juice
+1 grated_c carrots
+
+-Put the first 6 ingredients (the dry ingredients) in a bowl (not the sugar)
+-Grate the carrots
+-Beat together the sugar, oil & eggs
+-Add all the other ingredients and stir together
+-Preheat oven to 375F
+-Put in muffin tins (if they're not non-stick, you may have to add oil or paper lining)
+-Bake for 25 minutes

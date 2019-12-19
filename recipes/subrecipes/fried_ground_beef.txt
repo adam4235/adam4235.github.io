@@ -1,0 +1,19 @@
+vegetable:0
+meat:1
+servings (meals * people):
+prep: 15
+cook: 25
+time: 25
+
+1 lb ground beef
+1 # onion
+
+Frying pan
+Heat-resistant Spatula
+Large heat-resistant spoon
+Small plate
+
+-Microwave the ground beef on the defrost setting to defrost it, if it was in the freezer (better is to take it out and put it in the fridge beforehand).
+-Put it in the pan and turn on the heat to medium (about 5 or 6)
+-Break it up with the spatula
+-Keep cooking it by breaking it up and moving it around. When the redness seems gone, switch to using the big spoon and move it around for a bit more, to make sure it's completely cooked (must watch out for raw meat)

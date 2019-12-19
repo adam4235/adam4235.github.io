@@ -1,0 +1,32 @@
+macaroni_and_fake_cheese
+vegetable:1
+meat:0
+yield (meals * people):8
+prep.:30
+cook:50
+recipe source:Julie, originally Allison Rivers Sampson 
+
+1 tsp salt
+8 c macaroni
+4 slices bread
+0.5 c oil
+3 # potatoes
+1 # carrots
+2 # onions
+0.5 c cashews
+2 tsp salt
+2 cloves garlic
+0.5 tsp mustard
+2 tbsp lemon juice
+0.5 tsp black pepper
+0.25 tsp cayenne
+
+-Cook macaroni with salt
+-Chop vegetables and boil them for 15 min
+-Chop bread in food processor (NOT BLENDER) to make bread crumbs.  Can add 2 tbsp oil to the food processor too.  If you don't have a food processor, dry out the bread overnight, then put it in a bag and roll it with a rolling pin to turn it into crumbs.
+-In food processor or blender, add everything else, then add vegetables when cooked, blend until smooth like cheese sauce
+-Preheat oven to 350F
+-In large bowl, mix noodles and cheese sauce
+-Put in baking dish containers, sprinkle bread crumbs on top
+-Bake for 30 min, or until golden brown on top
+

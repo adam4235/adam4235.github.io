@@ -1,0 +1,29 @@
+mexican_black_bean_salad
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:
+cook:
+recipe source: Julie's meatless mondays
+
+1 c black beans
+1.5 c corn
+0.5 c green onions
+1 # avocado
+0.5 # red pepper
+1 small_head lettuce
+1 tbsp coriander (also called cilantro) 
+1 tbsp basil
+2 tbsp lime juice
+1 # jalapeno pepper
+1 tbsp olive oil
+0.75 tsp maple syrup
+1 bit salt
+1 bit pepper
+
+Cook beans if dried
+Chop everything and mix it in a large bowl, but don't include the seeds of jalapeno pepper to reduce the spiciness.
+
+Note: I tried it without basil and then added the basil, and it tasted slightly better with basil I suppose.
+It also tasted good with navy beans instead of black beans.
+

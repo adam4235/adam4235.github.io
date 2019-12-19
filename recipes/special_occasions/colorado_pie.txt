@@ -1,0 +1,28 @@
+colorado_pie
+vegetable: 1
+meat: 1
+yield (meals * people):6
+prep.:
+cook:35
+recipe source: More-with-less cookbook
+
+1 lb ground beef
+0.5 chopped_c onions
+1 Tbsp sugar
+0.25 tsp pepper
+2 c green beans
+0.5 tsp salt
+0.125 tsp oregano
+350 ml pasta sauce
+1 # pie crust with top
+
+-Cook the green beans and drain them
+-fry the ground beef
+-Chop the onion
+-Fry the onion
+-Preheat oven to 400F
+-Put the pie crust in a pie plate
+-Put everything in the pie crust
+-Put the top of the pie crust on
+-Cut slits in it
+-Bake for 25 min.

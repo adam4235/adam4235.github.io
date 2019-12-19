@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Constructors and Destructors</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="polymorphism.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="io_classes.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Constructors and Destructors</h1>
+<p></p>
+<p>
+Constructors aren't strictly necessary in C*; a class without one behaves like a C struct, and the user of the class can explicity initialize each instance variable or call a function to do so.  But constructors provide a convenient way to create an initialize an object with one expression.
+</p>
+<p>
+They are created with the "this" keyword, (rather than the name of the class, as in C++):
+</p>
+<pre>
+class Point {
+    this(int x, int y) {
+        this.x := x;
+        this.y := y;
+    }
+private:
+    int x, y;
+};
+</pre>
+<p>
+Initializer lists are allowed as well, so the above would be more easily written as follows:
+</p>
+<pre>
+class Point {
+    this(int x, int y) 
+        : x(x), y(y) {
+    }
+private:
+    int x, y;
+};
+</pre>
+<p>
+Unlike in C++, declaring a variable with no initial value is not the same as calling the default constructor.  A variable with no initial value is initialized with garbage (undefined values), and must be explicitly given a value before it is used.
+</p>
+<pre>
+Point p;  //p is initialized with junk values
+Point p2();  //Call the default constructor.  (If there is none, it's an error.)
+Point p3 := Point();  //ditto
+</pre>
+<p>
+Arrays of classes are initialized with junk by default.  To give each element of the array a particular value, use the array := scalar shorthand.
+</p>
+<pre>
+Point arr[5];  //Declare and allocate space for 5 points.  Each Point is initialized with undefined values.
+Point arr2[5] := Point(0, 0);  //Create an array of 5 Points each of which have the coordinates (0, 0).
+</pre>
+<p>
+<b>Copy constructors</b>
+</p>
+<p>
+By default, copying one object to another does a deep copy, which copies each member of the class via a deep copy if there is no copy constructor defined.  This is the correct behaviour in C* much more often than it is in C++, because pointers and dynamic data aren't needed as frequently in C*.  But sometimes - usually if the class has a pointer - the programmer must define a copy operator themself.  This is done in the same way as in C++ - a constructor taking a parameter of the class type.
+</p>
+<pre>
+class LinkedList {
+    int data;
+    LinkedList next@;
+
+    this() {
+        data := 0;
+        next := null;
+    }
+    this(LinkedList that) {
+        data := that.data;
+        next := new LinkedList();
+        if (that.next != null)
+            $next := $that.next;
+    }
+};
+</pre>
+<p>
+C++ distinguishes between the copy constructor and the assignment operator.  Though C* allows programmers to make this distinction (by implementing both of them), it allows both copying and assignment from just a single implementation.  If a class doesn't have an assignment operator but does have a copy constructor, then a default assignment operator is generated which uses the copy constructor.  It has the most commonly needed form:
+</p>
+<pre>
+class Object {
+    ...
+    operator=(ref Object that) returns ref Object {
+        if (this != that)
+        {
+            //Call the destructor for this
+            //Call the copy constructor to copy that into this
+        }
+        return $this;
+    }
+};
+</pre>
+<p>
+<b>Destructors</b>
+</p>
+<p>
+Destructors work as in C++ - they're called automatically on objects of the class type that aren't needed anymore.  However, they're now declared with the keyword "destruct", instead of the old C++ syntax of "~ClassName".
+</p>
+<pre>
+    destruct() {
+        if (next != null) delete next;
+    }
+</pre>
+<p>
+In C++, destructors usually had to be virtual, to ensure that they're properly called when polymorphism is present.  In C*, destructors are always virtual, because the implementation of multiple inheritance and the object model requires polymorphism in places where it isn't explicitly obvious.  So programmers don't need to worry about remembering to label destructors "virtual" in C*.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="polymorphism.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="io_classes.html">Next</a></td>
+</tr>
+</table>

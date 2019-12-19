@@ -1,0 +1,6 @@
+vegetable:0
+meat:1
+servings (meals * people):
+prep.:
+cook:
+recipe source:me

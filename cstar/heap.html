@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pointers and heap objects</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="arrays.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="enums.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Pointers and heap objects</h1>
+<p></p>
+<p>
+Pointers in C* use the @ symbol (instead of *), and taking the value of a pointer uses the $ symbol (instead of &amp;):
+</p>
+<pre>
+int i := 2;
+int x@;  //pointer to an int
+x := @i;  //Assign x the address of i
+$x;  //The (int) value pointed to by x (which is 2)
+</pre>
+<p>
+Note that the pointer designation goes to the right of a variable, like array brackets, where in C++ it was placed to its left.  This avoid confusing declarations that were in C++ such as:
+</p>
+<pre>
+int* x, y;  //x is a pointer, y is an int, even though they both look like pointers.
+</pre>
+<p>
+You can have a pointer to an array in C*, and it's declared in the obvious way:
+</p>
+<pre>
+int A[]@[4];  //A is a an array of 4 pointers to (dynamic) arrays
+</pre>
+<p>
+A pointer to an array must always be a pointer to a dynamic array, with the array brackets empty.  Since the target of the pointer might not be known, and might be allocated on the heap (described shortly), a pointer to a static array isn't very useful anyway.
+</p>
+<p>
+Heap objects are allocated with the "new" keyword, like in C++.  However, the shorthand <code>new <i>type</i></code> from C++ is not present in C*; the target of a new expression must be a constructor call.
+</p>
+<pre>
+int x@ := new int(0);
+int y@ := new int;  //Error in C*
+</pre>
+<p>
+Further, primitive types require an explicit value when constructed; giving them a default value is not allowed, as the resulting code is not as readable.
+</p>
+<pre>
+int z@ := new int();  //Error in C*
+</pre>
+<p>
+Dynamic arrays, as described in <a href="arrays.html">the array section</a>, do not need to be allocated and deallocated, like they did in C++; C* manages their memory automatically.  However, you might still need to create an array on the heap, so that it can be returned from the function that created it, etc.  This is done the same way primitive values are constructed:
+</p>
+<pre>
+int arr[]@ := new int[4]();  //Create a static array of 4 ints on the heap, and
+	//store it in a pointer to array
+</pre>
+<p>
+By default, the array is initialized with junk.  To give an initial value to each element of the newly allocated array, you can provide a value, which works the same as the array := scalar initialization:
+</p>
+<pre>
+int arr[]@ := new int[4](2);  //Create an array of 4 copies of the value 2
+</pre>
+<p>
+</p>
+<p>
+Memory initialized with new must be deleted later with delete; there is not (yet) a garbage collector in C* (and there may never be one, as the question of whether they're worthwhile is quite complex).  Heap arrays are deleted the same way anything else is deleted; there is no "delete []" operator in C* as there was in C++.
+</p>
+<pre>
+delete arr;  //Delete the heap-allocated array arr
+delete x;  //Delete the heap-allocated integer x
+</pre>
+<p>
+As usual, only pointers may be the target of a delete statement - memory in non-pointers is cleaned up automatically by C*.  All newed memory should always be deleted, and programs which don't do so have undefined behaviour.
+</p>
+<p>
+The eventual plan is for it to be much rarer that pointers, and especially dynamic memory, are needed in C* (compared to C or C++).
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="arrays.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="enums.html">Next</a></td>
+</tr>
+</table>

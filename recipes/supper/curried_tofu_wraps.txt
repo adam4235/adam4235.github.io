@@ -1,0 +1,39 @@
+curried_tofu_wraps
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:20
+cook:25
+recipe source:Vegan on the Cheap
+
+1 c rice
+2 tbsp oil
+2 lb tofu (extra-firm best)
+1 tbsp cumin
+1 tbsp coriander
+1 bit salt
+1 bit black pepper
+3 stalks celery
+0.5 c cashews OR
+0.5 c peanuts OR
+0.5 c raisins
+2 tbsp parsley
+2 # green onions
+1 c veganaise (at Sobeys)
+2 tsp mustard
+1 c chutney
+8 # tortillas
+4 c lettuce
+
+-Cook the rice (pressure cooker ideal)
+-Heat the oil in a frying pan
+-Cut up the tofu, adding it
+-Cook for 5 minutes or until heated through
+-Add cumin, coriander, salt and pepper, stir to combine
+-Add celery, cashews, raisins, parsley and green onion
+-Set aside
+-In a jar, combine mayo and mustard.  Stir well, then add to tofu mixture and mix in.  Stir in rice.
+-To make a wrap, add chutney to the tortilla, then the tofu mixture, then lettuce
+
+Note: original recipe had curry powder, but that just means a blend of spices often including cumin and coriander.
+

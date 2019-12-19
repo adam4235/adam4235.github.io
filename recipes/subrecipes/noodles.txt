@@ -1,0 +1,17 @@
+vegetable:0
+meat:0
+servings (meals * people):1
+prep.:2
+cook:10
+recipe source: package
+
+1 c noodles
+4 c water
+
+Note: The package says 1L per 100g of noodles, and I think 1c is about 100g.
+
+Boil the water to a rolling boil WITHOUT PUTTING THE NOODLES IN FIRST!
+Add pasta.
+Stir until water returns to a boil.
+Cook, stirring occasionally, (with no lid?) 6-8 minutes (longer means softer).
+Drain.

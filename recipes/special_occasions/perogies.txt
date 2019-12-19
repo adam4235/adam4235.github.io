@@ -1,0 +1,30 @@
+perogies
+vegetable: 1
+meat: 0
+yield (meals * people): 5
+prep.: 60
+cook: 30
+time: 70
+Recipe source: allrecipes.com, by Doris Dusenbury
+
+2 c flour
+1 tsp salt
+1 # eggs
+.67 c water
+4 strips bacon
+4 # potatoes (use baking potatoes - long and skinny - if available)
+1 shredded_c cheddar cheese
+.25 tsp salt
+.25 tsp pepper
+1 bit milk
+
+1. Make mashed potatoes: peel the potatoes while putting them in a pot, cover with water, bring to a boil, simmer for about 20 min. or until tender.
+2. While potatoes are cooking, fry <bacon>.
+3. While bacon and potatoes are cooking, make dough: beat an egg in a large mixing bowl, then combine ingredients 1-4 in the bowl.  Stir to make a ball of dough.
+4. Shred the cheese
+5. Add milk to potatoes and mash.
+6. Crumble the bacon - best way is probably in a plastic bag with a rolling pin.
+7. Add the bacon, cheese, salt and pepper to potatoes and stir to make the inner mixture.
+8. Roll out the dough, putting flour on the counter first to avoid sticking and more of a mess.  Roll it out with a rolling pin.  It can't be too thin, otherwise the inside of the perogies will leak out when boiling; but it can't be too thick or there'll be too much leftover inner mixture.  Cut out circles or squrares with a container or glass, then put a spoonful of inner mixture on it and fold it into a perogy, pinching the edges to seal it.
+9. Bring a pot of boiling water to a boil (not too full of water, because the perogies raise the water level).
+10. Add the perogies to the water and boil for 4-5 minutes, or until they float.

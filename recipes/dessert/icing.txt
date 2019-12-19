@@ -1,0 +1,19 @@
+icing
+vegetable:0
+meat:0
+yield (meals * people):8
+prep.:20
+cook:0
+recipe source:Mom
+
+1/4 c butter
+2.5 c icing sugar
+3 tbsp milk
+3 tbsp cocoa (if you want chocolate icing) OR
+1 bit nothing
+1/4 tsp vanilla OR
+1 bit nothing
+
+-soften butter (but don't melt) in a big bowl
+-Mix dry ingredients in another bowl
+-Alternately add dry ingredients and (milk and vanilla) to the butter.  Add about a teaspoon of milk at a time.  Mix with a spoon or fork after each addition.

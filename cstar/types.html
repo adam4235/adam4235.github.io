@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Types</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<style>
+.bordertable, .bordertable th, .bordertable td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="statements.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="expressions.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Types</h1>
+<p></p>
+<p>
+A chart of all the primitive types in the language is shown below.
+</p>
+<table class="bordertable">
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr><tr>
+<td>int</td>
+<td>Holds an integer.  Size matches the word size of the target processor; no minimum size.</td>
+</tr><tr>
+<td>uint</td>
+<td>Unsigned integer.  Same size as int.</td>
+</tr><tr>
+<td>float</td>
+<td>IEEE 32 bit floating point number (same as C++).</td>
+</tr><tr>
+<td>double</td>
+<td>IEEE 64 bit floating point number (same as C++).</td>
+</tr><tr>
+<td>ldouble</td>
+<td>IEEE 80 bit floating point number (same as C++ long double).</td>
+</tr><tr>
+<td>bool</td>
+<td>Boolean value.  Can hold the values <code>true</code> and <code>false</code>.  No implicit conversions to or from integers.</td>
+</tr><tr>
+<td>char</td>
+<td>Character.  No implicit conversions to or from integers.</td>
+</tr><tr>
+<td>thing</td>
+<td>Variables of type thing can hold a value of any type.</td>
+</tr>
+</table>
+<p>
+There are fewer implicit conversions between types compared to C++.  This is meant to improve static checking and prevent errors.  Casts between primitive types can be defined by the programmer, as described <a href="casts.html">later</a>, if they prefer C++'s implicit conversions.  The only implicit subtyping among primitive types is that int is a subtype of double, which is a subtype of ldouble, and float is a subtype of double.
+</p>
+<p>
+<b>Type <code>thing</code></b>
+</p>
+<p>
+Type <code>thing</code> is a special type that can hold a value of any type.  This also means that its type is not known statically, so to perform operations on a thing (such as adding it to a number) you must first use run-time methods (such as casts, described later) to get it to a value of the type you need.
+</p>
+<p>
+<b>Type aliases</b>
+</p>
+<p>
+Type aliases can be defined by defining variables of type "type".  For example:
+</p>
+<pre>
+type size := int;
+</pre>
+<p>
+This is like a C typedef, but with less confusing syntax.  It works like a substitution: "size" is replaced with "int" throughout its scope.
+</p>
+<p>
+<b>Integer size</b>
+</p>
+<p>
+As the table above mentions, there is no minimum integer size; a compiler is even allowed to make an integer as small as 8 bits, or even smaller, if that's the efficient representation for the target platform.  The reason for this is that integer enumerations (subrange types) are a future planned feature, which will allow programmers to explicitly specify the domain of a type when they want a type of fixed size.  When they want efficiency, the int representation can be used together with out-of-range checking.  The point is to get programmers to start thinking of what <i>kind</i> of integer they need, and to specify that in a high-level way, letting the compiler worry about low-level details such as how many bits are in a byte.
+</p>
+<p>
+Until integer enumerations are implemented, pretending ints are 32 bits is probably OK for the quick-and-dirty programs that are only suitable to write in C* at this time, and is probably not much worse than the way programmers normally handle overflow anyway.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="statements.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="expressions.html">Next</a></td>
+</tr>
+</table>

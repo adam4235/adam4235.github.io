@@ -1,0 +1,34 @@
+lentil_barley_stew
+vegetable:1
+meat:1
+yield (meals * people):10
+prep.:20
+cook:70
+recipe source:more-with-less
+
+4 tbsp oil
+4 stalks celery
+2 # onion
+12 c water
+1.5 c lentils
+1.5 c barley
+4 tsp salt
+0.5 tsp black pepper
+1 tsp rosemary
+2 cloves garlic
+2 c tomato sauce
+2 # carrot
+1 bit mace
+
+-Get a large soup pot ready
+-Start heating up oil in the pot
+-Cut up celery and onion, adding them to be sauted
+-After they've been sauted for 5 min, add water and lentils
+-Bring to a boil, simmer 20 min
+-In the meantime, dice the garlic
+-Add the rest of the ingredients except carrots and tomato sauce, boil, simmer 45-60 min.
+-Grate carrots
+-Add carrots and tomato sauce, simmer 5 min
+
+Note: original recipe said butter instead of oil
+

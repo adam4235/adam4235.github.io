@@ -1,0 +1,25 @@
+leek_potato_soup
+vegetable:2
+meat:0
+yield (meals * people):5
+prep.:10
+cook:30
+recipe source: http://www.cookuk.mobi/soup_starter/leek-potato-soup.htm
+
+3 # leeks
+2 tbsp oil
+1 clove garlic
+2 # potatoes
+4 c water
+3 # soup cubes
+0.25 tsp salt
+0.25 tsp black pepper
+1 c milk
+
+-Cut up leeks, cutting off the bad part and washing them well
+-Heat up the oil in a large pot
+-Cut up garlic
+-Add the leeks and garlic, fry for 5-10 min
+-Cut up potatoes
+-Add everything except milk, boil for 15 min
+-Add the milk

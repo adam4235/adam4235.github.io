@@ -1,0 +1,15 @@
+keilbassa_sausage
+vegetable:0
+meat:1
+yield:1
+prep.:2
+cook:10
+
+0.5 # keilbasa sausages
+
+peel off skin.
+Cut into slices about 1cm thick.
+put on frying pan.
+Turn the heat to medium, cook until bottoms are brown.
+Flip them over
+cook until the bottom is brown again.

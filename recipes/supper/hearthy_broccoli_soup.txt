@@ -1,0 +1,28 @@
+vegetable:1
+meat:0
+yield (meals * people):5
+prep.:30
+cook:15
+recipe source:Simply in Season, modified
+
+2 # potatoes
+1 # onions
+2 # carrots
+1 stalks celery
+1 c water
+0.5 bunches broccoli
+4 c milk
+2 # soup cubes
+1 tsp Worcestershire sauce
+1 bit salt
+1 bit pepper
+0.33 c flour
+
+Chop potatoes, onion, carrots, and celery, adding them to a pot.
+Add water and cook for 5 min.
+Chop and add broccoli, cook for 5-10 more min.
+Add 3/4 of the milk, soup cubes, Worcestershire sauce, salt and pepper, heat to boiling.
+Whisk 1/4 of the milk and the flour in a bowl.  Stir into the soup until thickened.
+
+Note: original recipe also had cheese.
+

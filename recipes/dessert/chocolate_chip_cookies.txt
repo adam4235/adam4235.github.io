@@ -1,0 +1,32 @@
+vegetable:9
+meat:9
+yield (meals * people): 30
+prep.:30 min
+cook:10 min
+
+400 ml All-purpose (white) flour
+75 ml Cocoa
+1 tsp Baking soda
+0.5 tsp salt
+1 c Margerine
+0.75 c packed brown sugar
+0.5 c white sugar
+1 # eggs
+2 tsp vanilla (or vanilla extract)
+1 c chocolate chips
+1 c white chocolate chips (or regular chocolate chips)
+1 c coarsely chopped pecans
+
+-Stir together flour, cocoa, baking soda and salt.  Set them aside.
+-Put margerine in a LARGE, microwaveable bowl.
+-Microwave for 30 s on pwr 70% of 1100W.
+-Cream with an electric mixer (or with a normal spoon, but this takes a long time).  Do this until it's light.
+-Gradually mix in brown and white sugar, egg and vanilla until smooth.
+-Mix in dry ingredients on low speed.  Mix well.
+-Stir in chocolate chips and nuts.
+-Heat oven to 375F
+-Drop dough by spoonfuls, 5 cm apart onto ungreased baking sheets.
+-Bake for 8-10 min, or until set.  Don't put 2 pans into the oven at once since the heat won't circulate properly and the bottoms won't brown.
+-Cool on the baking sheets for 1 min, then, if the baking sheets are ones that things easily stick to, put them on plates or something to cool completely.  Don't pile up the cookies when they're cooling or they'll combine.
+
+Note: To get coarsely chopped pecans from pecans, put them on a cutting board and use a large knife, pushing the knife down with your hand from the top to prevent cutting yourself.  Cut horizonally then vertically to get a good coarseness.

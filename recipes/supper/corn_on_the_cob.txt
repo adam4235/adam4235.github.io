@@ -1,0 +1,15 @@
+corn_on_the_cob
+vegetable:2
+meat:0
+yield (meals * people):1
+prep.:5
+cook:10
+
+2 cobs corn on the cob
+
+Put cold water in a pot 1 inch deep.
+Boil the water on max heat.
+Husk the corn.
+Wash under cold water.
+Put the corn in the boiling water.  It must lay flat; if it doesn't, you have to break it.
+Steam on high heat for 5 minutes.

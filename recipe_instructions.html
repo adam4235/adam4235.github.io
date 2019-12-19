@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Meals program documentation</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+	<h1>Meals program documentation</h1>
+
+<p>meals, which you can download by clicking <a href="meals_download.html">here</a>, is a program to assist with meal planning and preparation.  It semi-randomly generates a weekly schedule of meals for you to cook (for people who don't like making decisions) and then generates a grocery list from the recipes of the meals it chose (for people who don't like writing grocery lists).  And in the newest version, it can also suggest recipes from your collection for which you already have most or all of the necessary ingredients, if you're willing to maintain a list of ingredients you have.</p>
+
+<h2> Creating recipes </h2>
+
+<p>The interface is command-line based (not graphical) and somewhat tailored to be useful to me specifically, so it may not be very useful to others.  Before you can use it, you need your recipes to be in a specific format that I invented (designed to be both human readable and able to be processed by my program).  Here is a sample recipe file:</p>
+
+<pre>
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30
+cook:60
+
+1 lb ground beef
+1 # onions
+1 cloves garlic
+2 stalks celery
+1 T chili powder
+.5 tsp basil
+.5 tsp oregano
+700 ml tomato sauce
+.5 tsp salt
+.25 tsp pepper
+1 can kidney beans
+
+-Make fried ground beef
+-Cut up celery, onions &amp; garlic
+-Add them to the frying pan and fry them too until clear
+-Put the kidney beans in the sieve to drain them and then wash them
+-Put everything in the pot
+-Boil, then simmer while stirring occasionally for about 10-30 minutes
+
+Note: original recipe said 2 or 3 T of chili pepper.
+Last time I made it with 2 and I didn't like it.
+It may be because I used Pasta Sauce instead of Tomato Sauce.
+</pre>
+
+<p>The first section contains some statistics about it (you can put any statistics you want, or none, though they enable certain features in the program), followed by a blank line, followed by the list of ingredients, followed by a blank line, followed by whatever you want - generally how to cook the thing.  Ingredients generally have the form of a number followed by a unit followed by a description.  Recipe files have the extension ".txt" (plain text).  More examples can be found in my recipe collection <a href="recipes/">here</a>.</p>
+
+<h2> Running the program </h2>
+
+<p>To use meals, you simply run it from the command line (by entering the command "meals" from a DOS or UNIX shell), and it repeatedly suggests a bunch of meals to you.  You answer yes or no depending on whether you want to eat that meal; whenever you say yes, you'll see a partial weekly meal schedule with that meal inserted in "random" days.  You can enter "s" to stop at any point and just go with that partial schedule, or you can enter the name of a recipe to make it use that recipe (perhaps for people who know what they want to eat but just want an automatic grocery list).</p>
+
+<p>The algorithm only works on a weekly schedule; i.e. it generates a schedule of meals for one week.  It determines when it's done by continuing until each meal has 1 meat serving and 2 vegetable servings, which are specified for each recipe at the top of the recipe file (see above).  This works for me because I only want it to decide what I should eat for supper, since I tend to eat the same thing for breakfast and bring a lunch to school/work.  The reason for 1 meat and 2 vegetable is because that generally results in a reasonably balanced diet (according to the Canada Food Guide), since I get my milk products by drinking fake milk and my bread group by eating sandwiches, toast, etc., but supper is when I usually need to eat vegetables and meat/meat substitutes.  The algorithm adds the recipe to the schedule the number of times in accordance with its "Yield" value (see recipe example above), which is how many servings the recipe produces, up to a maximum of 3 times (because you don't want to have the same thing all week).  This algorithm may be improved or made more general (perhaps with parameters) in the future; if you have suggestions for a good algorithm to randomly decide what to eat, <a href="email.html">tell me</a>.</p>
+
+<p>For the program to do its work, you have to tell it where to find your recipes and where to write the output to.  This is done by creating a configuration file.  The configuration file goes at either $HOME/.recipes ($HOME being an environment variable you may have to define; see DOS / bash / whatever command line program you're using's documentation) or $RECIPE_CONFIG, which are checked in that order.  Here is a sample configuration file, which you should <a href=".recipes">download</a>, put where you want it, and edit:</p>
+
+<pre>
+#Location of recipes.  They must all be in the same directory.
+#All files in this directory will be considered.
+RECIPES=$HOME/recipes/supper
+
+#File to write the grocery list to.
+#Technically optional; if omitted, grocery list isn't written,
+#but since this is such an important feature I don't see why you would
+#omit it
+GROCERY_LIST=$HOME/Desktop/grocery_list.txt
+
+#Optional input file for the user to provide already-made recipes, etc.
+INPUT=$HOME/Desktop/meals.txt
+
+#Where to write the resulting meal schedule.  Technically optional,
+#but it's pretty much the main result of the program.
+SCHEDULE=$HOME/Desktop/schedule.txt
+
+#An optional file of ingredients to add to the grocery list
+#every time (e.g. milk, bread)
+REG_INGREDIENTS=$HOME/recipes/reg_ingredients.txt
+
+#Optional.  If present, an output file which will contain a list
+#of the recipes chosen by the program, in the form of a script.
+#This is useful just to see the recipes that were chosen if you don't
+#want a meal schedule, but is also a script to install these recipes
+#as well as the grocery list on a Palm, if you have pilot-link and use
+#Linux.  This is extremely useful to me so I can bring the grocery list
+#to the grocery store and read the recipes as I'm cooking (since my
+#computer isn't visible from my kitchen).
+RECIPE_LIST=$HOME/Desktop/install_recipes
+
+#Optional.  If present, the program will assume it contains a list
+#of all ingredients you own.  If you then run "meals onhand", it will
+#suggest recipes to you that you have most or all of the necessary 
+#ingredients for already.  Also, when generating the grocery list,
+#it will mark ingredients you already own so you can quickly delete 
+#them from the list.
+OWNED_INGREDIENTS=$HOME/recipes/owned_ingredients.txt
+</pre>
+
+<p>As may be clear, the file has a simple format - lines beginning with "#" are ignored by meals, and lines of the form</p>
+
+<pre>
+VARIABLE=value
+</pre>
+
+<p>specify some file or directory for meals to know about.  The meaning of each variable is described in the file.  The ones you should really set are RECIPES, GROCERY_LIST, and SCHEDULE, but it is recommended to have a look at all of them.</p>
+
+<h2>Advanced features</h2>
+
+<p>If you type "meals noschedule" instead of "meals", you'll get just a list of random recipes rather than a weekly schedule.</p>
+
+<p>If you're willing to maintain a list of the ingredients you own (something that comes in handy to have on your phone anyway when out shopping), then you get a few extra features.  (1) If you type "meals onhand", then meals will suggest recipes starting with ones you already have all / most of the ingredients for.  (2) As it's suggesting recipes to you, it will tell you what ingredients in that recipe you'd have to buy to make it.  (3) The generated grocery list will have a note beside ingredients you already own, so you can quickly go through and delete those.  (The reason it doesn't just skip them is because if you forget to remove an ingredient from your owned list when you use it up, you otherwise might not realize you actually need to buy that ingredient, causing an extra trip to the grocery store.  This seems more wasteful than spending an extra few seconds deleting extra items from a list.)
+</p>
+
+<p>The format of the list of owned ingredients is the same as a list of ingredients in a recipe or a grocery list, making it easy to copy and paste between them.  Note that you can also omit the amount and units of an ingredient, and when you do, it means "infinite" or "enough" of that ingredient.  For example, instead of putting "1 c salt" in the list of owned ingredients, if you simply put "salt", it will assume you have "enough" salt that you can cook anything requiring salt without having to buy more.</p>
+
+<p>If you type "meals all" instead of "meals", the program will use all recipes in your directory of recipes and generate a grocery list from them (and won't calculate a weekly schedule).  This basically gives you a list of all ingredients you might need to cook anything, which is useful for when you move to a new residence and want to do a big grocery shopping.</p>
+
+<p>Sometimes recipes give you a choice of ingredients to use.  To write recipes like this, put "OR" (in capital letters) at the end of the first ingredient, like so:</p>
+
+<pre>
+1 # onion OR
+1 # green onion
+</pre>
+
+<p>the program will then ask you, at the end, which one you want to use that particular day.</p>
+
+<p>To specify an optional ingredient, use the special ingredient "nothing", like so:</p>
+
+<pre>
+1 # onion OR
+1 bit nothing
+</pre>
+
+<p>Yes, that's an ugly hack.  Write your own program.</p>
+
+<p>Sometimes you have recipes that are leftover from last week.  Other times you're going on vacation for a few days or are planning to go to a restaurant for an evening.  Situations like this can be handled by providing an input file, which might look like this:</p>
+
+<pre>
+Mon:OUT
+Tue:(broccoli)
+shepherds_pie
+(chili)
+</pre>
+
+<p>which means that on Monday you're planning to be out somewhere and don't need meal decisions for that day, on Tuesday you want to have leftover broccoli, you want shepherd's pie to be definitely included in the schedule, and you have 1 serving of leftover chili.  The brackets mean that that meal is already cooked, and is hence not included in the grocery list.  Bracketed meals are always included only once; to include them multiple times, just repeat them in the input file.  You tell meals where the input file is by setting the INPUT variable in the configuration file.  Don't worry if the file you specify doesn't exist sometimes; it just ignores it if it doesn't exist.</p>
+
+If you actually use meals and find it useful, please <a href="email.html">tell me</a>.
+
+</body>
+</html>

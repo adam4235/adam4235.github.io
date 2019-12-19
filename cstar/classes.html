@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Classes</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="enums.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="inheritance.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Classes</h1>
+<p></p>
+<p>
+At their most basic, classes in C++ can be used the same as structs in C - a container to hold multiple values:
+</p>
+<pre>
+class Point {
+    int x;
+    int y;
+} p;
+</pre>
+<p>
+...
+</p>
+<pre>
+p.x := 1;
+p.y := 2;
+</pre>
+<p>
+This works because class members are public by default in C*, unlike C++.  public, protected, and private blocks can also be declared in the class to restrict access, like in C++.
+</p>
+<p>
+When a variable of class type (an object) is declared, the values of its members are initially undefined.  It's an error to use a member before it has been initialized.
+</p>
+<p>
+Note that classes can have a list of objects declared at the end of the class body ("p" in the example above).  This is especially useful for declaring singletons - there are future plans to allow the class name to be omitted.  It also means that class bodies must always end with a semicolon, to prevent parsing difficiulties.
+</p>
+<p>
+A member that's declared static applies to the class, like in C++.  Classes, objects, and pointers are all dereferenced with the . operator in C*, where in C++ they were variously dereferenced with ., ::, and -&gt;.
+</p>
+<p>
+Members can also be declared friend, which works the same as in C++.  Friend functions are really global functions that are declared within a class, but which can access the private data in objects of the class.  Friend classes are not yet implemented.
+</p>
+<p>
+In C++, member function implementations usually went outside the class body in a separate file, with the name being qualified.  In C*, implementations go in a second class body, called the class implementation (which normally also goes in a separate file).  For example:
+</p>
+<pre>
+class Hello {
+    function hello();  //Declaration
+};
+
+class Hello {
+    function hello() {  //Definition
+        &lt;&lt; "Hello World";
+    }
+};
+</pre>
+<p>
+The advantage of this scheme is that you don't have to repeatedly qualify function implementations with the class name Hello, which becomes especially burdensome in C++ when the class is a template.
+</p>
+<p>
+Of course, "this" is also present, and, like in C++, has pointer type.  (But members are still dereferenced as this.x and this.y, since the -&gt; operator has been replaced with ".".)
+</p>
+<p>
+const member functions, which prevent "this" from being modified in their body, are declared with the "const" keyword at the beginning:
+</p>
+<pre>
+const function hello();
+</pre>
+<p>
+<b>Namespaces</b>
+</p>
+<p>
+Namespaces work the same as in C++, except that members are dereferenced with ".", rather than "::".  A namespace is just a class where all the members are static.  That is, it provides a nested scope to refer to a collection of symbols, but you don't create objects of the type of a namespace.  This is useful if you have a library and you want all the classes and functions in the library to be interoperable with any other library, without worrying about the other library using names you've already used.  If each library is within a namespace, the only way they could clash is if they both name the namespace the same.
+</p>
+<pre>
+namespace my_library {
+    function f();
+    class C { ... };
+};
+
+//Now there's no danger if there's another thing named f or C elsewhere in the program
+
+my_library.f();  //Call f (my_library::f doesn't work anymore)
+</pre>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="enums.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="inheritance.html">Next</a></td>
+</tr>
+</table>

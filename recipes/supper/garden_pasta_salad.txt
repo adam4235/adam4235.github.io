@@ -1,0 +1,32 @@
+garden_pasta_salad
+vegetable:1
+meat:0
+yield (meals * people):2
+prep.:20
+cook:15
+recipe source: Susan, modified / http://www.eatingwell.com/recipes/garden_pasta_salad.html
+
+1 c noodles
+2 tbsp veganaise (at Sobeys)
+2 tbsp yogurt
+1 tbsp oil
+1 clove garlic
+0.125 tsp salt
+1 bit black pepper
+0.5 # yellow pepper OR
+0.5 # red pepper
+0.5 # carrot
+6 # kalamata olives - bring container to Aura
+0.5 tbsp basil
+
+-Bring a large pot of lightly salted water to a boil. Cook pasta, stirring occasionally, until just tender, 8 to 10 minutes, or according to package directions. Drain and refresh under cold running water.
+-chop garlic
+-Whisk mayonnaise, yogurt, oil, vinegar (or lemon juice), garlic, salt and pepper in a large bowl until smooth.
+-grate carrot
+-chop pepper
+-chop and pit olives
+-Add the pasta to the dressing and toss to coat.
+-Add bell pepper, carrots, olives and basil; toss to coat well.
+
+Make sure you eat this by the next day (I halved the recipe so that it doesn't make much).
+

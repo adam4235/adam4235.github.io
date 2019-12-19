@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Control flow</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="expressions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="functions.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Control flow</h1>
+<p></p>
+<p>
+While loops, do-while loops, and if statements have the same syntax as in C/C++.  One relevant change to note is that these control structures accept boolean values only, and there is no implicit cast from bool to int in C*.  Hence, conditions like <code>while(1)</code> won't work by default; programmers who want this behaviour must define a cast from bool to int themselves, at the cost of weaker typechecking.
+</p>
+<p>
+Variable declarations are now allowed within conditions.  For example:
+</p>
+<pre>
+while ((char c := getchar()) != '\n') {
+	...
+}
+</pre>
+<p>
+The brackets around the variable declaration are required (to prevent ambiguities), and are usually clearer anyway.  Any variable declared within a condition has scope only within the statement containing the condition.  For example, the scope of c above is the while loop, and the scope of a variable declared within an if-else block is both the if clause and the else clause, but not the code after the if-else block.
+</p>
+<p>
+<b>For loop</b>
+</p>
+<p>
+For loops are quite a bit different in C*.  Here is an example:
+</p>
+<pre>
+for (int i := 1..10) {}
+</pre>
+<p>
+The loop consists of an assignment, with either a variable declaration or a variable use on the left, and a range on the right.  The range must consist of integers.  The loop iterates through the values in the range, setting each to the variable i in turn.  Normally, it increases by 1 each time; for other increments, you provide a step clause:
+</p>
+<pre>
+for (int i := 10..1 step -1) {}
+for (int i := 1..10 step 2) {}
+</pre>
+<p>
+<b>Select statement</b>
+</p>
+<p>
+C* includes a select statement, similar to switch in C++.  The differences are that select can take any value (switch can only operate on integers), only 1 case is selected each time (no "break" statements are needed), and cases can match a range of values.  Here's an example:
+</p>
+<pre>
+select (num_grade) {
+    case 0..49: grade := "F";
+    case 50..59: grade := "D";
+    case 60..69: grade := "C";
+    case 70..79: grade := "B";
+    case 80..89: grade := "A";
+    case 90..99:
+    case 100:
+        grade := "A+";
+    case else: grade := "Invalid grade";
+}
+</pre>
+<p>
+Note also that the <code>default</code> keyword has been removed, and default cases are now specified as <code>case else</code>.
+</p>
+<p>
+<b>Labels</b>
+</p>
+<p>
+Goto statements and labels are allowed in C*, the same as in C++, as are break and continue.  Further, you can give a label to a break or continue statement, to refer to an outer loop when inside a nested loop.  For example:
+</p>
+<pre>
+input_loop: while ((char line[]) := readLine()) {
+	for (int i := line.li..line.ui) {
+		if (line[i] == end_char) break input_loop;
+	}
+}
+</pre>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="expressions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="functions.html">Next</a></td>
+</tr>
+</table>

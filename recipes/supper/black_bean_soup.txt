@@ -1,0 +1,39 @@
+black_bean_soup
+vegetable:2
+meat:0
+yield (meals * people):12
+prep.:20
+cook:15
+recipe source:Crazy Plates cookbook
+
+4 tsp oil
+2 # onions
+2 # red peppers
+2 # carrots
+2 cloves garlic
+6 # soup cubes
+6 c water
+4 c black beans
+2 tbsp coriander (also called cilantro) 
+3 tbsp maple syrup
+2 tbsp lime juice
+4 tsp oregano
+2 tsp chili powder
+2 tsp cumin
+1 tsp thyme
+2 c tomato sauce
+0.5 tsp black pepper
+
+-Overnight, soak the black beans, then boil them for 2-3 hours, or in a pressure cooker for about 45 min.
+-Dice garlic
+-Chop onions
+-Chop red pepper
+-Heat oil in a large soup pot
+-Dice carrots
+-Add garlic, onions, red pepper, carrots to the pot and stir fry for 5 minutes, or until the vegetables begin to soften
+-Add all remaining ingredients
+-Boil, simmer 10 minutes
+
+Note: original recipe had 2 tsp molasses, but I find it tastes fine without it, and I don't need molasses for anything else
+Note: original recipe had Worcestershire sauce.  I added more maple syrup instead.  I tried adding 0.5 tsp of salt too, but it was too salty.
+

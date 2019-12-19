@@ -1,0 +1,27 @@
+rice_pudding
+vegetable:0
+meat:0
+yield (meals * people):4
+prep.:10
+cook:45
+time:45
+recipe source:allrecipes.com
+
+0.75 c rice
+2 c milk
+0.33 c sugar
+0.25 tsp salt
+1 # egg
+0.67 c raisins
+1 tbsp butter
+0.5 tsp vanilla extract
+
+-Bring water to a boil in a pot (twice as much as the volume of rice).
+-Add the rice, stir, reduce heat, simmer for 20 minutes
+-Add sugar, salt and 3/4 of the milk
+-Beat the egg
+-Cook for 15 to 20 minutes (until thick & creamy)
+-Add rest of milk, egg and raisins
+-Cook 2 more minutes, stirring CONSTANTLY while it's cooking
+-Add the butter and vanilla
+

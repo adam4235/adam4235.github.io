@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Inheritance</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="classes.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="polymorphism.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Inheritance</h1>
+<p></p>
+<p>
+<b>Inheritance and subtyping</b>
+</p>
+<p>
+C* makes a distinction between subtyping and inheritance.  It's possible to extend a class A with a class B, for ease of implementation, but to have no subtyping relation defined - so that the typechecker won't allow you to assign a B to a variable of type A.  This feature was introduced because of the fact that conceptually, not all derived classes introduce "is-a" relations, even if mechanically it looks like the derived class is an instance of the superclass.  So it's up to the programmer to specify whether an "is-a" relationship exists.
+</p>
+<p>
+To inherit from a class without introducing a subtype, use the "extends" keyword:
+</p>
+<pre>
+    class ColourPoint extends Point {
+        ...
+    };
+</pre>
+<p>
+To specify that ColourPoint is both a subclass and a subtype, use the subtype operator:
+</p>
+<pre>
+    class ColourPoint &lt;: Point {
+        ...
+    };
+</pre>
+<p>
+Unlike C++, it is not necessary to write the "public" keyword to specify public inheritance; inheritance is public by default.
+</p>
+<p>
+<b>Overriding</b>
+</p>
+<p>
+To override a function in C*, you must declare it a function case:
+</p>
+<pre>
+class Point {
+    function draw();
+};
+
+class ColourPoint {
+    function case draw();
+};
+</pre>
+<p>
+This restriction prevents accidental overriding, as well as misspelling the function name when overriding it and inadvertently introducing a new function.
+</p>
+<p>
+Functions are "virtual" by default - that is, any plain member function can be overridden - whereas C++ required functions to be labelled "virtual"  to enable overriding.  To prevent a function from being overridden, label the function "final".  (C* has both final and const keywords.  The former means "can't be extended", while the latter means "can't be modified".)
+</p>
+<p>
+The keyword "virtual" is now used for pure virtual functions (abstract classes) exclusively.  To declare an abstract class, label the functions that need to be implemented "virtual":
+</p>
+<pre>
+class Shape {
+    virtual function draw();  //the "= 0" syntax from C++ is no longer used
+};
+</pre>
+<p>
+It is an error to try to give an implementation to a function declared "virtual".
+</p>
+<p>
+<b>Multiple inheritance</b>
+</p>
+<p>
+Multiple inheritance is present in C*, but is slightly more restrictive than in C++, because it disallows ambiguities resulting from diamond inheritance.  That is, if a class inherits from multiple superclasses that each define a particular function, it's an error.  The error can be resolved by simply overriding the ambiguous member.
+</p>
+<p>
+For example:
+</p>
+<pre>
+class A {
+    function f() =&gt; int { return 0; }
+};
+class B &lt;: A {
+    function case f() =&gt; int { return 1; }
+};
+class C &lt;: A {
+    function case f() =&gt; int { return 2; }
+};
+class D &lt;: B, C {};  //Error - which f does D inherit?
+</pre>
+<p>
+If the programmer decides that D's f should behave like A's, they could resolve the ambiguity by overriding it to do so:
+</p>
+<pre>
+class D &lt;: B, C {
+    function case f() =&gt; int { return A.f(); }
+};
+</pre>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="classes.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="polymorphism.html">Next</a></td>
+</tr>
+</table>

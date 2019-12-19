@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Exceptions</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="io_classes.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="cpp_compat.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Exceptions</h1>
+<p></p>
+<p>
+Exceptions work mostly the same as in C++ - there are try blocks, catch blocks, and throw statements.  One difference is that you can't catch an abstract class.  This is because object variables in the catch clause aren't implemented in the same way as regular object variables - they can't hold any subtype of the object type, as described in the <a href="polymorphism.html">polymorphism</a> section, due to implementation difficulties.  Parameters to catch clauses work like parameters in C++, and truncate the object they catch.  This isn't usually a problem, because C++ already causes subtypes of the type to be caught by the earlier catch clauses.  This restriction might be lifted in the future.
+</p>
+<p>
+In the meantime, since abstract classes can't truncate the object they're storing, they aren't allowed as parameters to catch clauses.  Otherwise, pretty much any type can be thrown or caught.
+</p>
+<p>
+Throw declarations in function headers have not yet been implemented in C*.  There was little enforcement of the throw types in C++, causing them to serve more as documentation than actual restrictions.  Careful thought and investigation must be conducted before putting them in C* to determine whether the rules surrounding throw clauses should be changed compared to C++.  In the meantime, anything can be thrown from any function and any type of error can be handled in a try/catch block.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="io_classes.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="cpp_compat.html">Next</a></td>
+</tr>
+</table>

@@ -1,0 +1,43 @@
+shepherds_pie
+vegetable:2
+meat:1
+yield:4
+prep:45
+cook:20 + 2*20 in parallel, then 15
+time:90
+
+1 lb ground beef
+1 # onions
+1 cloves garlic
+3 # carrots
+1 tsp salt
+0.25 tsp black pepper
+0.25 tsp thyme
+1 bunch green beans
+1 # soup cubes
+1 tbsp maple syrup
+1 c water
+3 T flour
+6 # potatoes
+1 # eggs
+1 tbsp oil
+0.25 c milk
+
+Make fried ground beef.
+Chop the onions and garlic.
+While doing the frying, cook the potatoes by first scrubbing and chopping them, then putting them in a pot of cold water (almost covered).
+Add the onions and garlic to the frying pan when the meat is mostly browned, and brown them too.  If they finish before the potatoes are ready to cook, turn them to minimum heat.
+Dice the carrots, adding them to the ground beef.
+Chop the green beans, adding them too.
+Add the other of the first 11 ingredients (not flour) to the beef mixture.
+Boil then simmer for 20 min, stirring occasionally.  In parallel, boil the potatoes for about 20 min or until they break up when poked with a fork.  When they boil rapidly, turn the heat down but keep them boiling rapidly.
+Start pre-heating the oven at 400F when almost done.
+When the simmering is finished, add the flour to the meat mixture and mix it in.
+Drain the potatoes.
+Add the egg and milk and oil to the potatoes and mash it all together.
+Put the first group of ingredients in the bottom of baking dishes, put the potato mixture on top
+Bake for 15 min.
+
+Note: original recipe said to put parmesan cheese on top, and 1 T butter instead of oil with the potatoes, and cheese
+Note: original recipe had 1 tsp of worshershire sauce, but I switched it to more salt and 1 tbsp of maple syrup, and it tasted very good.
+

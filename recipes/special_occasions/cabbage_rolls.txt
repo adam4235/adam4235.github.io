@@ -1,0 +1,33 @@
+cabbage_rolls
+vegetable:1
+meat:1
+yield (meals * people):6
+prep.:
+cook:
+recipe source:
+
+1 bit nothing
+
+Get recipe
+Maybe try making a casserole so as to not bother rolling up cabbage
+Try mom's recipe
+Tried "False Cabbage Rolls" with tomato sauce instead of soup and no sour cream.  Forgot to add rice and added too much water I think.
+
+
+
+INGREDIENTS:
+
+    * 1 pound lean ground beef
+    * 1 onion, sliced
+    * 1 medium head cabbage, sliced
+    * 2 (10.75 ounce) cans condensed tomato soup
+    * 10 3/4 fluid ounces water
+    * salt to taste
+    * ground black pepper to taste
+    * 1/2 cup sour cream
+
+DIRECTIONS:
+
+   1. In a large pot over medium heat, brown the ground beef and onion; drain fat.
+   2. Stir in sliced cabbage, tomato soup, water (use the empty soup can to measure), salt, and pepper. Cover and simmer until cabbage is tender; stirring occasionally. Stir in sour cream just before serving.
+

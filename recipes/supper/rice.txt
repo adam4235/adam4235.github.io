@@ -1,0 +1,14 @@
+rice
+vegetable:0
+meat:0
+prep: 3
+cook: 25
+yield (meals * people): 4
+
+1 c rice
+2 c water
+
+Wash the rice if it's basmati (probably with a seive. The best way for me is to put the rice in Pasta Pro, put water in it then drain it. But put something under the water that gets drained since some rice will probably fall out).
+Put the rice and water on a stove element at maximum in a pot.
+When the water boils, turn it down to minimum and wait 30 min with the lid on (15 min for white rice). DON'T STIR IT!  (That wrecks it).
+Drain water if there is any, but there shouldn't be by the time it's done - it should have all been absorbed.

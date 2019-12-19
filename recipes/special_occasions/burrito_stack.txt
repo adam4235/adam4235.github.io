@@ -1,0 +1,34 @@
+burrito_stack
+vegetable:1
+meat:1
+yield (meals * people):6
+prep.:45
+cook:20
+
+1 lb ground beef
+1 # onions
+2 cloves garlic
+3 tsp chili powder
+.5 tsp oregano 
+.25 tsp cayenne
+.25 tsp salt
+1 can(540ml) red kidney beans
+.25 c salsa
+4 # flour tortillas
+1 c cheese
+
+Chop the onion and garlic.
+Grate the cheese.
+If using less than 4 tortilla shells, cut them in half/quarters to make 4 of them.
+Brown the beef in a frying pan.
+Add onion and garlic when it's browned and brown them too.
+Add the chili powder, oregano and cayenne, cook for 2 more minutes.
+Put the kidney beans in a drainer and wash them.
+Put them in a large bowl and mash them.
+Add the salsa and stir a bit.
+Add the meat mixture and mix it all together by stirring.
+Place 1 tortilla shell on a rimmed baking sheet (fairly deep).
+Put 1/3 of the mixture on it,  then 1/4 of the cheese on that.
+Add another tortilla, and keep doing this to make layers - 3 layers of meat mixture.
+Put 1/4 of the cheese on top.
+Bake at 450F for about 10 minutes (until a bit after the tortillas get  brown on the outside).

@@ -1,0 +1,16 @@
+vegetable:0
+meat:0
+yield (meals * people):2
+prep.:5
+cook:0
+recipe source:Julie's meatless Mondays
+
+1 # avocado
+0.25 c fake milk
+3 tbsp cocoa powder
+3 tbsp maple syrup
+
+process everything in the food processor, scooping it off the sides occasionally
+
+Note: should eat within an hour or two, due to the perishable nature of the avocado - otherwise it won't taste as good
+

@@ -1,0 +1,22 @@
+tortillas
+vegetable:0
+meat:0
+yield (meals * people):8
+prep.:15
+cook:15
+recipe source: http://allrecipes.com//Recipe/authentic-mexican-tortillas/Detail.aspx, but modified
+
+3.5 cups all-purpose flour
+2 teaspoons salt
+0.5 cup vegetable oil
+0.75 cup hot water
+
+-Combine dry ingredients (but only 3c flour) and mix
+-Gradually mix in oil
+-Gradually mix in water
+-Heat a frying pan to very hot (Med-High on my stove), without oil
+-Roll into 6 balls
+-Roll a bit of flour on the outside of each one
+-Roll out each ball very thin
+-Fry each one on each side for about 10-30 seconds (flip when it starts bubbling)
+

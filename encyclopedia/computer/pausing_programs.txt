@@ -1,0 +1,7 @@
+To pause a program running in the shell, normally you can just push Ctrl+Z.  It stops running and goes in the background.  To resume it, enter the command "fg" to bring it back to the foreground.
+
+Ctrl-Z sends the following signal:
+kill -s SIGTSTP <pid>
+
+The following always works but should be a last resort:
+kill -s SIGSTOP <pid>

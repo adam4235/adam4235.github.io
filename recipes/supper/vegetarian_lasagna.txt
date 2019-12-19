@@ -1,0 +1,50 @@
+vegetarian_lasagna
+vegetable:2
+meat:1
+yield (meals * people):6
+prep.:60 min
+cook:90 min
+recipe source:Mom, modified
+
+0.66 c cashews
+0.5 c water
+2 tbsp oil
+4 cloves garlic
+1 lb firm tofu
+1.5 tsp basil
+1 tsp salt
+9 # lasagna noodles
+1 jar pasta sauce
+2 # onions
+2 stalks celery
+2 # carrots
+10 # mushrooms
+1 c corn
+1 bag spinach
+1 tsp italian herbs
+
+Cut up half the cloves of garlic
+Put the cashews, water, oil, and half the cloves of garlic in a food processor.
+Crumble the tofu and blend it and the basil and salt in the food processor too (NOT a blender).  If you don't have a food processor, just mix it into the blended mixture with a fork.  This makes a cottage-cheese-like mixture (cashew ricotta).
+Boil the noodles.
+Cut up celery, onions, garlic, add them to be fried
+Cut up and add the mushrooms and saute for several minutes.
+Dice carrots, add them and the corn, and about 3 tbsp of water, cover and steam until vegetables are tender.
+Add spinach and steam until wilted.
+Preheat oven to 350F
+Layer in a 9x13 lasagna pan:
+1/4 of the pasta sauce
+3 noodles
+1/4 of the pasta sauce
+1/2 of the vegetables
+1/2 of the cashew ricotta
+3 noodles
+1/4 of the pasta sauce
+1/2 of the vegetables
+1/2 of the cashew ricotta
+italian herbs
+3 noodles
+rest of sauce
+Put aluminum foil over it
+Bake for an hour, then remove the aluminum foil and bake for 10 more min (save the foil for storing leftovers) NOTE: I usually use another cover instead of aluminum foil, but next time, try skipping 10 min of uncovered baking - it seems to make the top layer of noodles crunchy, which I don't like.
+

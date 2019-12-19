@@ -1,0 +1,29 @@
+zucchini_bread
+vegetable:0
+meat:0
+yield (meals * people):8
+prep.:20
+cook:60
+recipe source:More-with-less cookbook
+
+3 c flour
+1 tsp salt
+1 tsp baking powder
+1 tsp baking soda
+3 tsp cinnamon
+3 # eggs
+0.75 c sugar
+1 c vegetable oil
+1 # zucchini
+1 tbsp vanilla
+1 chopped_c nuts
+
+-Mix the dry ingredients (first 5) in a mixing bowl.
+-Beat together the wet ingredients (all except nuts) in a large mixing bowl.  Can use a fork but beat well.
+-Preheat oven to 350F
+-Add dry ingredients and stir until blended.
+-Coarsely chop the nuts.
+-Add them.
+-Put in bread pans or meatloaf dish.
+-Bake for 1 hour.
+-Remove and cool on rack. (? - last time it fell apart when I tried to take it out while hot.)

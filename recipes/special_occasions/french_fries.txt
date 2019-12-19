@@ -1,0 +1,12 @@
+french_fries
+vegetable:1
+meat:0
+yield (meals * people):
+prep.:
+cook:
+recipe source:me
+
+1 bunch potatoes
+1 bunch vegetable oil
+
+Cut up the potatoes and deep fry them.

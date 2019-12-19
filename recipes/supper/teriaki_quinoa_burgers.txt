@@ -1,0 +1,33 @@
+teriaki_quinoa_burgers
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:15
+cook:15
+recipe source: GI diet cookbook
+
+2 c quinoa
+3 c water
+2 c pinto beans
+1 # onions
+2 cloves garlic
+2 # egg OR
+2 tbsp ground flax seed mixed with 3 tbsp warm water (better with flax seed)
+0.5 c oat bran
+0.5 c teriyaki sauce
+2 tbsp oil
+
+Rinse quinoa for a few minutes with a special strainer (it's very dirty and needs to be rinsed well)
+cook drain and mash the beans
+In saucepan, bring water to boil.
+Add quinoa, reduce heat and simmer for 15 min. or until water is
+absorbed.
+Cut onions and garlic.
+In large bowl, mix beans, cooked quinoa, onions, garlic, egg, oat bran,
+teriyaki sauce until well combined.
+In non-stick frying pan, heat oil over medium heat.
+Fry until browned, flipping around after 5-10 min
+
+Note: to substitute teriyaki:
+"Most Japanese just mix soy sauce (2TBS), rice vinegar (2TBS), sugar/honey (1tsp) and salt (to taste) instead of buying teriyaki sause."
+

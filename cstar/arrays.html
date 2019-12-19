@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Arrays</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="casts.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="heap.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Arrays</h1>
+<p></p>
+<p>
+Arrays and matrix operations are the most significant implemented improvement in C* to date.  Whereas C++ treats built-in arrays much differently than the container classes in the standard library, C* aims to make arrays easy to manipulate, with the future goal of allowing user-defined containers to be manipulated in the same way.
+</p>
+<p>
+Arrays in C* are not pointers; they're objects, like the C++ standard library container classes.  They can be passed as parameters and returned from functions.  Passing an array has by-value semantics, like any other object.
+</p>
+<p>
+Arrays in the current implementation are slow, but theoretically, they could be fast with good optimization, and there are plans to make them as fast as C++ arrays when only the features of C++ arrays are used.  In particular, passing arrays with value semantics doesn't necessarily mean a copy in every case - internally, they could be passed by reference if it doesn't change the semantics of the program.
+</p>
+<p>
+Arrays can be declared using the same form as in C++, or they can be given a lower index.
+</p>
+<pre>
+int A[10];  //Array with indices from 0 to 9, like in C++
+int B[1..10]; //Array with indices from 1 to 10
+int C[-5..5];  //Lower indices can even be negative
+</pre>
+<p>
+The lower index must always be a constant, but the size needn't be.  Arrays declared with constant sizes are static arrays, with efficiency similar to C++ arrays, while arrays declared with variables are dynamic.
+</p>
+<pre>
+int A[x];  //Size determined at run-time
+</pre>
+<p>
+Whereas in C++ programmers had to create arrays with "new", and then delete them later, memory management for dynamic arrays is handled automatically by the C* compiler - the memory is deleted when A goes out of scope.  Static arrays are faster than dynamic ones and have better typechecking, but otherwise they are used in exactly the same way.  In fact, whenever the compiler is able to statically figure out the expression being used to specify the size of an array, it's allowed to make the array static.  New programmers needn't even think of arrays as being static or dynamic, but can just think of them as "arrays".
+</p>
+<p>
+Neither type of array can be resized later.  After initialization, the size of an array is fixed.
+</p>
+<p>
+Rather than specifying the size of an array, programmers can provide an initial value for the array.  They must provide either a size or an initial value.  Initial values are now specified with [] brackets instead of {} brackets.
+</p>
+<pre>
+int A[] := [1, 2, 3];  //Infer int A[3]
+int B[];  //Error - no size specified
+</pre>
+<p>
+However, for function parameters, the size can be omitted.  The parameter then becomes a dynamic array whose size becomes the size of the argument passed to the function.  Likewise for function return values.
+</p>
+<pre>
+function copyArray(int A[]) =&gt; int[] { return A; }
+</pre>
+<p>
+Unlike C++, parameters and return values can be static arrays:
+</p>
+<pre>
+function copyArray3(int A[3]) =&gt; int[3] { return A; }
+</pre>
+<p>
+By itself, this isn't very useful, because general functions are usually better than specific ones.  However, once generics are added to C*, it would become more useful (as you could then have a general function with stronger typechecking).
+</p>
+<p>
+Array literals are allowed anywhere arrays are allowed (C++ only allowed them in initializations).  Any expression can be present in an array literal.
+</p>
+<pre>
+f([g(), 2, x]);
+</pre>
+<p>
+The type of the array literal is inferred to be the common supertype of all its elements.  For example, if g() above returns a bool and x has type int, the type of the array literal would be thing[3].
+</p>
+<p>
+Multidimensional arrays can be initialized with multiple inferred sizes, unlike C++.  A multidimensional array literal must be specified as literals within literals.
+</p>
+<pre>
+int A[][] := [[1, 2, 3], [4, 5, 6]];
+</pre>
+<p>
+The literal must be square; otherwise, the common supertype is inferred to be "thing", which often results in an error.
+</p>
+<pre>
+[[1, 2, 3], [4, 5, 6, 7]];  //Has type thing[2]
+</pre>
+<p>
+Array literals can contain integer ranges.
+</p>
+<pre>
+[1..100];  //The integers from 1 to 100 inclusive
+</pre>
+<p>
+Arrays carry with them 3 special properties that the programmer can query.
+</p>
+<pre>
+int A[2..11];
+A.size;  //Size of the array (10)
+A.li;   //Lower index of the array (2)
+A.ui;  //Upper index of the array (11)
+</pre>
+<p>
+The li is always substituted at compile time, and adds no extra overhead.  The ui and size can be substituted at compile time for static arrays, and are looked up for dynamic arrays.
+</p>
+<p>
+<b>Matrix operations</b>
+</p>
+<p>
+Arrays can be sliced.
+</p>
+<pre>
+A[2..4] := [5, 6, 7];
+</pre>
+<p>
+This is semantically equivalent to:
+</p>
+<pre>
+A[2] := 5;
+A[3] := 6;
+A[4] := 7;
+</pre>
+<p>
+The left and/or right part of the slice can be omitted, to mean "beginning" or "end".  For example:
+</p>
+<pre>
+A[..5];  //Means A[A.li..5];
+A[1..];  //Means A[1..A.ui];
+A[..];   //Means all of A
+</pre>
+<p>
+If a scalar is assigned to an array, it means give that value to all elements in the array.
+</p>
+<pre>
+A[5..] := 2;  //Assign element 5 and up of A the value 2.
+</pre>
+<p>
+<b>Strings</b>
+</p>
+<p>
+Strings in C* are just arrays of char.  String literals are just syntactic sugar for array literals.
+</p>
+<pre>
+char s[] := "hello";  //Equivalent to char s[] := ['h', 'e', 'l', 'l', 'o'];
+</pre>
+<p>
+Since C* doesn't have a standard library or classes yet, strings by themselves are fairly limited.  The plan is to eventually have the + operator mean concatenation for arrays of any type, including strings.  However, that is easiest implemented as a generic function, and C* doesn't have generics yet.  In the meantime, programmers can themselves define concatenation for just strings fairly easily with operator overloading:
+</p>
+<pre>
+operator +(char s1[], char s2[]) =&gt; char[] {
+	char retVal[s1.size + s2.size];
+	retVal[..s1.size-1] := s1;
+	retVal[s1.size..] := s2;
+	return retVal;
+}
+</pre>
+<p>
+Comparison operators to replace strcmp could be defined similarly.
+</p>
+<p>
+The biggest limitation remaining for strings, then, is that they can't be resized to receive a new string.  If programmers program in a purely functional manner, this isn't a problem, because functional programming avoids reassigning variables.  In the long term, a string class would make working with strings easier for things like resizing, once classes are implemented in C*.
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="casts.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="heap.html">Next</a></td>
+</tr>
+</table>

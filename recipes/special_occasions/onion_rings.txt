@@ -1,0 +1,13 @@
+onion_rings
+vegetable:1
+meat:0
+yield (meals * people):5
+prep.: 10
+cook: 20
+source: allrecipies.com
+
+1 c pancake mix
+1 large onions
+1 tbsp sugar
+
+Start the deep fryer first. Slice the onion into rings, in the same direction as you cut off the ends. Add water or whatever to the pancake mix and sugar according to the package directions. Dip the onions in the pancake mix and put them in the deep fryer a bunch at a time once it's heated. Fry each batch for about 3 min.

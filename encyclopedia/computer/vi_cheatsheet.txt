@@ -1,0 +1,109 @@
+VI cheatsheet:
+
+h,j,k,l		movement
+w,b		move word-wise
+0,$		move to start, end of line
+^		another way to move to the start of a line
+/		search
+?		search backwards
+%		match bracket
+Ctrl+f		Move forward 1 page
+Ctrl+b		Move backward 1 page
+Ctrl+]		Jump to tag (e.g. in help or programming)
+Ctrl+T		Return after jumping to tag
+ma		Set mark a (can use any letter)
+`a		Go to mark a (can be used to delete from cursor to mark)
+f<char> Go to the next occurrance of <char>
+t<char> Go to just before the next occurrance of <char>
+
+i		insert
+a		append after cursor (good for end of line)
+A		append at end of line
+r		replace with next letter
+R		replace a bunch of characters
+x		delete character
+X		delete previous character
+d<object>	cut
+dd		cut line
+P		paste
+p		paste after cursor (weird)
+y		Yank (copy)
+o		open line below cursor
+O		open line above cursor
+u		undo
+U		undo everything on current line
+Ctrl+R		redo
+c<object>	change object
+.		repeat last delete or change command (including insertion)
+~		change case and move to next character
+qa		Record macro a (can use any letter)
+@a		Execute macro a
+>		Shift lines right
+>i{		Shift inside {}
+<		Shift lines left
+=		Indent lines properly
+
+!!<command>	Put the output of <command> at the cursor
+!motion<cmd>	Pipe the text specified by motion through <command> and replace it with the output
+
+v		visual mode (select characters)
+V		visual mode (select lines)
+Ctrl+V		visual mode (select a box)
+
+K		Look up man page
+
+objects:
+w		word
+e		word not including space
+$		end of line
+0		start of line
+
+Ctrl+g		file status
+G		move to line (default end)
+gg		move to line (default start)
+
+:!command	external command
+:q		close window
+:wq		save & close window
+:w FILE		write to FILE
+:r FILE		insert contents of FILE
+:s/old/new/g	replace on line
+:%s/old/new/g	replace in whole file
+:s/old/new/gc	ask for confirmation for each replacement
+:s/old/new/	replace next occurrance
+:set <option>	set an option
+:view <file>	open <file> read-only
+:n		move to next file
+:N		move to previous file
+:rewind		move to first file
+:last		move to last file
+Ctrl+^		move to alternate file (last file being edited)
+:cnext		next error
+:cprev		previous error
+
+:split		new window
+Ctrl+W Ctrl+W	switch windows
+:split <file>	new window with <file> in it
+:3split		new window 3 lines high
+:new		new empty window
+Ctrl+W +	increase size of current window
+Ctrl+W =	make windows the same size
+:bnext		next buffer (e.g. when you have multiple files open)
+:sbnext		split window and go to next buffer
+
+Help on options: help 'option'
+
+Good options:
+set mouse=a		turn on mouse
+set hlsearch		highlighting searches with /
+set is			incremental search (search as you type the query)
+set ic			ignore case when searching
+set hidden		make buffers stick around when they disappear from the screen but you move to a new file
+set shiftwidth=4	make the width of indentation when programming 4
+set textwidth=0		don't break long lines
+set cindent		enable C, C++, Java smart indenting
+set autowrite
+set autoread
+map <F5> command	maps the sequence command to the F5 key
+map key command		maps the sequence command to key
+

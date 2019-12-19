@@ -1,0 +1,31 @@
+fiddlehead_soup
+vegetable:1
+meat:0
+yield (meals * people):10
+prep.:30
+cook:10
+recipe source:http://www.sandisrecipecorner.com/print2081F.htm
+
+4 tbsp oil
+2 # onion
+2 cloves garlic
+2 lb fiddleheads
+4 # potatoes
+6 # soup cubes
+
+-Wash fiddleheads.  Boil for a few minutes, then drain.  (This removes brown dirt and seems to improve the taste a lot.)
+-chop onion, mince garlic
+-dice potatoes
+-In large saucepan over medium heat, add oil
+-Add onions; cook, stirring often, for 5 minutes. 
+-Add garlic and fiddleheads; cook, stirring, for about 2 minutes. 
+-Stir in potatoes, stock and wine. 
+-Bring to boil, reduce heat, cover and simmer for 10 to 12 minutes.
+-Puree in blender (NOT FOOD PROCESSOR - THAT MAKES IT SPLATTER EVERYWHERE) until smooth.
+-Optionally garnish each serving with a sprinkle of chives.
+
+Note: original recipe had milk and apple juice
+
+Note: there's another recipe I made with Emily at:
+http://taprootfarmsrecipes.blogspot.com/2010/04/fiddlehead-soup.html 
+

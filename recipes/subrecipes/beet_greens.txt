@@ -1,0 +1,18 @@
+beet_greens
+vegetable:1
+meat:0
+yield (meals * people):2
+prep.:20
+cook:15
+recipe source:http://allrecipes.com//Recipe/roasted-beets-and-sauteed-beet-greens/Detail.aspx
+
+0.5 # onion
+1 clove garlic
+1 bunch beet greens
+2 tbsp vegetable oil
+
+-Heat up the vegetable oil in a frying pan
+-Chop the onion and garlic, adding them to the frying pan
+-Rip up the beet greens (I guess you leave off the stems) and add them the frying pan
+-Fry until wilted
+

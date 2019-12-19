@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Things computers, and in particular Linux, need</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+	<h1>Things computers, and in particular Linux, need</h1>
+	<p>
+		I use the Linux operating system, which is the best open source operating system (meaning the source code can be read and modified by anyone) I know of.  Read my post at the Gentoo forums <a href="https://forums.gentoo.org/viewtopic.php?p=1427881&highlight=#1427881">here</a> to find out why.
+	</p>
+	<p>Here are things I'd like to see happen, some for Linux and some for computer software in general.  I would like to do all these things myself but there's almost no chance I'll have time to do all of them in my whole life, if any.  This is more a to-do list for myself than anything, but if you'd like to do any of them, by all means go ahead, and maybe <a href="email.html">email</a> me saying so too.  Also feel free to email me if you have comments about any of them.
+	</p>
+	<ul>
+		<li>
+			There needs to be a way to associate files with a program to open them with which is universal across Linux.  <a href="mime.html">Here</a> is how it should be done, in my opinion.
+		</li>
+		<li>
+			Window managers should become more friendly to all pointing devices.  This includes touch screens, which is the best form of graphical interaction.  In particular, a graphical user interface should not assume you have more than one mouse button, and it should not have features which are only accessable by moving the mouse without clicking (such as "tooltips" - help should be accessible by clicking a ? then clicking on an object).
+		</li>
+		<li>
+			This is a minor one, but "Quit" does <b>not</b> belong in the "File" menu!  In fact, applications should <b>not</b> provide a command to exit from them - that should be the responsiblity of the window manager.
+		</li>
+		<li>
+			All commands accessible from the command line should be useful to the user and should be either necessary programs for the operation of the operating system, or programs that the user has specifically chosen to install.  They should not be auxilliary commands that are only run from a program or script.  In particular, a user should be able to press "TAB" at the prompt and get a list of all commands that might be useful to them.  When I press TAB it asks whether I want to display 1679 possibilities.  I've probably ever used less than 100 of those commands.  This change really has to be done by the maintainer of each individual program.  It can often be done by moving parts of dependant programs into libraries, with the depending program now depending on the library rather than another program which the user doesn't want.  Another method is to put programs that are only meant to be called from programs or installed scripts in a separate directory that isn't in $PATH.  It also could be helped if tons of unrelated programs weren't all put in a single package.
+		</li>
+		<li>
+			Speaking of the above, Linux (and even moreso, other operating systems) should move back to the ideal of simple, small programs that can work together.  Desktops like KDE and GNOME like to have everything integrated, and it would be much better if we could download and install only the functionality that we want.  Even a small package like alsautils contains both an audio player and an audio recorder, the latter of which people might not want.  Integration causes a much higher chance of bugs.
+		</li>
+		<li>
+			In configuration dialogs, you should let users know the location of configuration files you're modifiying.  They need this information to back up their configuration.  Having a status bar which says what file was changed when they change things is best.
+		</li>
+		<li>
+			Programs should not install default configuration files in /etc or user's home directories.  There should be 3 levels of configuration for a program:
+			<ol>
+				<li>Default configuration options, which are built into the program's executable</li>
+				<li>System-wide defaults, which the system administrator can set by creating files in /etc</li>
+				<li>User-specific settings, which are saved in a user's home directory</li>
+			</ol>
+			This way it is not necessary for distributions to maintain as many configuration files that are part of their distribution.  There are exceptions to this - e.g. system files such as /etc/inittab.
+		</li>
+		<li>
+			When you uninstall programs, they leave configuration behind in users' home directories.  This is bad because a hard drive could gradually fill up over time if a user tries out lots of different programs then removes a lot of them.  On the other hand, you can't go around deleting the configuration in users' home directories when you uninstall a program.  But programs should at least notify users of these files they're not deleting or ask them if they want to delete them.
+        </li>
+		<li>
+			<a href="configuration.html">Here</a> are my thoughts on how programs should be configured.
+		</li>
+        <li>
+            Graphical programs shouldn't assume a particular type of window manager - especially, some people prefer tiling window managers.
+        </li>
+	</ul>
+</body>
+</html>

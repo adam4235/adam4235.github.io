@@ -1,0 +1,18 @@
+real_hash_browns
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:11
+cook:10
+recipe source:John Middleton
+
+1 bunch leftover boiled potatoes
+1 bit salt
+1 bit pepper
+1 bit vegetable oil
+
+Put some vegetable oil in the frying pan (a thin layer) and put the heat to medium.
+Cut the potatoes into slices.
+Fry them for a while, flipping them around.
+Add the salt & pepper
+Fry longer (until golden brown on both sides)

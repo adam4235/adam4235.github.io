@@ -1,0 +1,29 @@
+fiesta_sloppy_joes
+vegetable:1
+meat:1
+yield:4
+prep:20
+cook:45
+time:45
+recipe source:More-with-less p 169, modified
+
+1 lb ground beef
+1 # onion
+1 # green pepper
+1 cloves garlic
+0.75 c rice
+0.25 tsp dry mustard
+0.25 tsp celery seed
+2 tsp salt
+1 tbsp maple syrup
+0.25 tsp chili powder
+500 ml tomato sauce
+
+-Fry the ground beef.  Best to use a non-stick frying pan because otherwise the rice and meat get horribly stuck.
+-Cook the rice, at least partly, in a pressure cooker or pot
+-Chop the onion, green pepper and garlic
+-Add them to the ground beef once it's browned
+-Add everything to the frying pan, stir together, cover, boil, simmer 25 minutes WITHOUT STIRRING if using white rice, longer for brown rice
+
+Note: original recipe had Worcestershire sauce.  I replaced it with more sugar and salt, and it still tasted great.
+

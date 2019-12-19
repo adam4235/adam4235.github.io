@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Functions</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="control_flow.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="casts.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Functions</h1>
+<p></p>
+<p>
+Functions in C* have a new syntax:
+</p>
+<pre>
+function main() =&gt; int {
+...
+}
+</pre>
+<p>
+This syntax is both more readable and easier to compile than the C++ syntax.  The <code>=&gt; int</code> clause specifies the return type of the function.  To specify void functions (also called procedures), just leave off that clause:
+</p>
+<pre>
+function f();
+</pre>
+<p>
+Many operators in C* are user-definable.  To define an operator, use the same syntax as for functions, except replace "function" with "operator":
+</p>
+<pre>
+operator *(int n, char c) {
+...
+}
+</pre>
+<p>
+This defines the multiplication operator for an int and a char (perhaps to return a string containing n copies of c).  To call it, you would use the * operator with the appropriate argument types:
+</p>
+<pre>3 * 'c';</pre>
+<p>
+Overloading of functions is allowed in C* as well.  The overloading algorithm to determine which function is called for a given call site is as follows:
+</p>
+<ol>
+<li>First find the set of all applicable functions: the functions of the appropriate name for which there is a conversion from the argument types to the parameter types.  Call this set A.</li>
+<li>Look for a most specific function in A; a function whose parameters are subtypes of all the other functions in A.  If there is such a function, call it; otherwise, give an ambiguity error.</li>
+</ol>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="control_flow.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="casts.html">Next</a></td>
+</tr>
+</table>

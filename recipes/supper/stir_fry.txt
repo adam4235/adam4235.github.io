@@ -1,0 +1,20 @@
+stir_fry
+vegetable:2
+meat:0
+yield (meals * people):4
+prep.:
+cook:
+recipe source:More-with-less cookbook, modified
+
+2 tbsp oil
+2 # green onions
+1 bunch various stir fry vegetables
+1 tsp salt
+2 tbsp maple syrup
+
+-Heat oil in frying pan
+-Cut green onion in ~1.5" lengths
+-Add everything else, stir fry for 2 minutes
+
+Note: Best with rice
+Note: can add other vegetables too

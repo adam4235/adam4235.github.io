@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>C++ compatability</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="exceptions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right">Next</td>
+</tr>
+</table>
+<hr />
+<h1>C++ compatability</h1>
+<p></p>
+<p>
+C* is not backward-compatible with C++ or C.  However, since it is translated to C++, there are special features that allow programmers to use C++ code, including the standard library, with C* code.
+</p>
+<p>
+Say you have a C++ file - such as &lt;cmath&gt; from the standard library - and you want to use a function from it.  Let's take the sqrt function as an example.  It can be included in a program as follows:
+</p>
+<pre>
+cpp {
+	include &lt;cmath&gt;
+	function sqrt(double x) =&gt; double;
+}
+<br />
+function main() =&gt; int {
+	&lt;&lt; sqrt(4);
+}
+</pre>
+<p>
+The cpp block is used to include C++ header (or source) files, which is done with an "include" statement.  include works like #include from C++.  The code from the included file is included verbatim in the output, and does not go through the C* translator.  However, the C* code still needs to know about any symbols it's using from the included file, so those symbols must be declared, in C* syntax, within the cpp block (sqrt above is declared as such).  Putting a declaration in a cpp block simply means "don't include this declaration in the C* translator output", which is what the programmer needs, since sqrt is already declared in the &lt;cmath&gt; header.  Without the declaration of sqrt in C* syntax, the call to it in main would fail to typecheck, because the C* compiler can't look in the &lt;cmath&gt; header to find C++ declarations.
+</p>
+<p>
+Remember that if you have your own C++ header and accompanying source file, you would have to link the source file with your final program if you use the header in a cpp block.
+</p>
+<p>
+Though the eventual goal is for C* to have its own libraries, in the meantime there is a <i>lot</i> of C/C++ code in the world, and the ability to use those libraries until there is more C* code should make C* a lot more useful.  Of course, there is the added annoyance of having to declare the symbols you're using, which means it may not be worthwhile to rely too much on C++ symbols.  Also note that, since C* doesn't yet have classes, you can't make use of C++ classes directly, but must wrap their use in C++ functions.
+</p>
+<p>
+Though it would be technically possible to take the C++ result from the C* compiler and use it in a C++ program, doing so is not recommended, because the C* compiler is allowed to output whatever equivalent C++ code it wants.
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="exceptions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right">Next</td>
+</tr>
+</table>

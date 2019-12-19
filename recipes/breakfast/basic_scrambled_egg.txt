@@ -1,0 +1,12 @@
+vegetable: 0
+meat:1
+servings:1
+prep.:5
+cook:5
+
+1 # eggs
+
+Crack the egg & put it in a normal bowl.  Beat it with a fork in a
+circular motion (using a beater makes it splash).  Fry it in the
+frying pan at medium heat after possibly putting butter in the frying
+pan.  Flip quite soon, (when the bottom is cooked).

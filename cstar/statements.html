@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Introduction</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="overview.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="types.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Introduction</h1>
+<p></p>
+<p>
+<b>Programs, Statements, and I/O</b>
+</p>
+<p>
+A "Hello World" program in C* looks like this:
+</p>
+<pre>
+function main() =&gt; int {
+	&lt;&lt; "Hello World" &lt;&lt; "\n";
+}
+</pre>
+<p>
+A program consists of a set of definitions, mostly function definitions, and must contain a "main" function returning an int.  Functions consist of statements, which are terminated with a semicolon, like in C++.  Extra whitespace is ignored.  Etc.
+</p>
+<p>
+Input and output for standard in and standard out ("the keyboard" and "the screen") doesn't require an explicit stream, and doesn't require any libraries to be included.  As shown above, an output statement begins with the &lt;&lt; operator.  Input begins with &gt;&gt;.  Multiple expressions can still be strung together, as shown above.
+</p>
+<p>
+<b>Variable declarations</b>
+</p>
+<p>
+Variables are defined the same as in C++: a type followed by a list of variables.
+</p>
+<pre>
+int x := 0, y;
+</pre>
+<p>
+<code>x</code> receives an initial value of 0, while <code>y</code> contains a garbage value.  (It is an error to use an uninitialized value, and a compiler should find as many of these errors as it can.)
+</p>
+<p>
+Note the new assignment operator.  The plain "=" operator is no longer present in the language, and has been replaced with ":=".  This prevents programmers from writing "=" when they mean "==".
+</p>
+<p>
+Arrays and pointers are declared differently than in C++, as explained later in the <a href="arrays.html">array</a> and <a href="heap.html">pointer</a> sections.  The qualifiers <code>const</code> and <code>static</code> are retained, as in C++; however, only local variables can be static, which causes them to retain their values for successive calls of the function.  (In C++, variables declared static outside a function have <i>file</i> scope - that meaning of static is removed from C*.)  
+</p>
+<p>
+References have different syntax in C*.  They require the qualifier "ref" rather than the "&amp;" syntax:
+</p>
+<pre>
+ref int x := y;  //x is an alias for y
+</pre>
+<p>
+<b>Declarations in Input</b>
+</p>
+<p>
+Variable declarations can appear directly in input statements.  This:
+</p>
+<pre>&gt;&gt; int x &gt;&gt; int y;</pre>
+<p>
+is shorthand for:
+</p>
+<pre>
+int x, y;
+&gt;&gt; x &gt;&gt; y;
+</pre>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="overview.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="types.html">Next</a></td>
+</tr>
+</table>

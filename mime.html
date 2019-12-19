@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Opening files in Linux</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+	<h1>Opening files in Linux</h1>
+	<p>
+		This is how I think Linux should handle opening files, i.e. when you double click a file in a file browser, what program does it open in, and also how it should handle default web browser, mail client for the "mailto" protocol, etc. 
+	</p>
+	<p>
+		First, there should be a command-line tool to determine the MIME type of any file. This is hard to do since most filesystems don't store this information (and perhaps rightly so). There is a command called "file" which tries to do this but fails horribly. That's because the way it works is it looks at the contents of the file, looks up in a database of "magic" trying to find a file type that the contents adhere to, and the first match found is assumed to be the file type.
+	</p>
+	<p>
+		The way it should work instead is to look through that whole database for all possible file types the file might be. This is returned as a list. If the list is empty, the file's type is unknown.  If the list contains exactly one element, that's the file type. If the list contains more than 1 element, it then considers the file's extension, looking it up in another database. If the file type returned from that query is in the set returned from the first query, that's the file type; otherwise, the file type is unknown.
+	</p>
+	<p>
+		The second thing needed is a program (also command-line) which takes a file, looks up its type (using the above program, which could also be a library function), and opens the file using an appropriate program.  I recommend calling this program "open". The user modifies the database of programs which handle particular MIME types, but there are also defaults which programs can specify when they're installed (as part of the files in their package). The programs can be arranged in a list, with ones at the top being a priority.
+	</p>
+	<p>
+		Furthermore, this program more generally takes a URL rather than a file. It can have different programs associated with different protocols (http, ftp, etc.), and for the "file" protocol it uses the database.  This is how a program would use the default web browser; call the "open" program (which could also be a library function) and pass it the URL.
+	</p>
+</body>
+</html>

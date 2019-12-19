@@ -1,0 +1,22 @@
+herb_bread
+vegetable: 0
+meat: 0
+yield (meals * people): 10
+prep.: 10
+cook: 20
+
+0.5 lb butter
+2 grated_tsp onions
+1 tsp thyme
+1 tsp parsley
+.25 tsp sage
+.5 tsp dry mustard (not normal mustard!)
+1 loaf rye bread
+
+Note: .5 lb of butter == 1 c, or half of one of the big butter blocks
+
+Herb butter: Melt the butter in the microwave for 30s at 500W to make it soft and easy to mix. Grate the onion to make tiny bits of it (it should be mushy). Add it all to the bowl (a normal bowl), mix it and cream it (can simply use a fork to cream it, or at the most a mechanical mixer).
+
+Spread the butter on one side of each piece of bread, then lay another piece on it. Put some butter on the outer slices, but only 1/2 as much because the inside layers of butter will be split among 2 slices. Wrap the loaf in aluminum foil and bake at 350F for 30min.
+
+Can store the bread in the freezer in a ziploc bag or something if it won't be eaten in the next few days.

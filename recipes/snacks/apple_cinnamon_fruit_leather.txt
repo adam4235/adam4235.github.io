@@ -1,0 +1,23 @@
+apple_cinnamon_fruit_leather
+vegetable:0
+meat:0
+yield (meals * people):
+prep.:
+cook:
+recipe source:Mom
+
+1 bunch apples
+1 bit cinammon
+1 bunch honey
+
+-First make applesauce: Cut up the apples into small pieces, then boil them in water in a huge pot.
+-Get the dehydrator ready.
+-Put half a blenderful of applesauce in the blender
+-Add 1/2 tsp of cinnamon and a spoonful of honey.
+-Blend on medium (power 8 on mom's blender) for about 15 seconds
+-Align the teflon paper on a sheet
+-Pour onto the sheet with the blade at the halfway point
+-Smooth out with the blade
+-Put in the dehydrator
+-Repeat for each sheet
+-Dehydrate at the temperature it says, overnight.

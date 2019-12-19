@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>I/O for Classes</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="constructors.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="exceptions.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>I/O for Classes</h1>
+<p></p>
+<p>
+In C++, the common approach for doing I/O of a class is to overload the &lt;&lt; and &gt;&gt; operators for the class.  Overloading of these operators has not yet been implemented in C* (partly due to parsing difficulties and interaction between these operators and the unary built-in I/O operators, and partly because implementation is tied in with the standard library, which doesn't exist yet).  In the meantime, programmers can define regular functions to do I/O, using the C standard library functions (see <a href="cpp_compat.html">the compatability section</a>).  Also, if programmers define a cast from their class type to char[], this would allow the class to be output with the built-in output operator.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="constructors.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="exceptions.html">Next</a></td>
+</tr>
+</table>

@@ -1,0 +1,22 @@
+vegetable:1
+meat:0
+yield (meals * people):5
+prep.:10
+cook:0
+recipe source:Simply in Season
+
+1 bunch spinach
+1 bunch lettuce
+2 # green onions
+1 bunch radishes
+2 stalks celery
+2 c mushrooms
+2 strips bacon
+0.5 c walnuts
+1 bunch salad dressing
+
+Fry bacon if using bacon.
+Cut up and mix all vegetables and bacon.
+Add salad dressing to each bowl.
+Optionally garnish with a bit of chives.
+

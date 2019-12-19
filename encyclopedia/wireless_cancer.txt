@@ -1,0 +1,10 @@
+Investigated whether wifi can cause cancer.
+The National Cancer Institute says even cell phones haven't been proven to cause cancer, but only to heat up tissue:
+http://www.cancer.gov/cancertopics/factsheet/Risk/cellphones
+Electromagnetic radio radiation, which comes from radios, cell phones, and wifi, are non-ionizing, which is only known to heat things up, unlike x-rays etc which are ionizing.
+
+Wikipedia says that it's the power level of the wireless signal that determines how potentially harmful it is.  Wifi has a similar power level to cell phones, however a router isn't right next to your body, so it's much safer, because the power level decreases with an inverse square relationship to the distance.
+http://en.wikipedia.org/wiki/Wireless_electronic_devices_and_health
+
+But it's still possible that laptops and phones, which transmit wireless signals, are transmitting them at a significant power level and are next to your body.
+

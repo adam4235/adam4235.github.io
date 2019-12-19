@@ -1,0 +1,24 @@
+spanicapeta
+vegetable:1
+meat:1
+yield (meals * people):5
+prep.:10
+cook:30
+recipe source:mom (originally Milda)
+
+1 pkg puff pastry (dough)
+0.5 lb feta cheese
+1-2 c cottage cheese (probably 1.5-2 c I would prefer)
+3 # eggs
+1 package spinach (1/2 pound)
+
+First, Have to let the puff pastry sit for a couple hours at room temperature to defrost.
+
+Then:
+-steam spinach - wash, put in pot without water, heat for 2-3 minutes
+-preheat oven to 400F
+-mix feta and cottage cheese and eggs
+-spread 1/2 of dough in pan
+-layer on cheese mixture, then spinach, then cheese mixture
+-top with dough
+-Bake at 400F 20-30 min (until golden brown on top) (it took me longer than 30 minutes)

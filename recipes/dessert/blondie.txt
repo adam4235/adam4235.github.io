@@ -1,0 +1,20 @@
+blondie
+vegetable:0
+meat:1
+yield (meals * people):2
+prep.:5
+cook:0
+recipe source: http://www.rawfoodrecipes.com/recipes/the-5minute-singleserving-raw-vegan-blondie.html
+
+0.25 c walnuts
+0.25 c cashews
+2 tbsp sugar
+3 # dates
+0.125 tsp vanilla extract
+1 pinch salt
+
+Blend walnuts, cashews and sugar in food processor
+Add a date at a time, blend
+Add vanilla extra and salt, blend
+Form into a reverse muffin tin shape on a plate
+

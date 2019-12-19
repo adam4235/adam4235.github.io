@@ -1,0 +1,11 @@
+salad
+vegetable:1
+meat:0
+yield:1
+prep.:3 min
+cook:0
+
+1 bunch lettuce
+1 bit salad dressing
+
+self explanatory

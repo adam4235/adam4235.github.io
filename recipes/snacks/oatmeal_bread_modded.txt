@@ -1,0 +1,29 @@
+oatmeal_bread_modded
+vegetable:0
+meat:0
+yield (meals * people):15
+prep.:20
+cook:30
+recipe source:more-with-less
+
+1.5 c rolled oats
+0.75 c whole wheat flour
+0.25 c crushed flax seeds
+1 bit gluten
+0.75 c honey
+1.5 T salt
+3 T vegetable oil
+1.2 tbsp yeast
+0.5 tbsp sugar
+3 c whole wheat flour
+4 c white flour
+
+-Start about 4 c of water boiling
+-Combine everything up to and including vegetable oil in a LARGE bowl
+-Pour 3 c boiling water over the ingredients in the bowl
+-Start yeast foaming by putting yeast and sugar in a bowl, then pouring lukewarm water over them.  The water should feel like nothing when you flick it against your wrist (that means it's at body temperature)
+-After the water in the large bowl has cooled to lukewarm (about 10 min) and the yeast is foaming, add the flour and yeast to the large bowl.  First add a bit of flour, then the yeast, then the rest of the flour (might prevent the yeast from dying due to heat and salt).
+-Knead for 10 min, adding more flour as you go.
+-Grease 3 baking dishes.
+-Split into 3 loaves and put in the baking dishes.  Cover and let rise until over the top.
+-Bake at 350F for 35-40 min.

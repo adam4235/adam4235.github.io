@@ -1,0 +1,26 @@
+quick_chocolate_cake
+vegetable:0
+meat:0
+yield (meals * people):8
+prep.:20
+cook:25
+recipe source:Doris
+
+1.5 c unbleached flour
+1 c white sugar
+1 tsp salt
+1 tsp baking soda
+4 tsp cocoa powder
+6 tbsp vegetable oil
+1 tbsp vinegar
+1 tsp vanilla
+1 c water
+
+-get a square 8" x 8" baking pan
+-Preheat oven to 375F
+-In baking pan stir together the flour, sugar, salt, soda, and cocoa powder.
+-With a spoon make 3 wells or holes in the dry ingredients.
+-In one hole put the oil, in another the vinegar, and in the other the
+vanilla.
+-Pour water over it all and stir until thoroughly mixed.
+-Bake at 375F for 25 minutes.

@@ -1,0 +1,16 @@
+boiled_potatoes
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:5
+cook:30
+recipe source:combination
+
+1 # potatoes
+
+-Scrub the potatoes and cut off the bad parts
+-Put them in a pot (pasta pro preferred) with water almost covering them
+-Boil rapidly on maximum heat, then simmer for ~20 min on lower heat but keep them boiling rapidly
+-If they're soft when poked with a fork, they're done; otherwise, keep boiling
+-Drain
+-Turn heat to low and put them back on, with the lid of the pot, for ~5 minutes.  This isn't strictly necessary but apparently makes them taste better.

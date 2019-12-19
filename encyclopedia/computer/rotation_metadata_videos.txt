@@ -1,0 +1,23 @@
+Videos shot on a phone contain rotation metadata, like pictures:
+
+https://blog.addpipe.com/mp4-rotation-metadata-in-mobile-video-files/
+
+With pictures you can fix it with the exifautotran script.  How do you fix it with a video?
+
+exiftool -Rotation <filename> can tell you whether it's rotated.
+exiftool -Rotation=0 <filename> seems like it should change the rotation metadata, but it just said nothing was changed.
+
+This should do the actual rotation:
+https://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
+ffmpeg -i video_original.mp4 -vf "transpose=1" rotated.mp4
+
+However, the metadata is changed to a rotation of 0 by this command.
+
+When I do a second pass of this, it worked, and the rotation metadata is 0.
+ffmpeg -i rotated.mp4 -vf "transpose=2" rotated_back.mp4
+
+Better yet, do one pass:
+ffmpeg -i video_original.mp4 -vf "transpose=1,transpose=2" onepass.mp4
+
+Note: playing videos on my computer is best done on firefox.  Both Parole and VLC get playback problems on my computer, both with the original videos and the rotated ones.  They cause it to crash or go super slow, and this has nothing to do with the rotation, but makes it hard to figure out what's happening with the rotation.
+

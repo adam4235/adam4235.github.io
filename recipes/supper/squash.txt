@@ -1,0 +1,35 @@
+squash
+vegetable:1
+meat:0
+yield:6
+prep.:depends
+cook:depends
+
+1 # squash
+
+-Slice the squash in half.
+-Scoop out the seeds and stringy parts.
+-Now there are 3 choices: stovetop, microwave, oven
+
+Stovetop (like mashed potatoes):
+-Cut it into slices
+-cut the skin off the slices
+-wash the slices
+-cut them up into chunks
+-put them in a pot (Pasta Pro is best) with water not quite covering them
+-bring to a boil
+-simmer until they are soft when poked (about 10 min)
+-drain
+-mash it if you want with butter or margarine.
+
+Microwave:
+-put on a glass baking dish with the cut side down with 1cm of water
+-microwave at 100% of 1100 watts until it is soft when you poke a shishkabob stick through it (about 8 min per half squash)
+-scoop out the squash
+-mash it if you want with butter or margarine.
+
+Oven:
+-place it with the cut side down in a large baking dish with 1cm of water.
+-Bake at 375F for 30-45min (until it's soft when you pierce it with a fork).
+-scoop out the squash.
+-mash it if you want with butter or margarine.

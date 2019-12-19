@@ -1,0 +1,19 @@
+muesli_smoothie
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:5
+cook:0
+recipe source:Kevin Factor, modified
+
+1 c muesli
+1 tsp cinnamon
+0.5 c nuts
+1 # banana
+1 # apple
+1 # pear
+1 c yogurt made from coconut milk
+1 c soy milk or other milk substitute
+
+Blend all in blender
+

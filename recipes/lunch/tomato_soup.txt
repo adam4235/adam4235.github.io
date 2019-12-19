@@ -1,0 +1,9 @@
+vegetable:1
+meat:0
+yield:2
+prep.:2
+cook:10
+
+1 can tomato soup
+
+follow instructions on can

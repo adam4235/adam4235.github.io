@@ -1,0 +1,11 @@
+broiled_potato_slices
+vegetable:1
+meat:0
+yield (meals * people):
+prep.:
+cook:
+recipe source:Starving Student's Cookbook
+
+5 # potatoes
+
+See cookbook

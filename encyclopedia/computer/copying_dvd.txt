@@ -1,0 +1,5 @@
+cd /home/adam/backup/cds/family_videos
+dvdbackup -M -i /dev/scd0 -o /home/adam/backup/cds/family_videos -n FAMILY_VIDEOS
+mkisofs -dvd-video -o video.iso -V "FAMILY_VIDEOS"  ./MYVIDEO
+growisofs -Z /dev/scd0=video.iso
+

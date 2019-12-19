@@ -1,0 +1,3 @@
+The directory name for a USB key mounted on the phone seems to be (at least with Nexus 5):
+/mnt/media_rw/random hex ID
+

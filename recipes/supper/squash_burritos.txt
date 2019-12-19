@@ -1,0 +1,41 @@
+squash_burritos
+vegetable:1
+meat:1
+yield (meals * people):8
+prep.:25
+cook:30
+recipe source:"Eating by the Seasons"
+
+2 c black beans
+4 tbsp oil
+2 # onion
+4 cloves garlic
+8 tsp cumin
+1 bit salt
+1 bit black pepper
+1 bit cayenne
+2 # soup cubes
+1 # squash (buttercup, not butternut)
+2 tbsp lime juice
+1 tbsp parsley
+8 # tortillas
+
+-If using dried black beans, soak them overnight, then boil them for quite a while (see more-with-less for how long).  DON'T USE THE PASTA POT - THE WATER WILL ALL BOIL AWAY DUE TO THE HOLES IN THEN TOP AND THEY'LL STICK!!
+-peel squash, cut in half and scoop out seeds
+-Heat oil in a large skillet or large shallow pot over medium heat.
+-dice onion, adding it to the pot.
+-cook onion, stirring often, 3-5 minutes or until soft.  Meanwhile:
+-mince garlic
+-Add garlic, cumin, salt, pepper, cayenne.  Cook, stirring, 30 seconds.
+-cut up squash
+-Add broth (with 1 c water for each cube, I guess - or probably less would be better) and squash.  Boil, and simmer for 10-15 minutes.
+-chop parsley (if it's fresh)
+-Stir in beans.  Cook, uncovered, until squash is tender and most of the liquid has evaporated, about 2-5 minutes.
+-Remove from heat.
+-Mash the mixture in the skillet.
+-Stir in lime juice and parsley.
+-Put in tortillas
+-Optionally serve with salsa and/or sour cream and/or cheese.
+
+Next time, try omitting the lime juice - does it taste good?  I think that might be reducing the taste, and is bad for my acid reflux anyway.
+

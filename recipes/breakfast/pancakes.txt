@@ -1,0 +1,21 @@
+pancakes
+vegetable:9
+meat:9
+servings (meals * people): 4
+
+1 c wheat germ
+0.875 c white flour
+1 tbs baking powder
+2 tsp sugar
+0.5 tsp salt
+0.33 tsp cinnamon
+1.5 c milk
+2 # eggs
+0.25 c vegetable oil
+
+-Beat together all ingredients except vegetable oil in a bowl with a whisk.
+-Next time, try mixing in the vegetable oil too, and using the cast aluminum frying pan.  The oil is too hard to get even.
+-Heat up a thin layer of vegetable oil in the frying pan, on medium heat.
+-Bake them in the frying pan, for about 2 minutes on one side and 1.5 minutes on the other (3 and 2 turned out to burn them).
+
+Note: can substitute Bisquick for the wheat germ, white flour, baking powder, sugar, salt, but it's not as good.

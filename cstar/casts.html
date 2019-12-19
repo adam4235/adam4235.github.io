@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Casts</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="functions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="arrays.html">Next</a></td>
+</tr>
+</table>
+<hr />
+<h1>Casts</h1>
+<p></p>
+<p>
+Explicit type casting is discouraged as much as possible, but is sometimes necessary, especially in the current preliminary version of C*.  Casts are written with the "cast" keyword followed by the type in square brackets:
+</p>
+<pre>
+int x := cast[int](1.0);
+</pre>
+<p>
+C-style casts are removed from C*, primarily because they are difficult to parse.  In future versions, with the addition of features like typecases and virtualization, it should be easy to avoid most or all explicit casts.
+</p>
+<p>
+C++-style constructor casts are allowed in C*:
+</p>
+<pre>
+int x := int(1.0);
+</pre>
+<p>
+<b>User-defined Casts</b>
+</p>
+<p>
+Users can define implicit casts between primitive types.  Currently, this is primarly useful to "configure" C* to act like unsafe C/C++, for programmers who prefer brevity to readability.  For example, the following definition lets boolean values be treated as integers:
+</p>
+<pre>
+operator int(bool b) {
+	return if (b) 1 else 0;
+}
+</pre>
+<p>
+The general form is to define an operator whose name is the target type of the cast, and whose parameter is the type being cast.  A return type is not needed.
+</p>
+<p>
+</p>
+<hr />
+<table style="width:100%">
+<tr>
+<td style="text-align:left"><a href="functions.html">Prev</a></td>
+<td style="text-align:center"><a href="index.html">Index</a></td>
+<td style="text-align:right"><a href="arrays.html">Next</a></td>
+</tr>
+</table>

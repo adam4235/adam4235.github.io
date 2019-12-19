@@ -1,0 +1,20 @@
+vegetable:
+meat:
+yield (meals * people):6
+prep.:
+cook:
+recipe source:Strawberry Pie II at Allrecipes.com
+
+1 (9 inch) pie crust
+1 quart fresh strawberries
+0.5 cup white sugar
+2 tablespoons cornstarch
+3/4 cup water
+
+Bake pie crust. (Usually takes about 10 min)
+In the meantime, cut the stems off the strawberries.
+Mash half the strawberries and combine with sugar in a pot.  Boil, stirring frequently.
+In a small bowl, whisk together cornstarch and water. Gradually stir cornstarch mixture into boiling strawberry mixture. Reduce heat and simmer mixture until thickened, about 10 minutes, stirring constantly.  WATCH OUT THAT IT DOESN'T GET STUCK!  IT GOT HORRIBLY STUCK BEFORE!  Best to use something non-stick and stir constantly.
+When the crust is done baking, put the other half of the strawberries in it, then pour the mixture on top.
+Store in fridge.
+

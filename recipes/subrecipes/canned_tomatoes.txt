@@ -1,0 +1,21 @@
+canned_tomatoes
+vegetable:1
+meat:0
+yield (meals * people):
+prep.:
+cook:
+recipe source:Oma
+
+1 ton tomatoes
+1/2 tsp pickling salt per quart of tomatoes
+
+-Boil water
+-Wash tomatoes, putting in basin
+-Pour boiling water over them
+-let stand for a few minutes
+-core and slip peelings off
+-cut up or squish with your hand and put in pot
+-simmer or boil about 15-20 min
+-add pickling salt either to the cooking tomatoes or to the jars afterwards.
+-sterilize the jars and jar lids by pouring boiling water over the jars and boiling the lids in water.
+-put tomatoes in jars and seal tight.

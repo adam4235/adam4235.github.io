@@ -1,0 +1,6 @@
+1. With alsamixer, set the "Capture" control to Capture on with a certain volume.  Also set the "Line" control to some volume with Capture on (capture must be on for both of them).  The volume of "Line" makes no difference - it's the volume of "Capture" that determines the volume of the file.
+2. For a CD quality WAV file, use the command:
+arecord -t wav -f cd file.wav
+add the -d n option to stop recording after n seconds.
+
+Now you can play the file with aplay file.wav

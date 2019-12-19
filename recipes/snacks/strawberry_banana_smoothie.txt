@@ -1,0 +1,14 @@
+vegetable:
+meat:
+yield (meals * people):
+prep.:
+cook:
+recipe source:
+
+banana
+strawberries
+yogurt
+orange juice
+
+blend it all together
+

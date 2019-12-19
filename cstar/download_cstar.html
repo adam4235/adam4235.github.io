@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Download / Usage of the C* compiler</title>
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body><h1>Download / Usage of the C* compiler</h1>
+<p>The C* compiler, version 0.3, is in the public domain, and is released under the GNU GPL version 2.  That means you may read the source code, distribute it, and distribute modified versions of it.  However, you may not claim that it's your own, and I (Adam Richard, its creator) reserve the right to change the license in future versions, including the right to distribute closed-source versions of it.  Further, if you distribute a modified version of this compiler, you must provide the source code with it.  (You do not need to provide the source for the C* programs you compile using it.)
+</p>
+<p>
+<!--<a href="https://sourceforge.net/projects/cstar/">Download source</a>-->
+<a href="/cstar/cstar-0.3-beta.zip">Download source</a>
+</p>
+<p>
+To install, extract the package to a directory, then run the make command in that directory.  You need gcc, bison and flex to build and install the compiler, which are present on most UNIX systems including most distributions of Linux and Mac OS X.  Windows users can install a UNIX environment like mingw, or can pay me to compile a Windows executable.
+</p>
+<p>
+The result should be a single executable named "cstar" (but you can rename it as you like).  This program simply takes a C* program, either on standard input or as the first argument to the program, and compiles it to C++ code on standard output.  So, using most command line programs, you should be able to type a command like the following to compile your program:
+</p>
+<pre>cstar &lt; program.cf &gt; program.cc</pre>
+<p>
+where "program.cf" is your program written in C*.  Then you can compile it to an executable by compiling "program.cc" with a C++ compiler.  For example, using gcc:
+</p>
+<pre>g++ program.cc -o program</pre>
+<p>
+where "program" is the executable program that you can run.
+</p>
+<p>
+If you're using the compiler for anything, I'd appreciate it if you would <a href="/email.html">tell me</a>.
+</p>
+<p>
+</p>

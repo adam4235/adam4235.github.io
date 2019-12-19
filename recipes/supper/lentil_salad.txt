@@ -1,0 +1,31 @@
+lentil_salad
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:10
+cook:35
+recipe source:http://www.chow.com/recipes/29537-lentil-salad
+
+2 c lentils
+1 # bay leaf
+1 clove garlic
+2 # leeks
+3 # carrots
+0.5 # onion
+1 tsp salt
+4 tbsp oil
+1 bit black pepper
+1 tbsp parsley
+
+-Rinse lentils
+-Boil lentils in a pot with lots of water for 10 min
+-Chop garlic, add it and bay leaf to lentils
+-Heat up some oil in a frying pan
+-Chop leeks (removing large part of the stalk) and clean well, and chop carrots and onion, adding them to be fried
+-Fry vegetables until translucent, about 4-5 min
+-Put vegetables and other ingredients in a bowl, mix together
+-After lentils have boiled for 10 min, uncover and keep boiling for 15-20 more minutes or longer, or until tender
+
+Note: Original recipe had 3 tbsp red wine vinegar, but it tastes fine (maybe better) without it, and is probably better for my acid reflux.  It also had more salt.
+The bay leaf doesn't seem to be necessary.
+

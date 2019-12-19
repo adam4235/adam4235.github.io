@@ -1,0 +1,30 @@
+cream_of_carrot_soup
+vegetable:1
+meat:0
+yield (meals * people):6
+prep.:20
+cook:30
+recipe source:Mom
+
+2 tbsp oil
+2 # onion
+4 cloves garlic
+1 chopped_tbsp ginger
+0.5 tbsp cumin
+0.5 tbsp coriander
+6 # soup cubes
+10 # carrots
+2 # potatoes
+
+-Chop the onions, garlic, and ginger root
+-Brown in a pot with oil and cumin and coriander for 3-4 min
+-Add the soup mix with 1 c water per cube to the pot
+-Peel and chop the vegetables, adding them to a pot
+-Boil 20-30 min
+-puree in a blender
+
+Note: original recipe said more soup broth and water, but that was too watery and it went over the top of the blender.
+Note: original recipe had an option for 2 parsnips instead of 2 carrots, but I don't like parsnips.
+Note: original recipe had 4 tbsp of lemon juice that gets added when blending, but I found adding lemon juice makes it taste worse.
+Note: original recipe had curry powder, but that just means a blend of spices often including cumin and coriander.
+

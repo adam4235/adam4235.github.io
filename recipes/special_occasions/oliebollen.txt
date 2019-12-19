@@ -1,0 +1,31 @@
+oliebollen
+vegetable:0
+meat:0
+yield (meals * people):5
+prep.:
+cook:
+recipe source:allrecipes.com
+
+1 6_oz_cake compressed fresh yeast
+1 c milk
+2.25 c all-purpose flour
+2 tsp salt
+1 # egg
+0.75 c currants
+0.75 c raisins
+1 # Granny Smith apple
+1 quart vegetable oil
+1 c confectioners' sugar
+
+-Peel & chop the apple (could the peel be left on?)
+-Heat the milk until it's lukewarm
+-Break up the compressed yeast.  Stir into the warm milk.  
+-Let stand for a few minutes to dissolve.
+-Sift the flour and salt into a large bowl.
+-Stir the yeast mixture and egg into the flour and mix into a smooth batter.
+-Stir in the currants, raisins & apple.
+-Cover the bowl, and leave the batter in a warm place to rise until double in size (about an hour).
+-Heat the oil in a deep fryer, or heavy deep pan, to 375F.  Shape scoops of dough into balls (2 metal spoons?), and drop carefully into hot oil.
+-Fry until golden brown, about 8 minutes.  They should be soft and not greasy.  If the oil isn't hot enough, the outside will be tough and the insides greasy.  
+-Drain finished doughnuts on paper towels and dust with confectioners' sugar.
+

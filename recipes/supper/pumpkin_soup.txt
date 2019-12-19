@@ -1,0 +1,24 @@
+pumpkin_soup
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:20
+cook:25
+recipe source: Dulcey + my squash apple soup recipe
+
+1 tbsp oil
+1 # pumpkin
+1 # onion
+2 cloves garlic
+1 tbsp thyme
+0.5 tsp sage
+4.5 c water
+4 # soup cubes
+
+-Chop onion and garlic, frying them and thyme and sage in oil for 10 min
+-Wash pumpkin, cut it up and remove the seeds and pulp, but leave the skin on.
+-Add water and boullien, bring to a boil
+-boil for 20 min, stirring occasionally
+-Blend the soup up (ideally with a hand blender)
+-Return blended soup to pot
+

@@ -1,0 +1,10 @@
+hard_boiled_eggs
+vegetable:0
+meat:1
+yield (meals * people):1
+prep.:
+cook:
+
+1 # eggs
+
+Leaving the shell on, put the eggs in cold or lukewarm water.  Bring them to a boil _slowly_ (using medium heat - 6 on our stove) - to prevent them from exploding.  When they start boiling, take off the lid to prevent pressure build-up, and turn down the heat.  Keep boiling for 9-10 min after they start boiling.  Immediately drain them and pour cold water over them to stop the heating process.

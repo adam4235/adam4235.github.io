@@ -1,0 +1,29 @@
+hummus
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:20
+cook:0
+recipe source:http://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/ modified, with http://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/
+See also:
+Mom's recipes, Simply in Season
+
+0.75 c chick peas
+2 tbsp sesame seeds - hulled best
+1 tbsp oil
+0.5 tsp salt
+0.5 # lemon
+2 tbsp oil
+2 cloves garlic
+0.5 tsp cumin
+
+Seem to need a blender and food processor.  The food processor didn't work for the tahini (the seeds at the bottom wouldn't blend).  The blender doesn't work for the final hummus (too thick, too hard on the motor).
+Soak chick peas overnight
+Cook chickpeas
+Add sesame seeds, first bit of oil, and salt to blender.  Blend to make tahini.  Probably have to add a couple tbsp of water to make it blend (not be too thick for the blender).
+Add lemon juice to blender.  Blend.
+Add rest of oil, garlic, and cumin to blender.  Blend.
+Transfer to food processor (not blender).  Add chick peas.  Process well.
+If it's too dry, add a few tbsp of water.
+If you make too much, you can freeze some.  It goes bad after a few weeks in the fridge.
+

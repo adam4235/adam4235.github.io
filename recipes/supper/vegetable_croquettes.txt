@@ -1,0 +1,30 @@
+vegetable_croquettes
+vegetable:1
+meat:1
+yield (meals * people):4
+prep:30
+cook:30
+
+1 # potatoes
+1 # carrots
+0.5 # onions
+2 cloves garlic
+1.5 c flour
+2 tsp salt
+0.5 tsp pepper
+4 # eggs
+0.5 c water
+1 c vegetable oil
+
+Note: can use a deep fryer for these instead of a frying pan.
+
+-coarsely grate the potatoes
+-coarsely grate the carrots
+-chop the onions
+-mince the garlic
+-Beat the eggs
+-Heat the oil in a skillet.  WARNING: DON'T USE A MEASURING CUP THAT HAD WATER IN IT!  THAT WILL CAUSE LITTLE EXPLOSIONS AND YOU MIGHT GET SPLASHED WITH HOT OIL!
+-make a batter of ingredients 5-9.
+-Stir the batter into the vegetables.
+-Drop vegetable mixture into hot oil by teaspoons or tablespoons depending on size of croquettes desired.  Fry until  browned on both sides (takes about 1 minute per side - DON'T OVERCOOK!).  DON'T PUT A LID ON THE FRYING PAN!  That causes water to drip from it and cause explosions.  Drain on paper towels (otherwise they'll be too fatty).
+

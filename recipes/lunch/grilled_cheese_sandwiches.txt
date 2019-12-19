@@ -1,0 +1,13 @@
+vegetable:0
+meat:0
+servings:2
+prep.:5
+cook:5
+
+2 slices bread
+1 bunch butter
+1 bunch cheese
+
+Cut cheese, put it on the bread, spread the outside with butter.  Fry
+it at medium heat with a lid on the frying pan until the bottom is
+brown. Flip it and brown the other side.

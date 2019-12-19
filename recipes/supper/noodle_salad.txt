@@ -1,0 +1,20 @@
+noodle_salad
+vegetable:1
+meat:0
+yield (meals * people):4
+prep.:20 min.
+cook:10 min.
+
+2 c noodles
+2 # carrots
+2 stalks celery
+2 c peas
+6 spoonfuls salad dressing
+
+Cook the noodles. Let them cool down.
+Cook the peas.
+Peel the carrot and dice it.
+Cut up the celery into small pieces.
+Mix everything in a large bowl (can use a different amount of dressing - just go by the appearance).
+
+Note: original recipe had cubes of cheese

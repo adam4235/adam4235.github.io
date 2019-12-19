@@ -1,0 +1,17 @@
+biscuit_mix
+vegetable:0
+meat:0
+yield (meals * people):9
+prep.:5
+cook:0
+recipe source:http://www.ehow.com/how_4680978_master-biscuit-mix-bisquick-substitute.html (modified)
+
+0.5 c baking powder
+0.25 c sugar
+9 c flour
+1.25 c canola oil
+1 tbsp salt
+
+-(I added the salt, based on the more-with-less Master Baking Mix recipe)
+-Mix dry ingredients
+-gradually mix in vegetable oil (recipe suggests "Cut the oil into the mixture with a pastry blender. Do this until it has the consistency of corn meal."  But I just usually mix it with a fork / spoon)

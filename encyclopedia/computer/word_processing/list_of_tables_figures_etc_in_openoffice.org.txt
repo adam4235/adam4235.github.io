@@ -1,0 +1,9 @@
+Getting a list of tables / figures (list of a bunch of objects that appear in your document):
+
+First, if the things you want in the table are text, give them all a common style (or more than 1 style is OK too).  E.g. give the table titles a style of "TableName" (create the new style).  Anything with this style will then become an index in the table.
+
+Insert a new index / table.  Make it user-defined.  You'll get a lot of choices as to what to insert into the table.  Maybe the most straightforward is to "create from styles".  Select the style you gave the text you want to go in the table.
+
+You also should go to the "entries" tab of the insert table dialog and set the page number in the index to be right-aligned, and dots to go between the name and page number, just like the table of contents.  Do this by clicking the "T" for tab stop, clicking "Align Right" to right align it, and setting the fill character to a ".".
+
+Another approach for tables is to click "Create From tables".  But then you have to name each table for the list of tables to look meaningful, and you can't easily choose which tables to include in it.
