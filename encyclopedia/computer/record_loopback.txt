@@ -19,6 +19,6 @@ ctl.pulse_monitor {
 
 ----
 
-To make a video of what's happening on your computer, this worked, but there was a delay, and you have to wait while it encodes the video afterwards, otherwise it can get cut off:
+To make a video of what's happening on your computer (you have to wait while it encodes the video afterwards, otherwise it can get cut off):
 recordmydesktop --device=pulse_monitor
 
