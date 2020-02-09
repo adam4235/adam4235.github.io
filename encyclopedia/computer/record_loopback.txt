@@ -1,0 +1,24 @@
+How to record the audio coming from your speakers (also called recording "Stereo Mix" or loopback Output), and make a video of what's happening on your computer:
+
+https://unix.stackexchange.com/questions/110696/arecord-to-record-what-is-playing-on-speakers
+
+This worked:
+arecord -D pulse_monitor test.wav
+
+after setting up ~/.asoundrc as this:
+pcm.pulse_monitor {
+    type pulse
+    device alsa_output.usb-0d8c_Generic_USB_Audio_Device-00.analog-stereo.monitor
+}
+
+ctl.pulse_monitor {
+    type pulse
+    device alsa_output.usb-0d8c_Generic_USB_Audio_Device-00.analog-stereo.monitor
+}
+
+
+----
+
+To make a video of what's happening on your computer, this worked, but there was a delay, and you have to wait while it encodes the video afterwards, otherwise it can get cut off:
+recordmydesktop --device=pulse_monitor
+
