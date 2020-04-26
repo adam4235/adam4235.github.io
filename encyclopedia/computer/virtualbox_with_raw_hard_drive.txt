@@ -4,3 +4,5 @@ Here are the instructions:
 
 https://superuser.com/questions/495025/use-physical-harddisk-in-virtual-box
 
+When following those instructions, one thing they omit is that you have to run the setup commands and VirtualBox as root / Administrator.  At least I couldn't find an alternative that worked.
+
