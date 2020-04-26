@@ -1,0 +1,6 @@
+If you use VirtualBox and make the hard drive map to a separate real hard drive with a different operating system, you can put Linux and Windows each on their own hard drive, and use VirtualBox to run either one from within the other, while still being able to boot either one when you start your computer.
+
+Here are the instructions:
+
+https://superuser.com/questions/495025/use-physical-harddisk-in-virtual-box
+
