@@ -30,7 +30,7 @@ make_files_db() {
     #The "while read line" trick is like a for loop, but iterates over lines instead of space-delimited
     #items.  I found the trick here:
     #http://ubergibson.com/article/iterating-through-lines-in-the-bash-shell
-    locate "$DIRECTORY_TO_INCLUDE" -d "$TEMP_DB" | grep -v "/\." | while read line ; do basename "$line" ; done  > "$TEMP_FILE"
+    locate "$DIRECTORY_TO_INCLUDE" -d "$TEMP_DB" | grep -v "/\." | sed 's/.*\///'  > "$TEMP_FILE"
 }
 
 if [ "$1" == "-r" ]
