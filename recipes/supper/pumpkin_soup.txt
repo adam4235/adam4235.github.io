@@ -20,5 +20,4 @@ recipe source: Dulcey + my squash apple soup recipe
 -Add water and boullien, bring to a boil
 -boil for 20 min, stirring occasionally
 -Blend the soup up (ideally with a hand blender)
--Return blended soup to pot
 

@@ -13,8 +13,8 @@ recipe source:Simply in Season, modified
 0.5 bunches broccoli
 4 c milk
 2 # soup cubes
-1 tsp Worcestershire sauce
-1 bit salt
+1 tsp maple syrup
+0.5 tsp salt
 1 bit pepper
 0.33 c flour
 
@@ -25,4 +25,5 @@ Add 3/4 of the milk, soup cubes, Worcestershire sauce, salt and pepper, heat to 
 Whisk 1/4 of the milk and the flour in a bowl.  Stir into the soup until thickened.
 
 Note: original recipe also had cheese.
+Note: original recipe had Worcestershire sauce.  I replaced it with maple syrup and more salt.
 

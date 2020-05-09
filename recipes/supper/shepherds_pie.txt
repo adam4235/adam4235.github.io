@@ -6,7 +6,8 @@ prep:45
 cook:20 + 2*20 in parallel, then 15
 time:90
 
-1 lb ground beef
+1 lb ground beef OR
+1 lb ground pork
 1 # onions
 1 cloves garlic
 3 # carrots
@@ -23,7 +24,7 @@ time:90
 1 tbsp oil
 0.25 c milk
 
-Make fried ground beef.
+Fry the meat.
 Chop the onions and garlic.
 While doing the frying, cook the potatoes by first scrubbing and chopping them, then putting them in a pot of cold water (almost covered).
 Add the onions and garlic to the frying pan when the meat is mostly browned, and brown them too.  If they finish before the potatoes are ready to cook, turn them to minimum heat.

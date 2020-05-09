@@ -6,28 +6,27 @@ prep.:20
 cook:30
 recipe source:Mom
 
-2 # onion
-4 stalks celery
-2 cloves garlic
-12 c water
-6 cubes soup cubes
-2 # potatoes
-3 # carrots
-2 c peas
-0.5 c noodles
-2 bit salt
-2 bit black pepper (mom likes lots of pepper)
-1 tsp thyme
-1 tsp parsley
-0.5 tsp oregano
-0.5 tsp savory
+1 # onion
+2 stalks celery
+1 cloves garlic
+6 c water
+3 cubes soup cubes
+1 # potatoes
+2 # carrots
+1 c peas
+0.25 c noodles
+1 bit salt
+1 bit black pepper (mom likes lots of pepper)
+0.5 tsp thyme
+0.5 tsp parsley
+0.25 tsp oregano
+0.25 tsp savory
 
 -Chop onion and celery and mince garlic
--In soup pot, saute those 3 things in 1 T. oil until tender.
+-In Instant pot, saute those 3 things in 1 T. oil until tender.
 -Peel potatoes and carrots
 -Chop carrots, adding them to the pot
 -Chop potato, adding it to the pot
--Add water and soup cubes
--Boil, simmer 20 minutes
--Add rest of ingredients
--Cook according to noodle directions
+-Add everything else
+-Pressure cook for 15 minutes
+
