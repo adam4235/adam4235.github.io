@@ -1,0 +1,31 @@
+Tried to set up a shared folder connection between my phone and Linux computer.
+
+Usually people use a cloud drive for this, but I couldn't because my iphone is too old.  These are the ones I tried:
+
+OneDrive: doesn't work on my iPhone or in FE File Explorer (but what about accessing it via WebDAV?)
+Dropbox: Doesn't work on my iPhone or in FE File Explorer (dropbox dropped support for old iphones)
+Google Drive: There is a "drive" command line tool for Linux, but it doesn't constantly sync, it requires you to explicity pull or push.  Also, in FE file explorer, you can't access the files if the internet is down.  So I'd have to regularly copy them to a local folder on the iphone to be able to access offline.  But on the plus side, if I have internet, I could directly edit them on the iphone.
+iCloud drive: Works on my iPhone without doing anything.  Files accessible when offline.  But doesn't sync with Linux.
+Box.com: didn't try
+ownCloud: You can set up your own cloud file server, but it costs money to use theirs.
+UNB myFiles (H:) - the instructions here say to access it via a web browser, no instructions to sync it with a directory: https://unbcloud.sharepoint.com/sites/ITServices/SitePages/FileSharing.aspx
+Use a git repository with GitLab or GitHub: but Working Copy doesn't work on my older iphone
+
+In general the cloud storage services seem to try to get you to only use their software on all your devices.  Since I want to sync with lots of devices and operating systems there are issues.
+
+Tried FE File Explorer built-in FTP server (similar to when I was using SSHDroid, I guess), with curlftpfs to get them to linux
+Got "No route to host" error when I left the house and then came back, and also when I rebooted my computer.  Didn't happen again when I rebooted my computer, so it probably happens when the iphone disconnects from the internet.  Do I have to restart the FTP server in this case?
+Got "Input/Output error" later though.
+
+Also tried using WiFi HD as a Samba server, but got some issues with that too:
+https://unix.stackexchange.com/questions/70411/mount-t-cifs-operation-not-supported-but-can-connect-via-smbclient
+
+Anything using FUSE seems to get errors like this a lot, for some reason.
+Having an always-connected network connection seems like it may be problematic.  Maybe syncing once in a while is better after all, but I'd rather do it automatically through my computer and not have to type anything into my phone.
+
+FE File Explorer with Samba: this worked, but requires me to explicity click Sync on my iphone.
+To get around permission annoyances, I followed these instructions:
+https://unix.stackexchange.com/questions/206309/how-to-create-a-samba-share-that-is-writable-from-windows-without-777-permission/
+
+Also, FE File Explorer had a line ending problem: if the file had Windows line endings, it inserts Linux line endings when you edit the file.  I can work around this by converting all my iphone files to have Linux line endings.
+
