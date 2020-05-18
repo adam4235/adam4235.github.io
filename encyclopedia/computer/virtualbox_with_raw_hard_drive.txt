@@ -18,3 +18,6 @@ You can prevent the disks from randomly being reassigned by using the WinObj pro
 
 So far it seems OK, but I'm skeptical it will work in all cases - maybe that numbering also changes randomly upon rebooting.
 
+Another thing that's useful when using this approach is to have Linux boot immediately if it's being loaded from Windows as a virtual machine guest, rather that popping up grub to ask for the operating system.  This question shows how to do this:
+https://superuser.com/questions/298238/configuring-grub-to-choose-different-os-when-inside-vm/298258
+
