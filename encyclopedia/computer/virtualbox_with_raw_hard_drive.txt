@@ -8,3 +8,13 @@ When following those instructions, one thing they omit is that you have to run t
 
 Another problem I ran into is that with a Windows host, the physical hard drive kept changing, probably when I switched the drives around or did something in the BIOS.  This is because Windows references the hard drive by a number (0 or 1 if there are 2 hard drives), rather than by something like a UUID.  So you have to be careful not to boot it if the hard drive has changed.
 
+According to this:
+
+https://web.archive.org/web/20120411164809/http://scarygliders.net/2011/10/28/virtualbox-on-windows-7-host-with-raw-disk-access-solution-to-randomly-changing-disc-assignment-numbers/
+
+You can prevent the disks from randomly being reassigned by using the WinObj program to get an ArcName for the disk.  I tried doing that with this command:
+
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands createrawvmdk -filename C:\VirtualBoxDrives\raw-linux.vmdk -rawdisk "\\.\GLOBALROOT\ArcName\multi(0)disk(0)rdisk(1)"
+
+So far it seems OK, but I'm skeptical it will work in all cases - maybe that numbering also changes randomly upon rebooting.
+
