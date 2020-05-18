@@ -6,3 +6,5 @@ https://superuser.com/questions/495025/use-physical-harddisk-in-virtual-box
 
 When following those instructions, one thing they omit is that you have to run the setup commands and VirtualBox as root / Administrator.  At least I couldn't find an alternative that worked.
 
+Another problem I ran into is that with a Windows host, the physical hard drive kept changing, probably when I switched the drives around or did something in the BIOS.  This is because Windows references the hard drive by a number (0 or 1 if there are 2 hard drives), rather than by something like a UUID.  So you have to be careful not to boot it if the hard drive has changed.
+
