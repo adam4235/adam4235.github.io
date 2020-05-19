@@ -21,3 +21,7 @@ So far it seems OK, but I'm skeptical it will work in all cases - maybe that num
 Another thing that's useful when using this approach is to have Linux boot immediately if it's being loaded from Windows as a virtual machine guest, rather that popping up grub to ask for the operating system.  This question shows how to do this:
 https://superuser.com/questions/298238/configuring-grub-to-choose-different-os-when-inside-vm/298258
 
+Note that using Linux as the host and Windows as the guest seems kind of pointless for playing Windows games, because VirtualBox isn't able to use the full capabilities of the graphics card:
+https://askubuntu.com/questions/139320/enable-graphics-card-in-virtualbox
+I tried it but had significant issues.
+
