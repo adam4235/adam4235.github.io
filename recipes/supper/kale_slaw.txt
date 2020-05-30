@@ -11,7 +11,9 @@ recipe source: http://www.rawfoodrecipes.com/recipes/raw-kale-slaw-with-bbq-waln
 1 # carrot
 0.25 # onion
 0.25 tsp celery seed
-0.33 c cashews
+0.33 c cashews OR
+0.33 c walnuts OR
+0.33 c almonds
 0.33 c sunflower seeds
 0.33 c water
 3 tbsp oil
@@ -30,4 +32,4 @@ Mix that into the vegetables.
 
 Note: original recipe had 0.25 tsp chipotle instead of cayenne and 0.25 tsp of the chili powder.  I found it still tasted good with that substitution, and there are no other recipes I have that need chipotle.
 Also original had Apple Cider Vinegar
-Note: next time try almonds instead of cashews, since cashews have ethical issues.
+Note: next time try walnuts or almonds instead of cashews, since cashews have ethical issues.
