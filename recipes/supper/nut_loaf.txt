@@ -15,14 +15,15 @@ recipe source:http://www.veg-world.com/recipes/nutroast.htm, then modified with 
 1 # soup cubes
 3 c chopped nuts
 6 slices bread
-2 tbsp soy sauce
-2.5 tbsp ground flax seed
+2 tbsp maple syrup
+1 tsp salt
+2.5 tbsp ground flax seed OR
+1 # egg
 0.5 tsp thyme
 1 tsp sage
 2 tsp basil
 0.5 tsp parsley
 0.5 tsp oregano
-2 tbsp nutritional yeast flakes
 2 bit black pepper
 
 -Chop and fry onion
@@ -36,6 +37,4 @@ recipe source:http://www.veg-world.com/recipes/nutroast.htm, then modified with 
 -Grease a baking dish.
 -put in the mixture
 -Bake for 30-40 min.
-
-Note: original recipe didn't have nutritional yeast.  Is it necessary?
 
