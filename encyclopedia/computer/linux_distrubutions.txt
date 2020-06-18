@@ -1,4 +1,6 @@
-Debian: I found its bug reporting system was very primitive.  The instructions online said that its preferred to use reportbug, which assumes you can send an email from the command line, but this isn't installed in the default installation.  In general they don't seem very focused on the user experience, just on insisting on exclusively free software.  Although it's more low-level and supposedly more stable, I found a bug in the installation procedure and reported it and no reply, so the benefits don't seem to make it worthwhile.
+Debian: I found its bug reporting system was very primitive.  The instructions online said that its preferred to use reportbug, which assumes you can send an email from the command line, but this isn't installed in the default installation.  In general they don't seem very focused on the user experience, just on insisting on exclusively free software.  Although it's more low-level and supposedly more stable, I found a bug in the installation procedure and reported it and no reply, so the benefits don't seem to make it worthwhile.  The bug was:
+
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=963014
 
 Gentoo: I found it had a lot of bugs and things going wrong due to the process of building things from source.  Although it was faster, the time spent working around problems made it not seem worth it.
 
