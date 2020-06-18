@@ -1,0 +1,10 @@
+Debian: I found its bug reporting system was very primitive.  The instructions online said that its preferred to use reportbug, which assumes you can send an email from the command line, but this isn't installed in the default installation.  In general they don't seem very focused on the user experience, just on insisting on exclusively free software.  Although it's more low-level and supposedly more stable, I found a bug in the installation procedure and reported it and no reply, so the benefits don't seem to make it worthwhile.
+
+Gentoo: I found it had a lot of bugs and things going wrong due to the process of building things from source.  Although it was faster, the time spent working around problems made it not seem worth it.
+
+XUbuntu: seems like the best I've found so far - the online support is very good, and the installation procedure and hardware automates a lot.
+
+MX Linux: didn't boot after installation.
+
+Linux Mint: I've used the XFCE version, which seems to look nicer but not add much over Ubuntu.  It seems a bit more buggy - I found a bug in the reporting tool and reported it but they didn't deal with it properly.
+
