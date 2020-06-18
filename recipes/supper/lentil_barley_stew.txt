@@ -6,7 +6,6 @@ prep.:20
 cook:70
 recipe source:more-with-less
 
-2 tbsp oil
 2 stalks celery
 1 # onion
 6 c water
@@ -20,10 +19,9 @@ recipe source:more-with-less
 1 # carrot
 1 bit mace
 
--Add oil to Instant pot
--Cut up celery and onion, adding them to be sauted for 5 min
+-Cut up celery and onion, adding them to the Instant Pot
 -In the meantime, dice the garlic and grate the carrots
 -Add the rest of the ingredients, pressure cook for 30 min
 
-Note: original recipe said butter instead of oil
+Note: original recipe said to fry in butter first
 

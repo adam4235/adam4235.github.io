@@ -22,9 +22,8 @@ recipe source:Mom
 0.25 tsp oregano
 0.25 tsp savory
 
--Chop onion and celery and mince garlic
--In Instant pot, saute those 3 things in 1 T. oil until tender.
--Peel potatoes and carrots
+-Chop onion and celery and mince garlic, adding them to the Instant Pot
+-Scrub potatoes and carrots
 -Chop carrots, adding them to the pot
 -Chop potato, adding it to the pot
 -Add everything else
