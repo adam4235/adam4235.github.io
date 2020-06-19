@@ -6,7 +6,6 @@ cook:15
 recipe source:Simply in Season, modified
 
 1 bunch kale
-1 tbsp oil
 1 # onion
 1 clove garlic
 2 # potatoes
@@ -16,8 +15,6 @@ recipe source:Simply in Season, modified
 0.5 tsp pepper
 
 -Steam kale
--Saute onion in oil for a few minutes
--Add garlic
--Add potatoes
--Add everything, boil, simmer 15 min
+-Chop vegetables
+-Add everything to Instant Pot, cook for 10 min
 
