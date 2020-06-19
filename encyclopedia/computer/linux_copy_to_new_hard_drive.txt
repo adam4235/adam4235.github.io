@@ -1,0 +1,25 @@
+Next time I think I should try using CloneZilla or something similar rather than these steps.
+
+To copy a Linux installation to another hard drive, as opposed to re-installing it:
+
+Copying the old drive (partition) to the new drive (partition) isn't sufficient.  2 extra things have to be done:
+1. /etc/fstab has to have the correct UUID of the new drive.
+2. The bootloader has to be updated.
+
+To update the bootloader, you have to do several steps.  update-grub updates the configuration file in /boot based on the hardware currently running and the settings in /etc/default/grub and /etc/grub.d.  You don't need to specify the UUID of your hardware in any of those config files - you just need to run update-grub while the correct hardware is running (which is tricky because you're running a Live USB stick instead of the system being updated, and also because the source hard drive, which you're getting rid of, might be mounted).
+
+If you're installing it to a new partition, you also have to install grub, for example (change /dev/sda appropriately):
+
+grub-install /dev/sda
+
+The best way to be updating grub is with a Live USB disk running and the Linux hard drive being the only other one connected to the computer. Then, if you have other hard drives to connect later, run update-grub on the Linux computer after starting it.
+
+It helps if the Live USB is of the same distribution and version of the Linux system being copied.
+
+These websites helped:
+https://askubuntu.com/questions/741723/moving-entire-linux-installation-to-another-drive
+
+https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows/88432#88432
+
+https://www.linuxjournal.com/content/copy-your-linux-install-different-partition-or-drive
+
