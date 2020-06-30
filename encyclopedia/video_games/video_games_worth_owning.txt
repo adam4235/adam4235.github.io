@@ -18,6 +18,7 @@ Undertale
 StepMania
 open-invaders (Space Invaders clone)
 Ostrich Riders (Joust clone)
+Baba Is You
 
 PC (with DRM):
 Screeps
@@ -46,6 +47,7 @@ Atari Vault
 Arcade Game Series: Galaga
 Arcade Game Series: Pac Man
 Arcade Game Series: Dig Dug
+Sonic Mania
 
 Nintendo 64:
 Blast Corps

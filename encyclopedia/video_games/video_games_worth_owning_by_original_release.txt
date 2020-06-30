@@ -12,6 +12,7 @@ Ironclad Tactics
 Into the Breach
 Undertale
 StepMania
+Baba Is You
 
 PC (with DRM):
 Screeps
@@ -31,6 +32,7 @@ Wargroove
 Worms Armageddon
 Gunman Clive HD collection
 Ultimate Chicken Horse
+Sonic Mania
 
 Amiga:
 Lemmings
@@ -74,6 +76,8 @@ Mega Man X4
 Mega Man X5
 Mega Man X6
 Chrono Trigger
+Uniracers
+Brain Lord
 
 Sega Genesis:
 Sonic the Hedgehog
