@@ -9,7 +9,6 @@ recipe source: Mom, who got it from Angie, but I modified it
 1 c black beans
 1 c kidney beans
 2 c tomato sauce
-3 T oil
 2 # onions
 3 cloves garlic
 2 # green peppers
@@ -22,8 +21,8 @@ recipe source: Mom, who got it from Angie, but I modified it
 2 tbsp maple syrup
 
 Soak beans overnight if using dried beans, and cook them for an hour in pressure cooker
-Fry the vegetables in oil
-Add everything else, boil lightly, simmer for a while - but watch out, burns easily
+Chop the vegetables, adding them to a pot
+Add everything, boil lightly, simmer for a while - but watch out, burns easily
 
 Note: Original recipe had tomatoes instead of tomato sauce, and cheese.
 
