@@ -49,6 +49,7 @@ Arcade Game Series: Pac Man
 Arcade Game Series: Dig Dug
 Sonic Mania
 Blaster Master Zero
+Bit Blaster XL
 
 Nintendo 64:
 Blast Corps
