@@ -669,8 +669,8 @@ var wasmMemory;
 // In the wasm backend, we polyfill the WebAssembly object,
 // so this creates a (non-native-wasm) table for us.
 var wasmTable = new WebAssembly.Table({
-  'initial': 2094,
-  'maximum': 2094 + 0,
+  'initial': 2095,
+  'maximum': 2095 + 0,
   'element': 'anyfunc'
 });
 
