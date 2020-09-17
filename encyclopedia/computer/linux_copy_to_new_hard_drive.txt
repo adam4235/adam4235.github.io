@@ -1,4 +1,4 @@
-Next time I think I should try using CloneZilla or something similar rather than these steps.
+Instead of these steps, using CloneZilla to copy device-to-device works.  It updates the devices with the UUID so you don't have to change the fstab or grub files with the UUID.  But, when I used CloneZilla to copy partition-to-partition, I still had to install grub on the target drive (which had its MBR corrupted), which still involved a lot of steps.
 
 To copy a Linux installation to another hard drive, as opposed to re-installing it:
 
