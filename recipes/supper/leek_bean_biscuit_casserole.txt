@@ -1,42 +1,42 @@
 leek_bean_biscuit_casserole
 vegetable:2
 meat:1
-yield (meals * people):10
+yield (meals * people):6
 prep.:60
 cook:75
 recipe source:mom
 
-2 c navy beans
-4 # potatoes
-6 c water
-4 T oil
-4 # leeks
-2 #_small onions
-4 # carrots
-4 cloves garlic
-3 tsp thyme
-6 # soup cubes
-1.5 c peas
-6 c flour
-2 tbsp maple syrup
-0.8 c oil
-2 tsp salt
-4 tbsp baking powder
-6 T corn starch
-1.5 c milk
+1 c navy beans
+2 # potatoes
+3 c water
+2 T oil
+2 # leeks
+1 #_small onions
+2 # carrots
+2 cloves garlic
+1.5 tsp thyme
+3 # soup cubes
+0.75 c peas
+3 c flour
+1 tbsp maple syrup
+0.4 c oil
+1 tsp salt
+2 tbsp baking powder
+3 T corn starch
+0.75 c milk
 
 -Dice potatoes
--Boil potatoes in huge pot 10 min, drain.  PUT ENOUGH WATER IN - OTHERWISE THE POTATOES GET STUCK!  (Need more if using pasta pot.)
+-Boil potatoes in huge pot 10 min, drain.  PUT ENOUGH WATER IN - OTHERWISE THE POTATOES GET STUCK!
 -Cut off green part of leeks and roots and discard, wash good part well and cut up
 -Chop onion
 -Dice carrots
--Saute leeks, onions and carrots in oil until soft (not limp).  DON'T OVERDO IT!  (They got stuck and burnt before.)
+-Saute leeks, onions and carrots until soft (not limp).  DON'T OVERDO IT!  (They got stuck and burnt before.)
 -Add garlic, thyme to saute mix, cook for 1 min
 -Add water, potatoes, sauted mix, peas, beans, and broth to pot.
 -boil at medium heat, simmer 7 min.  When done boiling, preheat oven to 425F, and add corn starch to pot.
 -while boiling, make biscuits.  Mix dry ingredients, then gradually mix in oil, then mix in milk.  Knead 10x and form into a ball
--grease lasagna / casserole dish to prevent it from getting stuck
--Put stew in a lasagna dish or large casserole dish (glass pot isn't big enough), and take small balls of bicuit dough and put on top
+-grease baking dishes to prevent it from getting stuck
+-Put stew in a baking dishes, and take small balls of bicuit dough and put on top
 -Bake for 15 min.
 
 Note: Original recipe had salt to add to the leeks / beans, but it was too salty.
