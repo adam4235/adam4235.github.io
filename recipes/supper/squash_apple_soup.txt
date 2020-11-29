@@ -6,7 +6,6 @@ prep.:20
 cook:25
 recipe source: GI diet cookbook (mom's)
 
-1 tbsp oil
 1 # butternut squash
 1 # leeks
 1 # onion
@@ -19,15 +18,12 @@ recipe source: GI diet cookbook (mom's)
 4 # soup cubes
 1 c navy beans
 
--Overnight, soak beans, then boil for 2-3 hours (if using dried beans)
--Chop vegetables, frying them and thyme and sage in oil for 10 min
--Peel and core apples, adding them
--Add water and boullien, bring to a boil
--boil for 20 min, stirring occasionally
--Puree half the soup in a blender or food processor
--Return blended soup to pot
--Add beans and cook for 2 more min
+-Overnight, soak beans, then boil for 2-3 hours (if using dried beans) or 40 min in pressure cooker
+-Chop vegetables, adding to pot
+-chop apples into small pieces, adding them
+-Add everything
+-boil for 20 min, stirring occasionally (or 15 min in instant pot)
 -Optionally garnish with a bit of chives
 
-Note: original recipe had apple juice instead of one of the apples, and white kidney beans
+Note: original recipe had apple juice instead of one of the apples, and white kidney beans, and said to fry the vegetables in oil
 
