@@ -15,8 +15,7 @@ recipe source:Mom
 2 # carrots
 1 c peas
 0.25 c noodles
-1 bit salt
-1 bit black pepper (mom likes lots of pepper)
+0.25 tsp black pepper
 0.5 tsp thyme
 0.5 tsp parsley
 0.25 tsp oregano
