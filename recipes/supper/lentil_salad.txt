@@ -12,9 +12,9 @@ recipe source:http://www.chow.com/recipes/29537-lentil-salad
 2 # leeks
 3 # carrots
 0.5 # onion
-1 tsp salt
-4 tbsp oil
-1 bit black pepper
+0.5 tsp salt
+3 tbsp oil
+0.25 tsp black pepper
 1 tbsp parsley
 
 -Rinse lentils
