@@ -19,12 +19,14 @@ StepMania
 open-invaders (Space Invaders clone)
 Ostrich Riders (Joust clone)
 Baba Is You
+Renowned Explorers: International Society
+Super Time Force Ultra
+Lix (Lemmings clone)
+Hollow Knight
 
 PC (with DRM):
 Screeps
 Civilization V
-Renowned Explorers: International Society
-Super Time Force Ultra
 Heroes of Might and Magic 3
 Plants vs. Zombies
 Age of Empires II: Definitive Edition
@@ -33,7 +35,6 @@ Final Fantasy 5
 Final Fantasy 6
 Final Fantasy 7
 Final Fantasy 9
-Lix (Lemmings clone)
 Starcraft
 Starcraft 2
 Command and Conquer: Red Alert 3
@@ -58,6 +59,7 @@ Pokemon Stadium
 Playstation
 Final Fantasy Tactics
 Ms. Pac-Man Maze Madness
+Castlevania Symphony of the Night
 
 Game Boy Advance:
 Super Mario World
