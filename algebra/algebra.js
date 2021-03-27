@@ -669,8 +669,8 @@ var wasmMemory;
 // In the wasm backend, we polyfill the WebAssembly object,
 // so this creates a (non-native-wasm) table for us.
 var wasmTable = new WebAssembly.Table({
-  'initial': 2109,
-  'maximum': 2109 + 0,
+  'initial': 2108,
+  'maximum': 2108 + 0,
   'element': 'anyfunc'
 });
 
@@ -1289,11 +1289,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 11063840,
+    STACK_BASE = 11063824,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 5820960,
-    DYNAMIC_BASE = 11063840,
-    DYNAMICTOP_PTR = 5820784;
+    STACK_MAX = 5820944,
+    DYNAMIC_BASE = 11063824,
+    DYNAMICTOP_PTR = 5820768;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -1879,7 +1879,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
 
 
 
-// STATICTOP = STATIC_BASE + 5819936;
+// STATICTOP = STATIC_BASE + 5819920;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -2037,7 +2037,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5820944;
+      var buffer = 5820928;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -2074,7 +2074,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5820944;
+      var buffer = 5820928;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -6591,7 +6591,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 5820784;
+      return 5820768;
     }
 
   function _emscripten_glActiveTexture(x0) { GLctx['activeTexture'](x0) }
