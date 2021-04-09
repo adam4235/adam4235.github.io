@@ -1,0 +1,16 @@
+Recipe source: http://allrecipes.com/recipe/bannock/ modded
+
+3 c flour
+1 tsp salt
+1 tsp baking powder
+1 bunch sesame seeds (optional)
+1 tbsp sprouting seeds
+1/2 c oil
+1.5 c water
+
+Start making sprouts (see http://adam4235.github.io/recipes/snacks/sprouts.txt).  But instead of letting them become sprouts, wait until the baby plant just barely starts to break out of its seed (about a day or 2).
+Mix everything including barely-sprouted-seeds in a bowl or directly in the frying pan
+Fry for 15 min on each side, optionally in oil (but not needed for non-stick pan)
+
+Original recipe had a lot more baking powder (2 tbsp), but I found it tasted better with less.
+
