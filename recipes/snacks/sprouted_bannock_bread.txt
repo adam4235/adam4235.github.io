@@ -10,7 +10,7 @@ Recipe source: http://allrecipes.com/recipe/bannock/ modded
 
 Start making sprouts (see http://adam4235.github.io/recipes/snacks/sprouts.txt).  But instead of letting them become sprouts, wait until the baby plant just barely starts to break out of its seed (about a day or 2).
 Mix everything including barely-sprouted-seeds in a bowl or directly in the frying pan
-Fry for 15 min on each side, optionally in oil (but not needed for non-stick pan)
+Fry for 15 min on each side (or less - I often only need 11 min on one side and 3 min on the other), optionally in oil (but not needed for non-stick pan)
 
 Original recipe had a lot more baking powder (2 tbsp), but I found it tasted better with less.
 
