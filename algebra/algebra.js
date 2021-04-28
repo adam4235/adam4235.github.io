@@ -8543,7 +8543,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
         for(var i = 0; i < et.length; ++i) {
           var touch = et[i];
           // Verify that browser does not recycle touch objects with old stale data, but reports new ones each time.
-          assert(!touch.onTarget);
+          //assert(!touch.onTarget);
           touch.isChanged = 1;
           touches[touch.identifier] = touch;
         }
