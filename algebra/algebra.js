@@ -1242,11 +1242,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 11063616,
+    STACK_BASE = 13161056,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 5820736,
-    DYNAMIC_BASE = 11063616,
-    DYNAMICTOP_PTR = 5820560;
+    STACK_MAX = 7918176,
+    DYNAMIC_BASE = 13161056,
+    DYNAMICTOP_PTR = 7918000;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -1792,7 +1792,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
 
 
 
-// STATICTOP = STATIC_BASE + 5819712;
+// STATICTOP = STATIC_BASE + 7917152;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -1946,7 +1946,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5820720;
+      var buffer = 7918160;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -1983,7 +1983,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5820720;
+      var buffer = 7918160;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -6565,7 +6565,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 5820560;
+      return 7918000;
     }
 
   function _emscripten_glActiveTexture(x0) { GLctx['activeTexture'](x0) }
