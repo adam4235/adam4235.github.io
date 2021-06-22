@@ -1,0 +1,8 @@
+To play Wii games on the Wii U gamepad, without needing a TV:
+
+From https://www.reddit.com/r/wiiu/comments/2c5tbq/if_you_want_to_play_wii_games_without_a_tv_at_all/
+
+Go to settings. Set video output to "no HDMI" Boot up the WiiU and hold B so you get directly in Wii-mode. Now the Gamepad is your "TV".
+
+This works because the Wii U gamepad has a built-in sensor bar, so you don't need the Wii sensor bar.
+
