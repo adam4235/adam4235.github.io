@@ -14,12 +14,13 @@ cook:60
 2 stalks celery
 2 # green peppers
 2 c corn
-1 T chili powder
+1 tsp chili powder
 1 T hot pepper sauce OR
 0.25 tsp cayenne - next time omit
 .5 tsp basil
 .5 tsp oregano
 2 c tomato sauce
+1 c water
 .5 tsp salt
 .25 tsp pepper
 
@@ -30,4 +31,5 @@ cook:60
 -Put everything in the pot
 -Boil, then simmer while stirring occasionally for about 10-30 minutes
 
-Note: original recipe said 2 or 3 T of chili pepper.  Last time I made it with 2 and I didn't like it.  It may be because I used Pasta Sauce instead of Tomato Sauce.
+Note: original recipe said 2 or 3 T of chili pepper.  This recipe is based on the chili powder from Sequoia, which seems much spicier than chili powder found in the grocery store.
+
