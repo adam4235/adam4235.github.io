@@ -26,9 +26,10 @@
 	<p>
 		<a href="sm1.zip">Download Shifting Mazes with source code</a> (in the QBasic world, the source code and the program are the same thing)
 	</p>
-    To use in DosBox under Linux:
+    To use in DosBox under Linux or Windows:
     <ul>
         <li>Install dosbox</li>
+        <li>Get the qbasic executable and put it in the same folder as the game (available from <a href="https://www.qbasic.net">https://www.qbasic.net</a>)</li>
         <li>Extract the game's files to a folder, say ~/dosprogs</li>
         <li>Run dosbox</li>
         <li>Enter the commands:
@@ -39,5 +40,10 @@ qbasic.exe /run maze.bas
             </pre>
         </li>
     </ul>
+    <h2>Why haven't you compiled it to an exe?</h2>
+    </h2>
+    <p>I attempted to compile the game using QuickBasic 4.5.  Although it will run under QuickBasic 4.5, it gave errors when trying to compile it to an exe.  I think the program is too big for QuickBasic 4.5 (QBasic 1.1 is actually a newer program, made in 1991, whereas QuickBasic 4.5 was made in 1988.  But QuickBasic 4.5 is the only one that can compile an exe).</p>
+    <p>I also tried using QB64.org, which is a newer open-source compiler, but unfortunately my game uses some obscure statements that QB64 doesn't support (PLAY OFF).</p>
+    <p>If anyone wants to try compiling it or has suggestions, it would be appreciated.</p>
 </body>
 </html>
