@@ -12,21 +12,18 @@
 		Shifting Mazes is a QBasic game I wrote in high school.  It is an RPG (role-playing game), more specifically a randomized dungeon explorer.  It doesn't have proper graphics but is completely done using ASCII characters, in true DOS fashion, and it doesn't have a story either.  Nevertheless, I find it to be very fun.
 	</p>
 	<p>
-		You'll need QBasic to be able to play it, which is an old DOS program.  On Linux you can play it with dosbox and the QBasic executable.
-	</p>
-	<p>
 		I wrote Shifting Mazes in high school, so don't take the quality of the code as being indicative of my programming abilities.  Yes, it is probably not top-quality code.
 	</p>
 	<p>
-		I started making a sequel which was relatively close to completion, but I haven't worked on it for a few years.  If you want a copy of this incomplete, non-working sequel for some reason, you can request it by <a href="email.html">e-mail</a>.
+		I started making a sequel which was relatively close to completion, but I haven't worked on it for many years.  If you want a copy of this incomplete, non-working sequel for some reason, you can request it by <a href="email.html">e-mail</a>.
 	</p>
 	<p>
-		You may use, distribute, etc. the code in any way you want, except you may not call it your own or copyright it yourself.
+		<a href="sm1.zip">Download Shifting Mazes with source code</a>
 	</p>
-	<p>
-		<a href="sm1.zip">Download Shifting Mazes with source code</a> (in the QBasic world, the source code and the program are the same thing)
-	</p>
-    To use in DosBox under Linux or Windows:
+    <p>To play the game in Windows, extract the zip file and run the maze.exe file.</p>
+    <p>The manual can be read online <a href="shifting_mazes_manual.txt">here</a>.</p>
+    <h2>Old Instructions:</h2>
+    <p>There are also these old instructions to use in DosBox under Linux or Windows, which was necessary before I compiled it to an exe using QB64 (I was never able to make an exe with the original QBasic, because the program was too big for Microsoft's QuickBasic compiler).  If for some reason you want to see or debug the code, or if a bug is discovered in the QB64 exe that wasn't present in the original code and you need to run it with the original QBasic, these instructions should let you do that.</p>
     <ul>
         <li>Install dosbox</li>
         <li>Get the qbasic executable and put it in the same folder as the game (available from <a href="https://www.qbasic.net">https://www.qbasic.net</a>)</li>
@@ -40,12 +37,8 @@ qbasic.exe /run maze.bas
             </pre>
         </li>
     </ul>
-    <h2>Why haven't you compiled it to an exe?</h2>
-    </h2>
-    <p>I attempted to compile the game using QuickBasic 4.5.  Although it will run under QuickBasic 4.5, it gave errors when trying to compile it to an exe.  I got an out of memory error - it seems the program is too big for QuickBasic 4.5 (QBasic 1.1 is actually a newer program, made in 1991, whereas QuickBasic 4.5 was made in 1988.  But QuickBasic 4.5 is the only one that can compile an exe).  It also wouldn't compile with QBX (QuickBasic Extended 7.1) for the same reason (after I renamed some variables due to new keywords added).</p>
-    <p>It could still be possible to rework the code to be in separate modules to allow them to be compiled with QuickBasic 4.5 or QuickBasic Extended 7.1.  It seems that compiling to exe required splitting the program into multiple files, but running with the interpreter (which is what I did) required it to all be in one source file.  Even if I did split it up, though, I think DosBox would still be needed to run the exe.</p>
-    <p>I also tried using QB64.org, which is a newer open-source compiler.  I actually was able to create an exe using this, after reworking the music code (QB64 doesn't support PLAY OFF).  However, the resulting game had a bug which was not present when I ran it under the interpreter, which suggests some kind of different between QB64 and the original QBasic interpreter.</p>
-    <p>There is a version of QBasic at the Microsoft store for Windows 10, but as far as I can tell from the description it's only an interpreter, and can't be used to make executables.</p>
-    <p>If anyone wants to try compiling it or has suggestions, it would be appreciated.</p>
+   	<p>
+		You may use, distribute, etc. the code in any way you want, except you may not call it your own or copyright it yourself.
+	</p>
 </body>
 </html>

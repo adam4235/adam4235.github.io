@@ -1,0 +1,303 @@
+          BASIC INSTRUCTIONS
+Shifting Mazes is an RPG.  It's a dungeon explorer and meant to be extremely
+customizable.  You begin by creating a character, and you should usually
+create a second character as well.  The game consists of 10 dungeon levels,
+which are chosen randomly from a bunch of pre-made mazes.  In each one, you
+must find a key, then find the exit to move on to the next level.  You'll
+randomly meet enemies along the way.  The basic idea behind the ability
+system in battle is that each weapon you equip will give you a different
+set of abilities.  Also, your character's job will give you more abilities,
+which are learned as you gain levels.  Your job is chosen when you create
+the character.
+
+              DETAILED INSTRUCTIONS
+Difficulty levels and monsters: When you start a new game, you'll be asked
+to choose from Novice, Easy, Medium, or Hard difficulty.  Novice is for
+people who like normal RPGs.  Each enemy is always the same strength,
+you can keep trying a part in the game until you beat it, and you can
+pretty much last forever in a dungeon level building up your characters.
+Since novice is so easy, however, you can't get on the Hi Score list when
+playing it.
+
+Easy, Medium and Hard is what Shifting Mazes was meant to be.  On these
+difficuly levels, the monsters gain levels like you, so they're usually on
+a fraction of your level.  However, they also have a minumum level, which
+also varies by difficulty, to encourage you to gain levels.  The only
+exception to this is bosses; their toughness only varies by difficulty
+level.  Also, when you get Game Over, you get on the Hi Score list (if you
+did well enough), and you'll find that your file is gone!  Don't try to get
+around this by turning the computer off when you're about to die, either,
+because your file will still be gone.  The point of doing this is to make
+the game like those old NES games, which you had to beat in one try, except
+now you can save your game and contiue playing later.
+
+Besides the enemy levels and boss stats, the difficulty levels are slightly
+different when it comes to artificial intelligence.  In other words,
+monsters will be smarter on higher difficulty levels.
+
+Creating a character: When you start a new game, you must create a character
+(usually 2).  After entering your name, you must select a job.  Depending on
+the job you select, your character will get different abilities, have a
+different speed rating, and get more or less HP and MP on a level up than
+normal.
+
+Next, you must choose what stats your character will have.  Stats will grow
+faster if you make them higher, but the total of all your initial stats
+can't exceed 30.
+
+This is what the stats do:
+    Strength(Str): power of physical attacks
+    Defense(Def): resistance to physical attacks
+    Magic(Mag): strength of magical attacks
+    Spirit(Spr): resistance to magical attacks
+    Hit: success of attacks
+    Evade(Eva): skill at dodging attacks
+
+The only reason you might not want a second character is because you can
+gain levels twice as fast with only one.
+Saving : To save and quit, simply push F1 on the main game screen.  You
+will then be asked to enter a # for your file from 1-9 so you can tell it
+apart from other files.  A list of all existing files will be printed.  To
+load a saved file, select Continue on the title screen and select the file
+in the same way.  If you want to save or load a file on a floppy disk, (for
+portableness), push SPACE on the file selection screen to change the list
+to files on the A:\.  In fact, it's strongly recomended that you keep a
+disk for Shifting Mazes files, because it's good for VS mode, and when you
+create your own mazes, they must be saved to a disk anyway.  It's just like
+having a memory card!
+
+A better way of saving is to use the Quick Save option.  Simply push F3 on
+the maze screen and your file is saved on the file you continued on.
+However, this option is not available when playing through the game the
+first time on Easy, Normal or Hard difficulty, because your file has to be
+erased.
+
+Deleting a file: Select Delete from the Title Screen and select the file you
+want to delete.
+
+The Mazes: The first dungeon level is small, but the rest are much bigger
+and are all 81 spaces.  You mainly look at the overhead map of the dungeon
+level, which is in the middle of the screen.  To the left of the map is a
+close up of the space you're on, showing you which directions you can move
+in.  The close up often doesn't look the same as the space shown on the map,
+and you'll probably understand why this is later.
+
+You'll occasionally meet the Maze Master, who will shift the maze for you in
+certain ways.  He'll either move all the spaces in your current row or
+column up, down, left or right, or he'll rotate these spaces 90 degrees
+clockwise or counterclockwise.  You'll probably have to do this a few times
+to get through the maze.  Also, just to screw you up, the maze will randomly
+shift once in a while, and these shifts aren't restricted to your row or
+column.  If you're stuck, you can also push the Spacebar to randomly shift
+the maze yourself, but this is risky because you can get stuck, so only use
+it if you have nowhere to go.  If you get completely trapped in the maze,
+you get game over, so you'll have to use your brain to make sure you can
+always go somewhere.
+
+Menus: To select an option from a menu in this game, you can either use the
+arrow keys and Enter, or you can push the 1st capital letter in the option
+of your choice (the hotkey).  The ESC key usually gets you out of the menu,
+and SPACE usually has a special function.
+
+Subscreen: Push ESC to access the Subscreen.  Unlike the subscreens of most
+RPGs, in this subscreen, you first select a character (by pushing left or
+right), then you select something to do to the character.  The options are
+Equip (equip weapons), Item (use or view your items), Element (equip
+crystals, discussed later), and AutoBattle (set an auto battle ability,
+discussed later).  If you push SPACE on the main menu, it will change your
+character's position in battle.  There are 3 rows, (front, middle, back),
+and the farther up your character's are, the more physical damage they'll
+do, but they'll also recieve more.
+
+Battle Screen: The battle screen in Shifting Mazes might be a bit confusing
+to some people.  At the top of the screen are your stats and the enemies
+you're fighting.  The little dash separates the 2 parties.  CT stands for
+charge time, and it's there because Shifting Mazes uses a Charge Time Battle
+(CTB) system.  This means that each character's CT value keeps increasing,
+and when someone's reaches 100, the game stops and that character gets a
+turn.  The rate at which CT increases is determined by the character's speed.
+When the CT value turns blue, it means the character is charging an ability,
+such as a spell.
+
+To the left of the character's stats is a spot for damage from attacks to be
+displayed.  To the right of their stats is where it tells you what status
+changes the character has on them.  The status changes are abbreviated, and
+their full name and what they do are discussed below.
+
+Colors play a major role in the battle screen, since the battles have no
+graphics.  When a characters stats are highlighted in white, it means it's
+that character's turn.  When a character's name is in red, it means they're
+dead.  Green damage values mean healing, while red damage values mean the
+attack killed the character.  Green status changes mean the status change
+was just removed, and red ones mean the status change was just inflicted.
+Below the character status is where menus appear for you to choose an
+ability.  On the right is useful information about the battle, such as the
+character's secondary weapon (discussed later), their Auto-Battle ability
+(discussed later), and the player whose turn it is in 2 player battles
+(discussed later).  Finally, at the bottom of the screen a text box displays
+the ability being used and any extra effects of it.
+
+Status Changes: Here is a list of the status changes in Shifting Mazes and
+what effects they have on your character:
+Psn(Poison): Lose 10% of your maximum HP each turn.
+Slp(Sleep): Can't act until healed or attacked.
+Cfs(Confuse): Act randomly until healed or attacked.
+Bld(Blind): Miss more often.
+Dsb(Disable): Can't use weapon, job or combo abilities.
+Slw(Slow): CT charges slower.
+Bsk(Berserk): Continuously attack with more power.
+Und(Undead): Changes the effects of cure and death abilities.
+Sil(Silence): MP doesn't charge up
+Rgn(Regan): Regain 10% of your maximum HP each turn.
+Prt(Protect): Physical damage is halved.
+Bar(Barrier): Magical damage is halved.
+Rse(Reraise): If you die, you'll be revived automatically.
+Hst(Haste): CT charges faster.
+Sld(Shield): Reflects damage back at user until next turn.
+QMp(Quick MP): MP charges up twice as fast.
+StB(Status Block): Protects against negative status changes.
+
+You can remove negative status changes with a "Heal" item or certain
+abilities.  You can remove positive status changes mainly with the "Dispel"
+ability.
+
+Note that with enemies, status changes wear off after a while.  With bosses,
+they wear off even faster, and the rate varies with each boss.  With your
+characters, however, status changes will remain until the end of the battle
+or until you remove it from the character.  Positive status changes don't
+wear off anyone, however.
+
+NPCs: As you walk around, you'll occasionally meet NPCs.  There's one on a
+random space in each dungeon level, (but there's none in level 1 or 10).  In
+even numbered dungeon levels (except 10), you'll have the option of taking
+part in their scenario or quest.  If you do well in it, you'll be able to
+fight the NPC in the next dungeon level.  Each of them has a hostility
+level, and if you lower it enough in the quest or by using the right moves
+in battle, they'll offer to join you at the end of the dungeon level where
+you fought them.  You should usually say yes, but you can only have up to 4
+characters in your party at a time, so you may have to dismiss someone.
+Just remember, experience points are divided among the party.  In an NPC
+fight, they will always be on your level and you'll have to fight them with
+just your main character.  To make the battles a bit more fair, (to the
+NPCs), you can't use items in these battles. Two NPCs also have jobs that
+you can't get normally.
+
+Weapons: In Shifting Mazes, weapons play a much larger role than simply
+increasing your attack power.  Most weapons will give you extra abilities
+in battle.  You use these abilities by selecting the weapon's name on the
+main battle menu.
+
+There are 3 main ways you can get weapons.  You can win them from bosses,
+from NPCs, or you can poach enemys.  To do the latter, you must get knives
+(you get a few when you beat each dungeon level), then use them on the enemy
+you want to poach (as an Item).  You can increase the success rate by
+lowering the enemy's HP; in fact, if they have more than 1/2 their HP left,
+the poach will always fail.
+
+Weapon abilities also combine with your job abilities to give you combos.
+However, to get combos, you must have the type of weapon equipped that goes
+with your job, ex. a sword on a knight or a staff on a mage.  You also must
+have learned the job ability that combines with the weapon ability.  You
+learn job abilities by gaining levels.
+
+You can also equip a secondary weapon in addition to the weapon you're
+using.  This just provides you with some additional security and more
+strategy.  To switch to your secondary weapon in battle, select Switch.
+However, this uses up your turn.
+
+To equip a weapon, go to the subscreen and select equip.  Push SPACE to
+switch between your primary and secondary weapon.  Note that when you
+select a weapon, it tells you that weapon's abilities and power in the
+bottom right of the screen.
+
+Each weapon also has a secret ability.  To unlock this ability, you must
+get a good score on a certain dungeon level (scoring is discussed later).
+Each dungeon level gives you the secret ability for a certain weapon,
+(except in dungeon level 1, which gives you the secret ability for your
+job's Basic Weapon).
+
+Note that a Fighter's fists work different than other weapons.  They can't
+be equipped by other jobs, and fighters can't equip anything but fists.
+
+MP system: MP works a bit different in this game than in most RPGs.  At the
+start of the battle, all your characters will have 0 MP.  Each time they get
+a turn, a percentage of their max MP is restored.  Of course, you can charge
+up your MP really fast by using an Ether, which brings a character's MP to
+maximum.
+
+ADVANCED FEATURES
+Elemental System: There are five elements in Shifting Mazes - Water, Fire,
+Lightning, Wind, and Earth.  Besides the usual elemental weaknesses of
+enemies, you can now put elements on your characters.  You do this by
+collecting Crystals.  If you defend and an enemy with an element attacks
+you, you'll "Draw out" the crystal for that element.  Once you have a
+crystal, you can equip it on as many characters as you want. Do this by
+selecting Element on the Subscreen.  Each crystal makes you absorb and use
+it's element and cancels another element, but it also makes you weak against
+a certain element, so be careful what you equip.
+
+Defending:  Besides using Defend to draw out crystals, it reduces all damage
+by half until your next turn.  Shifting Mazes also uses the Defend-Attack
+system (which was in the 7th Saga for the Super NES).  If you defend and
+then attack on your next turn, you'll hit for 1.5 times as much.
+
+Hi-Scores: Shifting Mazes has two types of scoring systems.  You get a
+score for each dungeon level and for your whole game.  The main purpose
+of the dungeon level score is to give you secret abilities.  To get a
+secret ability, you must explore every space in the dungeon level, have one
+of all the secret poachable weapons that are available in that dungeon
+level, do the NPC thing right, and get enough experience points.
+
+The final score gives you a lot more information than the dungeon level
+score.  However, your place on the Hi Scores list is determined solely by
+how many experience points you got, but this score will be increased if you
+choose a higher difficulty level to discourage always choosing "Very Easy"
+just to get a high score.  You can view the top ten scores by selecting
+"Hi Scores" from the Title Screen.  Note that usually, your final score
+doesn't matter that much as far as making the game any easier; it's just
+there because Hi Scores lists are cool.  However, if you get a perfect
+score in many of the categories, you just might unlock a hidden secret...
+
+Auto-Battling: To aid in level gaining and for user-friendliness, Shifting
+Mazes has an auto-battle system.  You can set one ability on each character,
+and also select a target for the ability.  After setting up the ability, you
+can use it quickly in battle by simply pushing the spacebar on the main
+battle menu.  To set an ability, select AutoBattle on the subscreen.  A
+list of all the character's abilities, (except items, run, and switch, which
+you can't set), will be displayed.  Select an ability, then select a target.
+To undo a move, select Remove instead.  Note that even if you set a weapon
+ability to your auto-battle ability, using it by pushing SPACE will not
+affect the weapon's compatability.
+
+One trick you can do with the Auto Battle option is if you think your
+party is really tough, you can set an ability for each character, then
+hold the spacebar in battle to always use that ability.  The battle should
+be over in less than a second, and you can still view the end of battle
+screen because you must push ESC to get out of it.
+
+VS: One of the best part of Shifting Mazes is the VS mode, which allows 2
+players to take their saved files and fight each other.  To have a 2 player
+battle, select VS on the Title Screen, then select the file for each player.
+You will also have the option of making all characters on the level of the
+strongest character, just to make things fair.  In battle, the player whose
+turn it is will be printed at the right side of the screen.  To make things
+easier, one person could use the arrows and enter key on the number keypad,
+(you'll have to turn off Num Lock for this to work).  However, then that
+player wouldn't be able to use hotkeys.
+
+Maze Creation: Once you've beaten the game, you'll be able play the 2nd
+quest.  One feature of this quest is that you can create your own mazes
+and play them instead of the game's pre-made dungeon levels.  To do this,
+you must first use Maze Editor to create a maze.  Select 'Maze Edit' on
+the title screen and follow the instructions to create the maze (it's
+really easy), then save it to a floppy disk.  It's important to use a
+disk to save the maze, and you can't move the file around once it's done;
+the game will only read mazes from disks that aren't in any folders.
+Remember, the maze you create can only have 1 exit, key, and NPC, and
+exactly 4 Maze Masters.
+
+CREDITS: Shifting Mazes was created by Adam Richard
+Original music by Larry Holder
+
+Enjoy the game!
+
