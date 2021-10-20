@@ -1,0 +1,39 @@
+#Location of recipes.  They must all be in the same directory.
+#All files in this directory will be considered.
+RECIPES=$HOME/recipes/supper
+
+#File to write the grocery list to.
+#Technically optional; if omitted, grocery list isn't written,
+#but since this is such an important feature I don't see why you would
+#omit it
+GROCERY_LIST=$HOME/Desktop/grocery_list.txt
+
+#Optional input file for the user to provide already-made recipes, etc.
+INPUT=$HOME/Desktop/meals.txt
+
+#Where to write the resulting meal schedule.  Technically optional,
+#but it's pretty much the main result of the program.
+SCHEDULE=$HOME/Desktop/schedule.txt
+
+#An optional file of ingredients to add to the grocery list
+#every time (e.g. milk, bread)
+REG_INGREDIENTS=$HOME/recipes/reg_ingredients.txt
+
+#Optional.  If present, an output file which will contain a list
+#of the recipes chosen by the program, in the form of a script.
+#This is useful just to see the recipes that were chosen if you don't
+#want a meal schedule, but is also a script to install these recipes
+#as well as the grocery list on a Palm, if you have pilot-link and use
+#Linux.  This is extremely useful to me so I can bring the grocery list
+#to the grocery store and read the recipes as I'm cooking (since my
+#computer isn't visible from my kitchen).
+RECIPE_LIST=$HOME/Desktop/install_recipes
+
+#Optional.  If present, the program will assume it contains a list
+#of all ingredients you own.  If you then run "meals onhand", it will
+#suggest recipes to you that you have most or all of the necessary 
+#ingredients for already.  Also, when generating the grocery list,
+#it will mark ingredients you already own so you can quickly delete 
+#them from the list.
+OWNED_INGREDIENTS=$HOME/recipes/owned_ingredients.txt
+
