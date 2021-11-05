@@ -1,0 +1,42 @@
+Human footprint - 26.4 Gt per year
+
+This was what I calculated as my carbon footprint while living in my mini-home (I believe before the heat pump):
+Electricity: 250kWh per month + heat which is 3000kWh per year
+= 6000kWh per year total
+Total House Footprint = 3.43 metric tons of CO2e
+Total Flights Footprint = 0.25 metric tons of CO2e
+Total Secondary Footprint = 1.77 metric tons of CO2e (e.g. the stuff you buy and the food you eat)
+Total = 5.45 metric tons of CO2e
+    -But the numbers for electricity here are generalized.  You have to take into account the type of electricity used by your power company, and for NB, the carbon footprint is actually quite a bit less - it would be more like 2 metric tons from electricty, or about 4 metric tons total.
+
+To reduce it further, I basically have to find a way to avoid using so much electricity and still not drive much, and possibly several other smaller lifestyle choices
+Ideas to live more ethically:
+-Lease my house and move in with roommates or somewhere more convenient
+-Move to a warm climate
+-Move to a farm
+-Move to a house where I can get solar panels
+
+Really in the long run I have to either move away or find a way to get heat ethically - either a wood stove or, better, a passive house (or at least use less space and have it be better insulated).
+
+Living in the country - extra cost of going to Fredericton once a week:
+100 km * 200 g CO2e / km
+= 20 kg CO2e per trip
+= 1000 kg CO2e per year
+So it seems like it would be fairly significant to drive from the country even once a week - about 1 metric ton of emissions per year, where my current carbon footprint is already about 5 metric tons per year.
+If I got an electric bike or even a normal bike it might be OK.
+
+
+TV / computer use:
+CO2e is 14,920 pounds per household, assuming approximately 957 kWh per month
+
+6.7675981604 / 12 metric tons per 957 kWh
+0.000589307 per kWh
+So if I watch TV / computer for 4 hours, it would be 0.4 kWh
+Multiply by 365 days gives about 0.086 metric ton per year, which isn't that much
+
+Carbon footprints of flights:
+0.67 metric tons:	Economy class direct return flight from YMQ to GUA (Montreal to Guatamala)
+0.61 metric tons:	Economy class direct return flight from YFC to YVR (Fredericton to Vancouver)
+from http://calculator.carbonfootprint.com/calculator.aspx?tab=3
+
+(But http://michaelbluejay.com/electricity/carboncalculator.html gives higher results, calculating number of hours in the air.)
