@@ -6,4 +6,4 @@ To measure the electricity use of specific devices, you can borrow an energy met
 
 To see my calculations of electricity usage for specific things, see my slides on carbon footprint:
 
-https://adam4235.github.io/encyclopedia/energy_efficiency/freeschool_slides.pdf
+https://adam4235.github.io/encyclopedia/energy_efficiency/carbon_footprint_slides.pdf
