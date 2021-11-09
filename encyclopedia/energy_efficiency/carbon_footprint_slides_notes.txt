@@ -1,0 +1,20 @@
+The slides came from a workshop I did at Free School.  Some references from the numbers in the slides:
+
+Hot water: 5 gallons = 1kWh, according to this:
+    http://energy.gov/eere/femp/energy-cost-calculator-electric-and-gas-water-heaters-0
+And an 8 min shower takes about 10 gallons
+
+Lawnmower seems to use about 0.59 gallons per hour http://www.ehow.com/info_12217386_far-can-lawn-mower-ride-one-tank.html
+
+-carbon footprint of burning gas
+    1 gallon = 0.00889 metric tons  (from http://www.epa.gov/cleanenergy/energy-resources/refs.html)
+-mileage of car: about 48 kilometers per gallon
+    1 gallon = 0.00889 metric tons  (from http://www.epa.gov/cleanenergy/energy-resources/refs.html)
+    So going 1000 km is about 0.185 metric tons for Joseph
+  = 181.899277752 g/km CO2 
+  = 0.000182 metric tons
+  So I use 0.182 metric tons from driving Joseph
+-carbon footprint of a kilowatt hour: 0.00069 metric tons (from http://www.epa.gov/cleanenergy/energy-resources/refs.html) 
+-carbon footprint of a plane / train / bus
+    0.22 metric tons to go from Fredericton to Toronto and back.  0.02 to go about the same distance (2000km) by train.  0.34 by car.
+    http://calculator.carbonfootprint.com/calculator.aspx?tab=4
