@@ -1,0 +1,143 @@
+Classic arcade games:
+-Pong (has one free version at https://www.ponggame.org)
+-Pac Man (I have Pac Man Vs., and it's included in Namco Museum)
+-Space Invaders (open-invaders on Linux)
+-Asteroids (I already downloaded a free javascript-based version from http://www.kevs3d.co.uk/dev/asteroids/)
+-Donkey Kong (I already have Mario vs. Donkey Kong)
+-Donkey Kong Jr.
+-Donkey Kong 3
+-Dig Dug (part of Namco Museum for Switch, or also available on Steam)
+-Galaga (it's mostly a 2D space shooter though, and there are better ones) (part of Namco Museum for Switch, or also available on Steam)
+-Centipede
+-Millipede
+-Missile Command
+-Breakout
+-Joust
+-Mario Bros. (included in Mario Advance)
+
+It seems like you can also play a lot of these classic arcade games at https://archive.org/details/consolelivingroom.
+It doesn't seem to work though - many games take forever to load and then pressing various buttons doesn't seem to do anything.
+https://www.pcworld.com/article/2842453/internet-archive-brings-900-classic-arcade-games-to-your-browser.html
+https://archive.org/details/arcade_joust
+https://archive.org/details/internetarcade
+
+It looks like the Internet Archive can legally allow you to play old games in your browser if they aren't for sale anymore:
+https://www.sott.net/article/368188-Internet-Archive-wins-copyright-reprieve-can-now-store-old-computer-games-and-software
+
+Atari Vault has 100 games (but not all the good ones).  It's on Linux.  It lets you play online multiplayer.
+http://store.steampowered.com/app/400020/Atari_Vault/
+
+There's also ARCADE GAME SERIES on Steam which contains 3 games, Ms. Pac Mac
+
+There's also the Atari Flashback series of physical "mini" consoles that try to replicate the Atari 2600 but with games built-in.  But they still don't have all the good games: Pac-Man and Ms. Pac Man are missing, and the Donkey Kong games, and Dig Dug, Galaga, Joust, Mario Bros are all missing from it.
+
+It does seem like a lot of these games are from the Atari 2600.
+
+Atari Vault:
+    3D Tic Tac Toe - 2600
+    Adventure - 2600
+    Air Sea Battle - 2600
+    Asteroids - 2600
+    Asteroids - Arcade
+    Asteroids Deluxe - Arcade
+    Backgammon - 2600
+    Basic Math - 2600
+    Basketball - 2600
+    Black Widow - Arcade
+    Blackjack - 2600
+    Bowling - 2600
+    Brain Games - 2600
+    Breakout - 2600
+    Canyon Bomber - 2600
+    Casino - 2600
+    Centipede - 2600
+    Centipede - Arcade
+    Championship Soccer - 2600
+    Checkers - 2600
+    Chess - 2600
+    Circus Atari - 2600
+    Code Breaker - 2600
+    Combat - 2600
+    Combat 2 - 2600
+    Concentration - 2600
+    Crystal Castles - 2600
+    Crystal Castles - Arcade
+    Demons to Diamonds - 2600
+    Desert Falcon - 2600
+    Dodge-Em 2600
+    Double Dunk - 2600
+    Fatal Run - 2600
+    Flag capture - 2600
+    Football - 2600
+    Golf - 2600
+    Gravitar - 2600
+    Gravitar - Arcade
+    Hangman - 2600
+    Haunted House - 2600
+    Homerun - 2600
+    Human Cannonball - 2600
+    Liberator - Arcade
+    Lunar Lander - Arcade
+    Major Havoc - Arcade
+    Maze Craze - 2600
+    Millipede - 2600
+    Millipede - Arcade
+    Miniature Golf - 2600
+    Missile Command - 2600
+    Missile Command - Arcade
+    Night Driver - 2600
+    Off the Wall - 2600
+    Outlaw - 2600
+    Pong - Arcade
+    Quadrun - 2600
+    Race - 2600
+    Radar Lock - 2600
+    RealSports Baseball - 2600
+    RealSports Basketball - 2600
+    RealSports Boxing - 2600
+    RealSports Football - 2600
+    RealSports Soccer - 2600
+    RealSports Tennis - 2600
+    RealSports Volleyball - 2600
+    Red Baron - Arcade
+    Return to Haunted House - 2600
+    Save Mary - 2600
+    Secret Quest - 2600
+    Sentinel - 2600
+    Sky Diver - 2600
+    Slot Machine - 2600
+    Slot Racers - 2600
+    Sword Quest Fireworld - 2600
+    Space Duel - Arcade
+    Space War - 2600
+    Sprint - Arcade
+    Sprint Master - 2600
+    Star Raiders - 2600
+    Starship - 2600
+    Steeplechase - 2600
+    Stellar Track - 2600
+    Street Racer - 2600
+    Stunt Cycle - 2600
+    Sub Commander - 2600
+    Super Baseball - 2600
+    Super Breakout - Arcade
+    Super Breakout -2600
+    Super Football - 2600
+    Surround - 2600
+    Sword Quest Earthworld - 2600
+    Sword Quest Waterworld - 2600
+    Tempest - 2600
+    Tempest - Arcade
+    Video Cube - 2600
+    Video Olympics - 2600
+    Video Pinball - 2600
+    Warlords - 2600
+    Warlords - Arcade
+    Yars Revenge - 2600
+
+Atari Vault 50 Game Add-On Pack:
+    14 Arcade games: Avalanche, Atari Baseball, Atari Basketball, Canyon Bomber, Destroyer, Dominos, Fire Truck, Atari Football, Maze Invaders, Monte Carlo, Pool Shark, Sky Diver, Atari Soccer, Super Bug
+    16 Atari 5200 games: Asteroids, Centipede, Countermeasure, Final Legacy, Micro-Gammon, Millipede, Miniature Golf, Missile Command, Realsports Baseball, Realsports Basketball, Realsports Football, Realsports Soccer, Realsports Tennis, Star Raiders, Super Breakout, Xari Arena
+    12 M Network games for the Atari 2600: Air Raiders, Armor Ambush, Astroblast, Dark Cavern, Frogs and Flies, International Soccer, Sea Battle, Space Attack, Star Strike, Super Challenge Baseball, Super Challenge Football, Swordfight
+    8 prototype and limited-edition homebrew games for the Atari 2600: Adventure II, Aquaventure, Frog Pond, Holey Moley, Motorodeo, Saboteur, Wizard, Yars' Return
+

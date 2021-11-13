@@ -1,0 +1,89 @@
+2D Platform
+    Mario games
+        Mario 1 & Lost Levels
+        Mario 3
+        Mario World
+        New Super Mario Bros Wii
+        Super Mario Maker
+    Gunman Clive
+    Mega Man (most)
+    Mario Vs. Donkey Kong
+    Sonic (most)
+    Kirby Super Star
+    Donkey Kong games
+        Donkey Kong Country
+        Donkey Kong Country Returns
+2D action / puzzle
+    Mario Vs. Donkey Kong
+    Lost Vikings
+3D Platform / exploration
+    Mario games
+        Mario 64
+        Super Mario 3D World
+Metroidvania
+    Super Metroid
+    Metroid: Zero Mission
+Strategy
+    Tactical RPG
+        Final Fantasy Tactics
+        Kartia
+    Turn-based Strategy
+        Ogre Battle
+        Fire Emblem (most)
+        Advance Wars (most)
+        Battle for Wesnoth
+        Wargroove
+    Real-time strategy
+        Starcraft 2
+        Age of Empires 2
+        Megaglest
+        Zero-K
+        Command and Conquer 3
+        Command and Conquer: Red Alert 2
+        Command and Conquer: Red Alert 3
+    Action Strategy
+        Worms: Armageddon (or Hedgewars)
+    4X Strategy
+        Civilization 5
+Puzzle
+    Pokemon Puzzle League
+    Kirby's Avalanche
+    Lemmings
+    Ms. Pac Man Maze Madness
+RPG
+    Chrono Trigger
+    Final Fantasy (many)
+    Earthbound
+    Mario RPG
+    Paper Mario
+    Mega Man Battle Network (most)
+    Pokemon Stadium
+Adventure
+    Zelda (most)
+    Brain Lord
+First Person Shooter
+    Star Fox Assault
+2D shooter
+    Contra 3
+2D space shooter
+    Ikaruga
+    Gradius / Life Force (most)
+3D space shooter
+    Star Fox
+    Star Fox 64
+    Star Fox Assault
+Arcade / Simple
+    Pac Man VS
+Fighting
+    Super Smash Bros (most)
+Racing
+    Mario Kart (most)
+    Uniracers
+Exercise
+    Just Dance (most)
+    Dance Dance Revolution
+    Wii Fit
+Simulation
+???
+    Blast Corps
+
