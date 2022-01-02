@@ -6,7 +6,7 @@ prep.:20
 cook:25
 recipe source: GI diet cookbook (mom's)
 
-1 # butternut squash
+1 # buttercup squash
 1 # leeks
 1 # onion
 1 # carrot
