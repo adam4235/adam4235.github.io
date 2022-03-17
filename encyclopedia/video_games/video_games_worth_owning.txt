@@ -133,4 +133,6 @@ Paper Mario
 Donkey Kong
 Donkey Kong Jr.
 Donkey Kong 3
-
+Bomberman 94
+Zelda: Majora's Mask
+Mega Man Battle Network 3
