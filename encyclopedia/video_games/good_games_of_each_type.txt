@@ -33,6 +33,7 @@ Strategy
         Advance Wars (most)
         Battle for Wesnoth
         Wargroove
+		Valkyria Chronicles
     Real-time strategy
         Starcraft 2
         Age of Empires 2
