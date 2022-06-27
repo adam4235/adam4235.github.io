@@ -40,3 +40,13 @@ Carbon footprints of flights:
 from http://calculator.carbonfootprint.com/calculator.aspx?tab=3
 
 (But http://michaelbluejay.com/electricity/carboncalculator.html gives higher results, calculating number of hours in the air.)
+
+Data on carbon footprint per kilowatt-hour by province gives 0.280kg/kWh for NB, as opposed to 0.589307kg/kWh that my original calculation had given:
+
+https://www.statista.com/statistics/917172/emission-intensity-canada-by-province/
+
+As of 2019, the world average was 0.4611 kg/kWh.  So NB seems to be better than the world average.  The Canada average is 0.140kg/kWh (above link), so NB is worse than that.
+
+https://consumerecology.com/carbon-footprint-of-electricity/
+
+Using the NB value my carbon footprint when I calculated it in 2015 would have been just under the world average of 4.
