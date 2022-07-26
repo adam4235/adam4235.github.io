@@ -1,6 +1,0 @@
-How to adjust gears of bike:
-
--Keep the chain lubricated to make the gears change easily
--If that's not sufficient, then maybe the gear cable is stretched.  The way it works is that when you pull on that cable it causes the derailleur to move and the gears to shift - squeezing the handlebars pulls the cable.  So you have to loosen the nut at the bottom of the derailleur, and move it up or down while testing each gear to get it to shift when the correct gear is selected.
--There are 2 "limit" screws as well, which you don't really need - they're to block the chain from going off the sprockets altogether, but might be useful to build bikes from parts where one part was designed for a different number of gears than another.
--Should also oil all the pivot points of the derailleur - on my bike there are 4 of them.
