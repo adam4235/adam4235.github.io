@@ -1,0 +1,20 @@
+task          freq   last done
+bathroom        14 352
+sweep            7 352
+sheets          14 357
+dust            28 100
+clip nails      21 352
+oil bike chain  21 363
+pump bike tires 21 363
+Memorize SIN,medicare,Mastercard PIN,TD bank password,debit PIN  28 363
+Backup to Red USB          30 335
+Clean computer (Greg said I can use dad's air compressor for cleaning the inside of his case, but be careful that the pressure doesn't get too high, and then leave the computer turned off for twelve hours in case any moisture got inside)  365 105
+Wash shower curtain 365 105
+Clean fridge and under fridge 365 105
+Wash pillows.  Polyester-filled pillows can go in the washing machine normally.  Cotton / feather one can too but have to be dried right away, so if you don't have a drier it has to be a hot sunny day, and they should be washed with one other pillow and nothing else in the washing machine.  365 105
+Clean stove and under stove 365 105
+Backup all computer files and email  365 105
+Clean bathtub and sink scum marks - let baking soda mixed with a bit of water soak on them for a while before scrubbing.  Or a Mr. Clean Magic Eraser also works really well.  365 105
+Clean windows   365 135
+Wash outdoor clothes and blankets - Use cold water in the washing machine and don't put wool in the dryer    365 142
+
