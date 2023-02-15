@@ -1,4 +1,7 @@
-To log in automatically to Linux without getting a display manager:
+To log in automatically to Linux with XFCE window manager:
+Usually this is an option when you install Linux.  There's an Automatic Login setting in the GUI settings, under System -> Login Window.
+
+To log in automatically to Linux a custom window manager:
 
 -get the mingetty program
 -edit your /etc/initrc to use mingetty instead of agetty, with the --autologin option.  This logs in the user to a non-GUI environment.

@@ -1,5 +1,0 @@
-Privacy checklist:
--disable third-party cookies in browsers
--use a VPN
--use ShareMeNot Firefox extension
-

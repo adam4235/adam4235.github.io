@@ -1,9 +1,0 @@
--Get boost src (boost_1_33_1.tar.bz2)
-
--Unpack
-
-Run ./configure --help
-	-Select which libraries to compile
-	-Select where to put them (home directory best)
-
-./configure --with-libraries=filesystem --prefix=$HOME/programming/boost/lib
