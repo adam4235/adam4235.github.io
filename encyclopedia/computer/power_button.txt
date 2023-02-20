@@ -1,5 +1,0 @@
-In linux, to make the power button turn off the computer, you need the program
-acpid.  In Gentoo, merely installing it and making it start at startup caused the power button to shutdown
-the computer.  To change what happens when it's pressed, edit files in 
-/etc/acpi/events.
-
