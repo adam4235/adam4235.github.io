@@ -1,8 +1,16 @@
+To make a recording of your desktop, Kazam works.  You have to select the correct audio device in Preferences, though, and it's difficult to figure out which one to select.
+sudo apt install kazam
+
+Then to convert to ogv:
+ffmpeg -i input.mp4 -c:v libtheora -q:v 7 -c:a libvorbis -q:a 4 output.ogv
+
+---
+Older methods that used to work, but didn't last time I tried them:
+
 How to record the audio coming from your speakers (also called recording "Stereo Mix" or loopback Output), and make a video of what's happening on your computer:
 
 https://unix.stackexchange.com/questions/110696/arecord-to-record-what-is-playing-on-speakers
 
-This worked:
 arecord -D pulse_monitor test.wav
 
 after setting up ~/.asoundrc as this:
