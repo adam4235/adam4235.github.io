@@ -1,0 +1,35 @@
+Steps to set up web server on own computer:
+
+1. Install apache2
+2. In the modem / router settings, go to DHCP reservation to give my computer the same private IP address within the network each time it starts.
+3. In the modem / router settings, set up port forwarding to forward ports 80 and 443 from the modem's public IP to my computer's private IP.  External people connecting from the internet to my website are actually connecting to the IP address of my modem, so the port forwarding tells the modem which computer on our network to send that connection to.
+4. Use duckdns.org to get a free domain name associated with my IP address (i.e. with my modem's public IP address, which changes sometimes).  DuckDNS is a dynamic domain name server, which means it updates the domain name to point to the modem's IP address whenever the modem's IP address changes.
+5. Use letsencrypt to get an SSL certificate
+6. This is the apache2 config file:
+
+<VirtualHost *:80>
+
+	ServerAdmin admin@adamrichard.duckdns.org
+	ServerName adamrichard.duckdns.org
+	DocumentRoot /var/www/adamrichard.duckdns.org
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
+<VirtualHost *:443>
+
+    ServerName              adamrichard.duckdns.org
+
+    SSLEngine               On
+    SSLCertificateFile      /etc/dehydrated/certs/adamrichard.duckdns.org/fullchain.pem
+    SSLCertificateKeyFile   /etc/dehydrated/certs/adamrichard.duckdns.org/privkey.pem
+    DocumentRoot            /var/www/adamrichard.duckdns.org
+
+    ErrorLog ${APACHE_LOG_DIR}/adamrichard.duckdns.org-error.log
+    CustomLog ${APACHE_LOG_DIR}/adamrichard.duckdns.org-access.log combined
+
+</VirtualHost>
+
+7. To test the site, it seems you have to browse to it via the tor browser, or from a computer outside the home network where the server is (such as a phone's mobile data plan).  Something prevents the site from being accessed from within the home network.  Apparently it's possible to use something called "Split DNS" to get around this, where you set up your own DNS server which sends you to the local (private) IP for your website when you're within your network, then falls back on another DNS server for all other sites.  But this seems time consuming and error-prone.
+
