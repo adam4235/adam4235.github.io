@@ -1,0 +1,18 @@
+To use a PS3/PS4 DualShock controller for PC games in Windows, I used the ScpToolkit driver.
+    -Note: this driver is old and isn't maintained anymore, but it still worked for me.
+    -Note: this requires plugging in the controller via USB, rather than using Bluetooth.
+
+This guide is what I followed for the PS3 controller:
+
+https://www.pcgamer.com/ps3-controller-on-pc-guide/
+
+It tells you install these prerequisites:
+Microsoft .NET Framework 4.5
+Microsoft Visual C++ 2010 Redistributable Package
+Microsoft Visual C++ 2013 runtime
+Microsoft DirectX runtime
+
+--------------
+
+For some Steam games, it's necessary to change the controller layout.  To do this, right click the game in the Steam library -> Manage -> Controller Layout.  Then download one of the community layouts.  I had to do this for Final Fantasy VII, for which the default controller layout was very bad and the D-Pad didn't work at all.
+
