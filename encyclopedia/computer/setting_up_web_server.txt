@@ -1,9 +1,21 @@
 Steps to set up web server on own computer:
 
 1. Install apache2
+    sudo apt install lamp-server^
+    apachectl -V
+    sudo systemctl enable apache2
+    sudo systemctl status apache2
+    mysql -V
+    sudo systemctl enable mysql
+    sudo systemctl status mysql
+    php -v
+    sudo apt autoremove && sudo apt clean
+Also enable SSL in apache2:
+    sudo a2enmod ssl
 2. In the modem / router settings, go to DHCP reservation to give my computer the same private IP address within the network each time it starts.
 3. In the modem / router settings, set up port forwarding to forward ports 80 and 443 from the modem's public IP to my computer's private IP.  External people connecting from the internet to my website are actually connecting to the IP address of my modem, so the port forwarding tells the modem which computer on our network to send that connection to.
-4. Use duckdns.org to get a free domain name associated with my IP address (i.e. with my modem's public IP address, which changes sometimes).  DuckDNS is a dynamic domain name server, which means it can update the domain name to point to the modem's IP address whenever the modem's IP address changes.  To keep it updated, you need to follow the install instructions and create a duck.sh script which runs under your user's crontab with crontab -e.
+    Source: https://stackoverflow.com/questions/22730420/how-to-configure-apache-webserver-to-be-accessed-by-public-domain-or-static-ip
+4. Use duckdns.org to get a free domain name associated with my IP address (i.e. with my modem's public IP address, which changes sometimes).  DuckDNS is a dynamic domain name server, which means it can update the domain name to point to the modem's IP address whenever the modem's IP address changes.  To keep it updated, you need to follow the install instructions (https://www.duckdns.org/install.jsp) and create a duck.sh script which runs under your user's crontab with crontab -e.
 5. Use letsencrypt to get an SSL certificate.  It's simplest to get a non-wildcard certificate, which means in the domains.txt file, just enter the domain name, instead of a wildcard.  Also need to create a script to renew the certificate once in a while and add it to your user's crontab with crontab -e.
 6. This is an example of how you can configure the apache2 config file:
 
@@ -31,8 +43,18 @@ Steps to set up web server on own computer:
 
 </VirtualHost>
 
-7. To test the site, it seems you have to browse to it via the tor browser, or from a computer outside the home network where the server is (such as a phone's mobile data plan).  Something prevents the site from being accessed from within the home network.  Apparently it's possible to use something called "Split DNS" to get around this, where you set up your own DNS server which sends you to the local (private) IP for your website when you're within your network, then falls back on another DNS server for all other sites.  But this seems time consuming and error-prone.
+7. To test the site, it seems you have to browse to it via the tor browser, or from a computer outside the home network where the server is (such as a phone's mobile data plan).  Something prevents the site from being accessed from within the home network.  Apparently it's possible to use something called "Split DNS" to get around this, where you set up your own DNS server which sends you to the local (private) IP for your website when you're within your network, then falls back on another DNS server for all other sites.  But this seems time consuming and error-prone, so I haven't done it.
 
+Source: https://gofoss.net/
+
+Apache guide:
+https://httpd.apache.org/docs/2.4/getting-started.html
 
 -Note: I checked Bell's terms of service and as I understand it, it's allowed to have your own web page on your own computer.  What you can't do is sell part of your connection for someone else to use.
+
+-Note: I added this to apache2.conf:
+ServerName localhost
+to get rid of a warning "Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName"0
+See:
+https://stackoverflow.com/questions/9541460/httpd-could-not-reliably-determine-the-servers-fully-qualified-domain-name-us?rq=1
 
