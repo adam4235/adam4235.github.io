@@ -33,3 +33,6 @@ Steps to set up web server on own computer:
 
 7. To test the site, it seems you have to browse to it via the tor browser, or from a computer outside the home network where the server is (such as a phone's mobile data plan).  Something prevents the site from being accessed from within the home network.  Apparently it's possible to use something called "Split DNS" to get around this, where you set up your own DNS server which sends you to the local (private) IP for your website when you're within your network, then falls back on another DNS server for all other sites.  But this seems time consuming and error-prone.
 
+
+-Note: I checked Bell's terms of service and as I understand it, it's allowed to have your own web page on your own computer.  What you can't do is sell part of your connection for someone else to use.
+
