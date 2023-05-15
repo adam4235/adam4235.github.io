@@ -3,9 +3,9 @@ Steps to set up web server on own computer:
 1. Install apache2
 2. In the modem / router settings, go to DHCP reservation to give my computer the same private IP address within the network each time it starts.
 3. In the modem / router settings, set up port forwarding to forward ports 80 and 443 from the modem's public IP to my computer's private IP.  External people connecting from the internet to my website are actually connecting to the IP address of my modem, so the port forwarding tells the modem which computer on our network to send that connection to.
-4. Use duckdns.org to get a free domain name associated with my IP address (i.e. with my modem's public IP address, which changes sometimes).  DuckDNS is a dynamic domain name server, which means it updates the domain name to point to the modem's IP address whenever the modem's IP address changes.
-5. Use letsencrypt to get an SSL certificate
-6. This is the apache2 config file:
+4. Use duckdns.org to get a free domain name associated with my IP address (i.e. with my modem's public IP address, which changes sometimes).  DuckDNS is a dynamic domain name server, which means it can update the domain name to point to the modem's IP address whenever the modem's IP address changes.  To keep it updated, you need to follow the install instructions and create a duck.sh script which runs under your user's crontab with crontab -e.
+5. Use letsencrypt to get an SSL certificate.  It's simplest to get a non-wildcard certificate, which means in the domains.txt file, just enter the domain name, instead of a wildcard.  Also need to create a script to renew the certificate once in a while and add it to your user's crontab with crontab -e.
+6. This is an example of how you can configure the apache2 config file:
 
 <VirtualHost *:80>
 
