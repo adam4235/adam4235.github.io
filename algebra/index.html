@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.emscripten {
+  height: 100%;
+  width: 100%;
+}
+</style>
+
+</head>
+
+<body>
+    <canvas class="emscripten" id="canvas" height="100%"></canvas>
+<script type='text/javascript'>
+    var Module = {
+        canvas: (function() {
+            var canvas = document.getElementById('canvas');
+            return canvas;
+            })()
+    };
+</script>
+
+<script>
+
+      var script = document.createElement('script');
+      script.src = "algebra.js";
+      document.body.appendChild(script);
+
+</script>
+
+</body>
+</html>
+
