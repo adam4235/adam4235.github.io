@@ -8,36 +8,20 @@
 </head>
 <body>
 
+<p>These instructions are if you want to be connected to the internet but still pretty private.  For an offline iPhone (more private, but syncing with the computer has to be done manually), alternate instructions are <a href="iphone_reduced_tracking_offline.html">here</a>.
+
 <p>Although I definitely <b>do not</b> recommend buying an iPhone, sometimes we get stuck with them.  Especially if you try to always buy used phones, which is a good idea.  A phone with <a href="https://lineageos.org/">LineageOS</a> and without installing the Google apps is a much better choice for a privacy phone that gives you choices, and <a href="https://gofoss.net/">this</a> is a good guide for better privacy, but if that involves buying a new phone from Amazon as opposed to making do with an old phone that nobody wants, then some of us are stuck with an iPhone.  Apple probably tracks you less than Google, because tracking is Google's main business model, whereas Apple's business model is to try to force you to use Apple services and buy more Apple products.</p>
 
 <p>So the idea here is using an iPhone minimally, as just a phone plus any offline apps you find useful (Camera, alarm clock, etc.).  It's less convenient and you have to jump through a ton of hoops because of Apple's limitations, and I can't guarantee it will work, but in the end I was able to get a more private iPhone 8 than I would have by doing things their way.</p>
 
 <ol>
 <li><p>When you set up the phone for the first time or after a factory reset, don't create an Apple ID and don't get an iCloud account.  The interface makes it non-obvious to avoid creating one but it should be possible, at least on the older models.</p></li>
-<li><p>If you want to access files from your computer on your phone, instead of syncing them with cloud storage, you can sync them via USB cable on a Linux computer.  Note: on iPhone, text files are read-only because it doesn't have a text editor, so I basically live with viewing my files on my phone, and waiting until I'm at my computer if I want to modify one.</p>
-    <ol>
-    <li><p>First install Firefox (or some other app that lets you transfer files from your computer) on the phone from the App store - I believe this is necessary so you have a folder to copy files to in your Linux computer, because all files that get transferred are associated with a particular app, and iOS is so badly designed that there's no default app to associate the files with.</p></li>
-    <li><p>Plug in the phone via USB cable in your Linux computer.  It should appear in your file manager (for me, Thunar, and it appears under Devices).</p></li>
-    <li><p>Go in the Firefox folder, then go to File -&gt; Open in Terminal.  In the terminal window that opens, enter the command <code>pwd</code> to show the path of the files on the phone.</p></li>
-    <li><p>Write a script using rsync to copy files from your computer to your phone.  E.g.:
-    <p><code>
-rsync -rt --modify-window=1 --progress --delete ${HOME}/phone_folder ${phone_loc}
-    </code></p>
-    <p>where <code>${phone_loc}</code> is the folder where the phone's files are stored which you found via the above process.  Note: A second call to rsync to copy from the phone to the computer could let you sync the files, but since files on the iPhone are read-only, there isn't much point in my case.</p>
-    </li>
-    <li><p>Note: Pictures from your camera appear on a separate device in the file manager and have a separate folder to copy the files from.  Rather than syncing them to iCloud to get them on my computer, I move them to the computer via the USB cable and then delete them from the phone.</p></li>
-    <li><p>Note: For music, I copied my music to my phone once via iTunes in Windows, then don't need to sync it anymore.  I can't find another way to copy music to my phone's Music app via Linux.</p></li>
-    </ol>
-</li>
-<li><p>For contacts, instead of syncing them in the cloud, you can just store them on the phone, and export them each time you edit or delete one.  Then that exported file can be backed up to your computer as part of the above script.
-To export, it's a bit non-obvious:  You have to go the contact list in Contacts, long press on the list, Export, then scroll down to find the Save to Files opion.</p>
-<p>Note: this is for contacts that you call, i.e. a speed dial.  You don't need to store email addresses in your contacts, email can be done on your computer and a separate address book of email addresses can be maintained there.  You can still use your phone to receive emails and even reply to emails with a short reply without needing an address book of email addresses.</p>
-<p>Note: to initially import your contacts from a .vcf file, you can put the .vcf file in with your files and then click on it in the Files app.  However, I ran into some problems doing this: some contacts didn't get imported, and if you import them twice, you get a bunch of duplicates, and there's no way to delete all your contacts and try again.  That's why I only did the import initially, and only do exports on a regular basis.</p>
-</li>
-<li><p>Backing up or syncing your Calendar without using the cloud it more difficult.  <a href="https://radicale.org/v3.html">radicale</a> is one piece of software to create a server to sync your calendar between your computer and phone, however I found it very difficult to set up to sync with an iPhone, because Apple requires SSL to sync calendars even if they're on your home network.  Even setting up radicale at all is not easy.  The option I went with is to use cloud storage of a company that I trust more than Apple / Google (I went to NextCloud's website and signed up for a basic free cloud storage account).  You can also, of course, maintain a paper calendar, but I find a digital calendar on my phone and computer to be more useful.</p>
+<li><p>To sync your files, calendar and contacts with your Linux computer, install a Nextcloud server (self-hosted) on your Linux computer, as well as the Nextcloud client on the computer, and the Nextcloud iOS app on your phone.  Instructions to install the server are <a href="nextcloud_self_hosted.txt">here</a>.  With iOS, you need to set up SSL, and since the files will be only made available on your home network, it has to be a self-signed SSL certificate, as described in those instructions.</p>
+<p>An advantage of using the Nextcloud app on iPhone is that it lets you edit your text files on the phone, which the iOS Files app doesn't allow, and it's difficult to find a tracking-free app that allows you to do that.  The Nextcloud app is listed in the App Store as doing no tracking (and is available on F-Droid too for Android devices).</p>
+<p>It also has the option to copy pictures you take to Nextcloud, so they can by synced.</p>
+<p>Note: For music, I copied my music to my phone once via iTunes in Windows, then don't need to sync it anymore.  Perhaps a Nextcloud music app would be a better solution.</p>
 </li>
 <li><p>For web browsing, there's no good option.  Unfortunately Apple forces you to use Safari - other browsers on iOS are just "skins" for Safari.  The important thing is to get into the habit of not surfing the internet on your phone.  Wait until you're at your computer, although there are some sites which don't track you which are pretty safe to read on your phone, such as this one.  This may seem like a big limitation, but web browsing on a phone is slow anyway, so getting into the habit of going to your computer to search something can be beneficial anyway.</li></p>
-<li><p>If you want high privacy, you could avoid even connecting to the internet at all, just using a basic phone plan with no data and don't connect to wifi.  That would mean not receiving emails or other messages on your phone and not syncing your calendar - because unfortunately I haven't found a way to sync the calendar via a USB cable.</li></p>
 </ol>
 
 <p>So as you can see this process will not fully protect you.  To be 100% protected you have to live without a cell phone.  But it's a compromise that minimizes, rather than eliminates, Surveillance Capitalism.</p>
