@@ -28,6 +28,9 @@ To be able to sync with an iPhone, you need to enable SSL (https://docs.nextclou
 sudo nextcloud.enable-https self-signed
 -Then enter my IP address (192.68.2.35) in the server field on the phone when adding a new CalDAV or CardDAV account, and my username and password.  It gives a warning because of the self-signed certificate but I clicked through and it worked.
 
+Note: I noticed that Nextcloud gives errors when syncing large numbers of small files that are initially added.  It wasn't that important to me to sync all my files, so I just reduced the things I'm syncing.  Here's a bug report:
+https://github.com/nextcloud/desktop/issues/1035
+
 Sources: 
 https://www.freecodecamp.org/news/snapd-nextcloud/
 https://github.com/nextcloud-snap/nextcloud-snap
