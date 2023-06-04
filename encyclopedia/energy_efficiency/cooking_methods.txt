@@ -1,0 +1,9 @@
+Comparing the power usage of induction plate, instant pot, and stovetop element that plugs into the wall.
+
+instant pot for 5 min: 0.13kWh (about 1000W while heating up, then about 0W)
+porridge: induction plate for 5 min at level 3: 0.04kWh.  Much less than instant pot.
+bannock bread: with old cooking element, 11 min + 3 min at power 4.5, 0.14kWh.  With induction plate, 10 min + 3 min at power 5, 0.15kWh.  So doesn't save energy compared to the old stovetop element.
+frying rice: with induction plate, 5 min at power 4, 0.05kWh
+
+It seems the induction plate is no more energy efficient than the stovetop element, just more convenient.  It's way more efficient for cooking porridge and other things that don't take long, but maybe the instant pot is more efficient for longer things such as rice or beans.
+
