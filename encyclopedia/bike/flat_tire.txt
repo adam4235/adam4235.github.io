@@ -3,11 +3,14 @@ Repairing a bike's flat tire or a hole in the tire:
 1.Put the bike upside down
 2.Take the wheel off (the flat one) along with any parts that must come off.
 Remember how to put it back together.
-3.Take out the inner tube by prying the outer tube off with a prying tool.
+3.Take out the inner tube by prying the outer tube off with a prying tool (a chisel can work too).  Start from the side opposite the valve, because it's easier.
 4.If you don't know where the hole is, put the inner tube in water & watch for
 bubbles.
 5.Sand the area around the hole.
 6.Put rubber cement on it.  Wait 10 minutes.
   (or, instead of steps 6 & 7, use a patch like the one that came with my bike kit)
 7.Put a patch over the area.
-8.Put everything back.
+8.Put everything back.  Make sure the valve on the inner tube is coming straight through the hole, not at an angle (I got a hole in the inner tube at the valve once by putting it at an angle, causing the wheel to cut the valve).
+
+Normally, patches are actually not worthwhile - it's better to just replace the inner tube with a new one when it gets a hole in it.  But if you're on a long bike trip and get a flat you might need to use a patch.
+
