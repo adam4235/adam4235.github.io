@@ -51,7 +51,6 @@ Arcade Game Series: Dig Dug
 Sonic Mania
 Blaster Master Zero
 Bit Blaster XL
-Valkyria Chronicles
 
 Nintendo 64:
 Blast Corps
@@ -61,6 +60,9 @@ Playstation
 Final Fantasy Tactics
 Ms. Pac-Man Maze Madness
 Castlevania Symphony of the Night
+
+Playstation 3
+Valkyria Chronicles
 
 Game Boy Advance:
 Super Mario World
