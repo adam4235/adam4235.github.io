@@ -1,56 +1,61 @@
 Video games worth owning, taking re-releases into consideration:
 
-PC (DRM-free):
+PC (free and DRM-free and on Linux):
 Battle for Wesnoth
 OpenRA
-FTL: Faster than Light
 Hedgewars (a Worms clone)
-Shifting Mazes
-VVVVVV
 Neverball (Super Monkey Ball clone)
 Duck Marines (Chu Chu Rocket clone)
-Rymdkapsel
-Mindustry
 Zero-K
-Ironclad Tactics
-Into the Breach
-Undertale
 StepMania
 open-invaders (Space Invaders clone)
 Ostrich Riders (Joust clone)
-Baba Is You
-Renowned Explorers: International Society
-Super Time Force Ultra
 Lix (Lemmings clone)
-Hollow Knight
 
-PC (with DRM):
+PC (DRM-free and on Linux):
+FTL: Faster than Light
+Shifting Mazes
+VVVVVV
+Rymdkapsel
+Mindustry
+Into the Breach
+Undertale (but I bought the Steam version already)
+Baba Is You
+Renowned Explorers: International Society (but I bought the Steam version already)
+Super Time Force Ultra (but I bought the Steam version already)
+
+PC (with DRM, but on Linux):
+Ironclad Tactics (has a DRM-free version but only the DRM version is multiplayer)
 Screeps
 Civilization V
-Heroes of Might and Magic 3
-Plants vs. Zombies
-Age of Empires II: Definitive Edition
+Wargroove (can be made to work on Linux with a bit of effort, it seems)
+Ultimate Chicken Horse
+Atari Vault
+Bit Blaster XL
+
+PC (with DRM):
+Heroes of Might and Magic 3 (might work on wine)
+Plants vs. Zombies  (might work on wine)
+Age of Empires II: Definitive Edition  (might work on wine)
 Final Fantasy 4
 Final Fantasy 5
 Final Fantasy 6
 Final Fantasy 7
 Final Fantasy 9
-Starcraft
-Starcraft 2
-Command and Conquer: Red Alert 3
-Command and Conquer 3: Tiberium Wars
-Command and Conquer: Red Alert 2
+Starcraft  (might work on wine)
+Starcraft 2 (doesn't work well on wine, but might be able to be modified to work?)
+Command and Conquer: Red Alert 3 (might work on wine)
+Command and Conquer 3: Tiberium Wars  (might work on wine)
+Command and Conquer: Red Alert 2 (might work on wine, and they need people to test it)
 Toybox Turbos
-Wargroove
 Chrono Trigger
-Ultimate Chicken Horse
-Atari Vault
 Arcade Game Series: Galaga
 Arcade Game Series: Pac Man
 Arcade Game Series: Dig Dug
-Sonic Mania
+Sonic Mania  (might work on wine)
 Blaster Master Zero
-Bit Blaster XL
+Final Fantasy VII Remake Intergrade
+Persona 5 Royal
 
 Nintendo 64:
 Blast Corps

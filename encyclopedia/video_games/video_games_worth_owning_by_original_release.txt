@@ -1,38 +1,4 @@
-Video games worth owning, by original release:
-
-PC (DRM-free):
-Battle for Wesnoth
-FTL: Faster than Light
-Shifting Mazes
-VVVVVV
-Rymdkapsel
-Mindustry
-Zero-K
-Ironclad Tactics
-Into the Breach
-Undertale
-StepMania
-Baba Is You
-
-PC (with DRM):
-Screeps
-Civilization V
-Renowned Explorers: International Society
-Super Time Force Ultra
-Heroes of Might and Magic 3
-Plants vs. Zombies
-Age of Empires II
-Starcraft
-Starcraft 2
-Command and Conquer: Red Alert 3
-Command and Conquer 3: Tiberium Wars
-Command and Conquer: Red Alert 2
-Toybox Turbos
-Wargroove
-Worms Armageddon
-Gunman Clive HD collection
-Ultimate Chicken Horse
-Sonic Mania
+Console games worth owning, by original release:
 
 Amiga:
 Lemmings
@@ -114,6 +80,13 @@ Final Fantasy Tactics
 Playstation 3:
 Valkyria Chronicles
 
+Playstation 4:
+Persona 5 Royal
+Pesona 5 Strikers
+
+Playstation 5:
+Final Fantasy VII Remake Intergrade
+
 Game Boy Advance:
 Mega Man Battle Network
 Final Fantasy Tactics Advance
@@ -140,6 +113,7 @@ Super Mario Maker
 Mario Kart 8
 Mario Bros U
 Luigi Bros U
+Mario 3D World
 
 Switch:
 Zelda: Breath of the Wild
