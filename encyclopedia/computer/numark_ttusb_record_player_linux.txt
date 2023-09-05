@@ -1,0 +1,13 @@
+To record a record with the Numark TTUSB record player in Linux:
+
+Need the Audacity software.
+
+Before starting Audacity, first plug it into USB and plug the record player into an outlet.
+
+In the Sound Settings for the operating system (this was with Pop_OS!), select the Input Device as Analog Input - PCM2900 Audio Codec
+Start Audacity.  In Audacity, leave the Input Device and Playback Device as Default.  I think this means it will take the Input Device / Output Device chosen in the operating system.
+If you want the music to play as you're recording it, go to Edit -> Preferences -> Recording and check Software Playthrough of Input
+Put the needle at the start of the record.
+Press Record in Audacity.
+Push play on the record player to start the turntable.
+
