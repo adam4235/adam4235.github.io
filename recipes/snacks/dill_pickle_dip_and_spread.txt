@@ -1,0 +1,20 @@
+vegetable:
+meat:
+yield (meals * people):
+prep.:15
+cook:0
+recipe source:mom
+
+1 c almond flour (ground almonds)
+2 tbsp olive oil
+2 tbsp lemon juice OR
+0.5 # lemon
+2 tbsp pickle juice
+1 # dill pickle
+0.25 tsp garlic powder
+0.25 tsp onion powder
+0.5 tsp salt
+
+finely chop the dill pickle
+mix everything in a bowl
+
