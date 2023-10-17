@@ -1,0 +1,7 @@
+If you install Syncthing Tray, it can be configured to start Syncthing in Windows so that there's no console output window in your way.
+
+-Run Syncthing Tray
+-Set it to start at startup
+-Set it to start Syncthing at startup (you have to give it the path to the Syncthing executable, and it gets run with the --no-browser option by default)
+-Don't set Syncthing to start at startup on its own
+
