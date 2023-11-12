@@ -37,6 +37,6 @@ recipe source:mom
 -while boiling, make biscuits.  Mix dry ingredients, then gradually mix in oil, then mix in milk.  Knead 10x and form into a ball
 -grease baking dishes to prevent it from getting stuck
 -Put stew in a baking dishes, and take small balls of bicuit dough and put on top
--Bake for 15 min.
+-Bake for 25 min (original recipe said 15, but it seems to need more).
 
 Note: Original recipe had salt to add to the leeks / beans, but it was too salty.
