@@ -1,22 +1,21 @@
 Video games worth owning, taking re-releases into consideration:
 
 PC (free and DRM-free and on Linux):
-Battle for Wesnoth
+Battle for Wesnoth (but I have it on Steam too)
 OpenRA
 Hedgewars (a Worms clone)
 Neverball (Super Monkey Ball clone)
 Duck Marines (Chu Chu Rocket clone)
-Zero-K
+Zero-K (but I have it on Steam too)
 StepMania
 open-invaders (Space Invaders clone)
 Ostrich Riders (Joust clone)
 Lix (Lemmings clone)
 
 PC (DRM-free and on Linux):
-FTL: Faster than Light
+FTL: Faster than Light (but I have the Steam version already)
 Shifting Mazes
 VVVVVV
-Rymdkapsel
 Mindustry
 Into the Breach
 Undertale (but I bought the Steam version already)
@@ -32,6 +31,7 @@ Wargroove (can be made to work on Linux with a bit of effort, it seems)
 Ultimate Chicken Horse
 Atari Vault
 Bit Blaster XL
+Rymdkapsel (was purchased DRM-free, but the Linux package no longer works.  It works in Steam on Linux.)
 
 PC (with DRM):
 Heroes of Might and Magic 3 (might work on wine)
