@@ -18,7 +18,7 @@ recipe source:http://www.chow.com/recipes/29537-lentil-salad
 1 tbsp parsley
 
 -Rinse lentils
--Boil lentils in a pot with lots of water for 10 min, or in instant pot for 15 min
+-Boil lentils in a pot with lots of water (2:1 ratio of water:lentils is probably best) for 10 min, or in instant pot for 15 min
 -Chop vegetables
 -Put vegetables and other ingredients in a bowl, mix together
 -If not using instant pot, after lentils have boiled for 10 min, uncover and keep boiling for 15-20 more minutes or longer, or until tender
