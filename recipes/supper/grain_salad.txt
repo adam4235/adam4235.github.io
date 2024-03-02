@@ -1,0 +1,31 @@
+vegetable:1
+meat:0
+yield (meals * people):4
+prep.:30
+cook:60
+recipe source:mom
+
+0.66 c rye kernels
+0.66 c oat groats
+0.66 c barley
+3.75 c water
+2 # soup cubes
+0.5 # onions
+1 # carrots
+1 stalks celery
+0.5 bunches brocolli
+6 # mushrooms
+0.125 tsp cayenne
+3 cloves garlic
+0.25 tsp pepper
+0.75 tbsp basil
+0.75 tbsp parsely
+2 tbsp oil
+
+-Put the grains in a wok or large frying pan and cook them on low heat for about 5 minutes, stirring constantly, with no water or anything.  They should pop and smell nutty.
+-Cook the grains and soup cubes in the instant pot for 30 min.  I'm not sure if this will be too much water for the instant pot, or too much time, so adjust later if it is and drain them if necessary.
+-Chop and fry the vegetables in a bit of water, and add the spices.  Do the garlic first.
+-Mix it all together and add oil at the end.
+
+Note: this is a different process than the recipe had, but seems healthier.  (See mom_recipe_originals for original)
+
