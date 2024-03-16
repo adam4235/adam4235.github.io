@@ -23,8 +23,8 @@ recipe source:mom
 2 tbsp oil
 
 -Put the grains in a wok or large frying pan and cook them on low heat for about 5 minutes, stirring constantly, with no water or anything.  They should pop and smell nutty.
--Cook the grains and soup cubes in the instant pot for 30 min.  I'm not sure if this will be too much water for the instant pot, or too much time, so adjust later if it is and drain them if necessary.
--Chop and fry the vegetables in a bit of water, and add the spices.  Do the garlic first.
+-Cook the grains and soup cubes in the instant pot for 30 min.
+-Chop and fry the vegetables in a bit of water, and add the spices.  Do the brocolli first, then the garlic.
 -Mix it all together and add oil at the end.
 
 Note: this is a different process than the recipe had, but seems healthier.  (See mom_recipe_originals for original)
