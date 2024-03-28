@@ -1,18 +1,18 @@
 sweet_potato_burgers
 vegetable:1
 meat:1
-yield (meals * people):8
+yield (meals * people):4
 prep.:10
 cook:30
 recipe source: Rachel Kirby, modified
 
-4 # sweet potatoes
-2 c navy beans
-1 tbsp maple syrup
-1 tsp salt
-0.5 c flour
-1 # avocado
-2 bit oil
+2 # sweet potatoes
+1 c navy beans
+0.5 tbsp maple syrup
+0.5 tsp salt
+1 c flour
+0.5 # avocado
+1 bit oil
 
 -Peel and boil sweet potatoes (about 10 min)
 -Mash in pot with kidney beans and avocado
