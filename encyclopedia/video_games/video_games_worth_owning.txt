@@ -37,9 +37,6 @@ PC (with DRM):
 Heroes of Might and Magic 3 (might work on wine)
 Plants vs. Zombies  (might work on wine)
 Age of Empires II: Definitive Edition  (might work on wine)
-Final Fantasy 4
-Final Fantasy 5
-Final Fantasy 6
 Final Fantasy 7
 Final Fantasy 9
 Starcraft  (might work on wine)
@@ -52,10 +49,9 @@ Chrono Trigger
 Arcade Game Series: Galaga
 Arcade Game Series: Pac Man
 Arcade Game Series: Dig Dug
-Sonic Mania  (might work on wine)
 Blaster Master Zero
 Final Fantasy VII Remake Intergrade
-Persona 5 Royal
+Defense Grid: The Awakening
 
 Nintendo 64:
 Blast Corps
@@ -128,7 +124,6 @@ Luigi Bros U
 
 Wii U Virtual Console:
 Earthbound
-Mario RPG
 Super Metroid
 Donkey Kong Country
 Fire Emblem: Shadow Dragon
@@ -149,4 +144,10 @@ Switch:
 Crisis Core: Final Fantasy VII
 Triangle Strategy
 Super Mario Odyssey
+Sonic Mania
+Final Fantasy Pixel Remaster
+Persona 5 Royal
+Persona 5 Strikers
+Mario RPG
+Zelda: Link's Awakening
 
