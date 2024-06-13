@@ -8,7 +8,7 @@ recipe source:mom
 0.66 c rye kernels
 0.66 c oat groats
 0.66 c barley
-3.75 c water
+3.5 c water
 2 # soup cubes
 0.5 # onions
 1 # carrots
