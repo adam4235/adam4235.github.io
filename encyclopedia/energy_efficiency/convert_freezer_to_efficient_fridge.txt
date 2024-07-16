@@ -1,23 +1,5 @@
-    I've mentioned in a couple of threads on this forum about a great conversion project for a fridge in the garage. I converted an old chest freezer that I purchased for $40 used and a digital thermostat I got off of ebay for less than $20. It uses on average a little less than 190 wh per day. Very easy to run on solar, of which I do.
-
-    These are a couple of links to the references I used to blueprint my DIY project off of. They are not advertisements, so I hope they don't get deleted by the mods, as I think that they offer good information for people interested in doing the same.
-
-
-http://www.ehow.com/how_5684552_convert-chest-freezer-refrigerator.html
-
+Can get a fridge that's loaded from the top (usually called a convertible chest freezer / refrigerator), or make one out of a freezer.  There are lots of links on the internet about this, e.g.:
 http://lifehacker.com/5334245/convert-a-chest-freezer-into-a-super-efficient-refrigerator
 
-    After looking at a couple of the articles, it gets kind of redundant. The premise is the same, and the controller is a variant of the same thing as well.
-
-    Here is a YouTube video of the same idea.
-
-    http://www.youtube.com/watch?v=ISJLyHK457I
-
-    http://www.youtube.com/watch?v=2UeuO2x7xgU
-
-
-    Again, this is one of the best projects I have done with my DIY solar panels. My converted freezer to fridge uses on average less than190 watt hours a day, and I have over 15 cu ft of fridge in my garage!
-
-    Good luck in your endeavours. 
-
+Chest fridges are more efficient because cold air falls.
 
