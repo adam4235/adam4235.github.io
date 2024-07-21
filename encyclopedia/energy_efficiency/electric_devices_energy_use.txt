@@ -1,9 +1,0 @@
-Fridge used 1.2kWh in about 24 hours (on a day that I opened it a bit more than usual)
-But over a week (including that day) it used only 5.41kWh and was on for 44h51min (the first day it was on for 9h and something).
-So opening it does seem to waste quite a bit of energy, but it doesn't seem to use that much.
-
-To measure the electricity use of specific devices, you can borrow an energy meter from the library.
-
-To see my calculations of electricity usage for specific things, see my slides on carbon footprint:
-
-https://adam4235.github.io/encyclopedia/energy_efficiency/carbon_footprint_slides.pdf
