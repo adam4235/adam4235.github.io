@@ -1,2 +1,0 @@
-To use VirtualBox and set up the guest as any kind of server, such as to let it share files over Samba with other computers, you have to set it to use "Bridged Networking" instead of NAT.  Otherwise, only the host operating system of VirtualBox can communicate with it.
-
