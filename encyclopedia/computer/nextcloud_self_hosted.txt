@@ -1,0 +1,44 @@
+Nextcloud on home network:
+
+This seems like a good solution for syncing with iPhone especially because, in addition to syncing files, calendar and contacts automatically (eliminating the need to connect the iPhone by cable to back things up), the Nextcloud app on iPhone also allows editing files.  The app is open source and doesn't track (is on F-Droid on Android too).  And the data doesn't get stored on a company's computer.  Although Syncthing + Radicale may be simpler / faster, it only works for Android or LineageOS, not iPhone.
+
+To set up the server on a Linux computer (I used Linux Mint), and only accessible from the local network:
+
+1. Give the computer a set private IP address that stays the same through the modem settings (http://home)
+2. Enable Snap packages, if they aren't enabled.  In Linux Mint:
+sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.backup
+Snap is controversial but I found it to be the easiest way to get it set up.
+3. Disabled the existing Apache:
+https://askubuntu.com/questions/170640/how-do-i-stop-apache2-from-automatically-starting-on-boot
+4. Install the Nextcloud Snap package:
+sudo apt update
+sudo apt install snapd -y
+sudo snap install nextcloud
+5. Browse to the Nextcloud server in a web browser (This wasn't obvious from the documentation.)  E.g. on the same computer, browse to:
+http://localhost
+
+Also had to add to a config file (/var/snap/nextcloud/current/nextcloud/config/config.php) my IP address (the specific IP address that doesn't change).  So the trusted_domains array in that file should look something like this, replacing the IP address with the one you gave your computer:
+  'trusted_domains' => 
+  array (
+    0 => 'localhost',
+    1 => '192.168.2.35',
+  ),
+
+To be able to sync with an iPhone, you need to enable SSL (https://docs.nextcloud.com/server/19/user_manual/pim/sync_ios.html).  If it's to be accessed on a local network, it must be a self-signed certificate.  With the NextCloud Snap package:
+sudo nextcloud.enable-https self-signed
+-Then enter my IP address (192.68.2.35) in the server field on the phone when adding a new CalDAV or CardDAV account, and my username and password.  It gives a warning because of the self-signed certificate but I clicked through and it worked.
+
+Note: I noticed that Nextcloud gives errors when syncing large numbers of small files that are initially added.  It wasn't that important to me to sync all my files, so I just reduced the things I'm syncing.  Here's a bug report:
+https://github.com/nextcloud/desktop/issues/1035
+
+Sources: 
+https://www.freecodecamp.org/news/snapd-nextcloud/
+https://github.com/nextcloud-snap/nextcloud-snap
+
+Note: if I want other things to run on the same server, might need to change the ports that NextCloud is using.
+https://help.nextcloud.com/t/using-the-snap-installed-nextcloud-as-a-webserver/75718
+
+A couple things about the Nextcloud iOS app:
+    -You have to set all the files / folders as available offline
+    -I noticed that NextCloud, including TheGoodCloud, doesn't seem to support Push in the iphone settings, which is weird.  Things eventually sync, but the smallest Fetch interval is only every 15 minutes.
+
