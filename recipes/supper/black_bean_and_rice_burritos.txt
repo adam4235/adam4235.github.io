@@ -1,0 +1,32 @@
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30 min
+cook:80 min
+recipe source: https://gimmedelicious.com/crispy-black-bean-and-rice-burritos/
+
+1 c black beans
+1 c cooked rice
+0.5 c corn
+0.5 # bell pepper
+0.5 # onion
+0.25 chopped_c cilantro
+1 tbsp coconut oil
+1 tsp salt
+1 tsp pepper
+1 tsp cumin
+0.5 # lime
+1 bit cheese
+1 bit salsa
+
+Soak the beans overnight (if using dried beans) and cook them in the Instant Pot
+Add the coconut oil to a large skillet
+Add the corn
+Chop and add the pepper
+Chop and add the onion
+Chop and add the cilantro
+Add the rice
+Fry everything for about 10-20 min on low.  As it fries, squeeze in the juice from the lime and add the spices
+Add cheese and salsa
+When making a wrap, can fry it in a frying pan for about a minute on each side to make it crispy, perhaps adding a bit of oil to the frying pan.
+
