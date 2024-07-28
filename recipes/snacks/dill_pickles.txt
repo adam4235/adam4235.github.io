@@ -1,0 +1,24 @@
+vegetable: 1
+meat: 0
+yield (meals * people): 8
+prep.: 15
+cook: 0
+recipe source: https://cookieandkate.com/best-pickles-recipe/
+
+1 # cucumber
+0.5 c water
+0.5 c apple cider vinegar vinegar
+1.5 tablespoons maple syrup
+1.5 tsp salt
+0.25 tsp black pepper
+2 sprigs fresh dill
+2 cloves garlic
+1 # bay leaf
+
+Cut the cucumber into pieces that fit in a jar (for pickle spears, it’s important that all the pickles fit snugly, vertically).
+Whisk the water, vinegar, syrup, salt and pepper in a bowl.  Stir until salt is dissolved.
+Cut up the dill and add it.
+Chop the garlic and add it.
+Tuck the bay leaf into the side.
+Pour the liquid over everything.
+
