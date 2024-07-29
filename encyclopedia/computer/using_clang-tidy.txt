@@ -1,6 +1,0 @@
-To run clang-tidy on a project, it has to have been built with CMake.  For example, after building the barrier project from source, go to the build directory and then run this command:
-
-run-clang-tidy
-
-To get it to work, I first had to get clang++ to work at all.  This meant installing libstdc++-12-dev (the latest version of libstdc++-dev), for some reason.
-

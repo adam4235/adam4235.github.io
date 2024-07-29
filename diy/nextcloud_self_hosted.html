@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Nextcloud On Home Network - Adam Richard's web page</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<meta name="verify-v1" content="4/mG9oS4Lf1rMyBTvGki15cU15wul+vJZkVj/6nH4bg=" />
+    <meta name="viewport" content="initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://github.com/adam4235/adam4235.github.io/commits/master.atom">
+</head>
+<body>
+    <h1>Nextcloud On Home Network</h1>
+
+    <p>This seems like a good solution for syncing with iPhone especially because, in addition to syncing files, calendar and contacts automatically (eliminating the need to connect the iPhone by cable to back things up), the Nextcloud app on iPhone also allows editing files.  The app is open source and doesn't track (is on F-Droid on Android too).  And the data doesn't get stored on a company's computer.  Although Syncthing + Radicale may be simpler / faster, it only works for Android or LineageOS, not iPhone.</p>
+
+    <p>To set up the server on a Linux computer (I used Linux Mint), and only accessible from the local network:</p>
+
+    <ol>
+    <li><p>Give the computer a set private IP address that stays the same through the modem settings (http://home)</p></li>
+    <li><p>Enable Snap packages, if they aren't enabled.  In Linux Mint:</p>
+    <pre>sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.backup</pre>
+    <p>Snap is controversial but I found it to be the easiest way to get it set up.</p></li>
+    <li><p><a href="https://askubuntu.com/questions/170640/how-do-i-stop-apache2-from-automatically-starting-on-boot">Disable the existing Apache:</a></p>
+    <li><p>Install the Nextcloud Snap package:</p>
+    <pre>
+sudo apt update
+sudo apt install snapd -y
+sudo snap install nextcloud</pre></li>
+    <li><p>Browse to the Nextcloud server in a web browser (This wasn't obvious from the documentation.)  E.g. on the same computer, browse to:
+<pre><a href="http://localhost">http://localhost</a></pre></li>
+    <li>
+<p>Also had to add to a config file (/var/snap/nextcloud/current/nextcloud/config/config.php) my IP address (the specific IP address that doesn't change).  So the trusted_domains array in that file should look something like this, replacing the IP address with the one you gave your computer:</p>
+<pre>'trusted_domains' =&gt; 
+  array (
+    0 =&gt; 'localhost',
+    1 =&gt; '192.168.2.35',
+  ),
+</pre>
+</li>
+<li><p>To be able to sync with an iPhone, you need to <a href="https://docs.nextcloud.com/server/19/user_manual/pim/sync_ios.html">enable SSL</a>.  If it's to be accessed on a local network, it must be a self-signed certificate.  With the NextCloud Snap package:
+<pre>sudo nextcloud.enable-https self-signed</pre>
+<p>Then enter my private IP address (e.g. 192.68.2.35) in the server field on the phone when adding a new CalDAV or CardDAV account, and my username and password.  It gives a warning because of the self-signed certificate but I clicked through and it worked.</p></li>
+</ol>
+
+<p>Note: I noticed that Nextcloud gives errors when syncing large numbers of small files that are initially added.  It wasn't that important to me to sync all my files, so I just reduced the things I'm syncing.  <a href="https://github.com/nextcloud/desktop/issues/1035">Here's a bug report.</a></p>
+
+<hr>
+<p>Sources:</p>
+<a href="https://www.freecodecamp.org/news/snapd-nextcloud/">https://www.freecodecamp.org/news/snapd-nextcloud/</a><br />
+<a href="https://github.com/nextcloud-snap/nextcloud-snap">https://github.com/nextcloud-snap/nextcloud-snap</a><br />
+
+<p>Note: if I want other things to run on the same server, might need to <a href="https://help.nextcloud.com/t/using-the-snap-installed-nextcloud-as-a-webserver/75718">change the ports that NextCloud is using.</a></p>
+
+<p>A couple things about the Nextcloud iOS app:</p>
+<ul>
+    <li>You have to set all the files / folders as available offline</li>
+    <li>I noticed that NextCloud, including TheGoodCloud, doesn't seem to support Push in the iphone settings, which is weird.  Things eventually sync, but the smallest Fetch interval is only every 15 minutes.</li>
+</ul>
+
+</body>
+</html>
+

@@ -1,3 +1,0 @@
-If you give a label to the partition on a USB disk (e.g. phone), then it always gets mounted with that name in Ubuntu.  To change a label on a disk, you can use GParted - see these instructions:
-https://help.ubuntu.com/community/RenameUSBDrive
-

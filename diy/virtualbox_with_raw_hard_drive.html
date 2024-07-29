@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Using Virtualbox With A Raw Hard Drive - Adam Richard's web page</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<meta name="verify-v1" content="4/mG9oS4Lf1rMyBTvGki15cU15wul+vJZkVj/6nH4bg=" />
+    <meta name="viewport" content="initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://github.com/adam4235/adam4235.github.io/commits/master.atom">
+</head>
+<body>
+<h1>Using Virtualbox With A Raw Hard Drive</h1>
+<p>If you use VirtualBox and make the hard drive map to a separate real hard drive with a different operating system, you can put Linux and Windows each on their own hard drive, and use VirtualBox to run either one from within the other, while still being able to boot either one when you start your computer.</p>
+
+<p>Here are the instructions: <a href="https://superuser.com/questions/495025/use-physical-harddisk-in-virtual-box">https://superuser.com/questions/495025/use-physical-harddisk-in-virtual-box</a><p>
+
+<p>When following those instructions, one thing they omit is that you have to run the setup commands and VirtualBox as root / Administrator.  At least I couldn't find an alternative that worked.</p>
+
+<p>Another problem I ran into is that with a Windows host, the physical hard drive kept changing, probably when I switched the drives around or did something in the BIOS.  This is because Windows references the hard drive by a number (0 or 1 if there are 2 hard drives), rather than by something like a UUID.  So you have to be careful not to boot it if the hard drive has changed.</p>
+
+
+<p>According to <a href="https://web.archive.org/web/20120411164809/http://scarygliders.net/2011/10/28/virtualbox-on-windows-7-host-with-raw-disk-access-solution-to-randomly-changing-disc-assignment-numbers/">this</a>, you can prevent the disks from randomly being reassigned by using the WinObj program to get an ArcName for the disk.  I tried doing that with this command:</p>
+
+<pre>
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands createrawvmdk -filename C:\VirtualBoxDrives\raw-linux.vmdk -rawdisk "\\.\GLOBALROOT\ArcName\multi(0)disk(0)rdisk(1)"
+</pre>
+
+<p>So far it seems OK, but I'm skeptical it will work in all cases - maybe that numbering also changes randomly upon rebooting.</p>
+
+<p>Another thing that's useful when using this approach is to have Linux boot immediately if it's being loaded from Windows as a virtual machine guest, rather that popping up grub to ask for the operating system.  <a href="https://superuser.com/questions/298238/configuring-grub-to-choose-different-os-when-inside-vm/298258">This</a> question shows how to do this.</p>
+
+<p>Note that using Linux as the host and Windows as the guest seems kind of pointless for playing Windows games, because VirtualBox isn't able to use the full capabilities of the graphics card (<a href="https://askubuntu.com/questions/139320/enable-graphics-card-in-virtualbox">source</a>).  I tried it but had significant issues.</p>
+</body>
+</html>
+
