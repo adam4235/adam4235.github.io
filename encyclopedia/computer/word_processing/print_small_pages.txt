@@ -1,5 +1,0 @@
-To print something so that the resulting page will be smaller than a letter sized piece of paper, with something on both sides:
-
-Create a word processor document, and first set all margins to 1" or so.  Next, for the front of the page figure out how wide the paper will be; then subtract that number from 6.5".  This gives you the extra margin.  6.5" is chosen because that's the width of the text for normal documents with 1" margins.  For example, to print to make a 3.5" wide piece of paper, you need to add an extra 3" to the margins.
-
-For the first page, add this extra amount to the right margin; for the second page, add it to the left margin.  This way, when the printer prints it, the front and back will be lined up.  Then you can cut out the resulting piece of paper to get the small page.
