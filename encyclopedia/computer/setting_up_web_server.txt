@@ -1,0 +1,3 @@
+This document has moved here:
+https://adam4235.github.io/diy/setting_up_web_server.html
+
