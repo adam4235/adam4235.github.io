@@ -1,0 +1,28 @@
+vegetable: 1
+meat: 1
+yield (meals * people): 6
+prep.: 30
+cook: 120
+recipe source: Originally from Canadian Living, but have a Word document from mom
+
+2 c kidney beans
+2 stalks celery
+1 # onion
+2 # sweet peppers (any color)
+0.33 c quinoa
+1.2 c lentils
+3 c water
+1 # soup cube
+1 c corn
+3 c tomato sauce
+0.5 tsp salt
+0.25 tsp black pepper
+1 tbsp chili powder
+1 tbsp coriander
+0.5 tbsp cumin
+
+Soak kidney beans overnight and cook them in pressure cooker
+Chop and saute the celery, onion and peppers in a pot for about 10 min.
+Rinse the quinoa and lentils.
+Add everything.  Simmer for an hour.
+
