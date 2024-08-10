@@ -1,0 +1,25 @@
+wheat_berry_salad
+vegetable:1
+meat:0
+yield (meals * people):5
+prep.:10
+cook:60
+recipe source: Based on http://www.foodnetwork.com/recipes/ellie-krieger/wheat-berry-salad-recipe2/index.html
+
+1.5 c rye kernels and oat groats
+0.75 chopped_c walnuts
+2 stalks celery
+1 # green onion
+0.5 c raisins
+1.5 tbsp parsely
+3 tbsp vegetable oil
+2 tbsp lemon juice
+
+-boil the grains for 45 min in instant pot in water (almost 2:1 ratio)
+-chop the walnuts
+-finely chop the celery and green onion
+-mix everything in a large bowl
+
+Note: original recipe had wheat berries instead.  I changed it to use up some oat groats and rye kernels.
+Note: the original recipe had dried cherries, but they're too expensive and I don't like them that much.  I replaced them with raisins.
+
