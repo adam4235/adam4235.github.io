@@ -15,7 +15,7 @@ recipe source: Based on http://www.foodnetwork.com/recipes/ellie-krieger/wheat-b
 3 tbsp vegetable oil
 2 tbsp lemon juice
 
--boil the grains for 45 min in instant pot in water (almost 2:1 ratio)
+-boil the grains for 45 min in instant pot in water (almost 2:1 ratio), or in a pot for 55 min with a 3:1 ratio.
 -chop the walnuts
 -finely chop the celery and green onion
 -mix everything in a large bowl

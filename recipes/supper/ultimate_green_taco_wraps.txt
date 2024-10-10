@@ -24,7 +24,7 @@ recipe source:Mom (from a cookbook, but I'm not sure which one)
 1 # avocado OR
 1 bit nothing
 
-Cook the lentils, adding enough water to them (15 min in instant pot)
+Cook the lentils, adding enough water to them (15 min in instant pot, using enough water to cover them)
 While they're cooking, chop and fry the green peppers and onion
 In a food processor, mince the garlic
 Add lentils and walnuts / pumpkin seeds to the food processor, use it to chop them but not fully blend them
