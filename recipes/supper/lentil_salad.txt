@@ -7,7 +7,8 @@ cook:35
 recipe source:http://www.chow.com/recipes/29537-lentil-salad
 
 2 c lentils
-1 # bay leaf
+1 # bay leaf OR
+1 bit nothing
 1 clove garlic
 2 # leeks
 3 # carrots
@@ -18,9 +19,10 @@ recipe source:http://www.chow.com/recipes/29537-lentil-salad
 1 tbsp parsley
 
 -Rinse lentils
--Boil lentils in a pot with lots of water (2:1 ratio of water:lentils is probably best) for 10 min, or in instant pot for 15 min
+-Boil lentils and bay leaf in a pot with lots of water (2:1 ratio of water:lentils is probably best) for 10 min, or in instant pot for 15 min
 -Chop vegetables
--Put vegetables and other ingredients in a bowl, mix together
+-Fry leeks and garlic in a bit of water (this prevents it from being too strong, I think, which it was when I put the leeks in raw)
+-Mix everything in a bowl
 -If not using instant pot, after lentils have boiled for 10 min, uncover and keep boiling for 15-20 more minutes or longer, or until tender
 
 Note: Original recipe had 3 tbsp red wine vinegar, but it tastes fine (maybe better) without it, and is probably better for my acid reflux.  It also had more salt.
