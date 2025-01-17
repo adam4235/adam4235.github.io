@@ -14,7 +14,7 @@ recipe source: http://allrecipes.com//Recipe/authentic-mexican-tortillas/Detail.
 -Combine dry ingredients (but only 3c flour) and mix
 -Gradually mix in oil
 -Gradually mix in water
--Heat a frying pan to very hot (Med-High on my stove), without oil
+-Heat a non-stick frying pan to very hot (5 on my induction plate), without oil
 -Roll into 6 balls
 -Roll a bit of flour on the outside of each one
 -Roll out each ball very thin
