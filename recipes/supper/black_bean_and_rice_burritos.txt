@@ -5,6 +5,7 @@ prep.:30 min
 cook:80 min
 recipe source: https://gimmedelicious.com/crispy-black-bean-and-rice-burritos/
 
+1 bunch tortillas
 1 c black beans
 1 c cooked rice
 0.5 c corn

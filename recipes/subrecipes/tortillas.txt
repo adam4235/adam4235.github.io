@@ -11,7 +11,7 @@ recipe source: http://allrecipes.com//Recipe/authentic-mexican-tortillas/Detail.
 0.5 cup vegetable oil
 0.75 cup hot water
 
--Combine dry ingredients (but only 3c flour) and mix
+-Combine dry ingredients (but only 3c flour) and mix.  It MUST be all-purpose flour - whole wheat flour does not work!
 -Gradually mix in oil
 -Gradually mix in water
 -Heat a non-stick frying pan to very hot (5 on my induction plate), without oil
