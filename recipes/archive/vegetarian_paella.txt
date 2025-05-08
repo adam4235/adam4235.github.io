@@ -1,0 +1,34 @@
+vegetarian_paella
+vegetable:1
+meat:0
+yield (meals * people):10
+prep.:20
+cook:30
+recipe source:http://herbsspices.about.com/od/vegetarianmaindishe1/r/VeggiePaella.htm
+ 
+4 tbsp oil
+2 # onion
+2 # carrots
+4 cloves garlic
+3 c rice
+7 c water
+6 # soup cubes
+1 bunches kale (a bunch is about 4 cups)
+2 # tomatoes
+2 c peas
+
+-Remove the tough stems of the kale, chop up the leaves, and set aside
+-Warm the oil in a large, deep-sided skillet (or pot, if making a large batch), paella pan or wok over medium-high heat.
+-Cut up onion and carrot, adding them.
+-saute for 5 to 7 minutes, until the onions begin to soften and turn translucent.
+-Chop the garlic in the meantime
+-Add the garlic and saute for one minute.
+-Add the rice and saute for one minute, until rice is coated with oil and the outside of the rice grains appear translucent.
+-Chop the tomatoes
+-Add the vegetable stock, kale, and tomatoes, stir, and bring to a boil. Reduce the heat to medium-low. Cover and simmer for 15 minutes, until most of the liquid is absorbed.
+-Stir in the peas, cover, and continue to simmer for about 5 minutes, until the rice is tender. Remove from the heat, and let stand for about 5 minutes.
+
+Note: original recipe also had artichokes (1 can, though I doubled the recipe so it should be 2 cans).  I found fresh ones didn't work well (I didn't like them and probably didn't cut out the right parts of them), and a can of artichokes was hard to find.  I don't think I ever found the frozen ones.
+Note: original recipe had 1 tsp of salt, but I found it too salty with the soup cubes as well.
+note: original recipe had paprika
+

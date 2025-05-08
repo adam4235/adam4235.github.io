@@ -1,0 +1,15 @@
+sloppy_joes
+vegetable:1
+meat:1
+yield (meals * people): 4
+prep: 15
+cook: 40
+time:40
+
+1 lb ground beef
+1 # onions
+300 ml pasta sauce
+1 can Campell's Condensed Soup Vegetable Hearty Vegetable with Pasta OR
+1 can Ministroni
+
+Heat the ground beef in the microwave until not hard.  Chop the onions.  Fry it.  Fry the onions with it.  Put everything in a pot (or the same frying pan) and bring to a boil.  Simmer 10 min, stirring occasionally.

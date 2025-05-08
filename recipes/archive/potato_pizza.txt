@@ -1,0 +1,26 @@
+potato_pizza
+vegetable:1
+meat:1
+yield (meals * people):3
+prep.:20
+cook:10
+recipe source:Kathy & John's website
+
+3 # potatoes
+2 tbsp flour
+0.25 tsp salt
+1 # egg
+1 tbsp vegetable oil
+200 ml pizza sauce
+0.5 # onion
+1 # pepperoni
+1 bunch mozarella cheese
+
+-Peel & Grate the potatoes, putting them in a large bowl
+-Heat oil in a large non-stick fry pan
+-Mix in the bowl the first 4 ingredients
+-Add potato mixture to pan and flatten into one big pancake.
+-Fry one side and then flip over until both sides are light brown and crispy.
+-Add sauce and pizza toppings except cheese to the potato crust.
+-Sprinkle with cheese (cheddar or mozzarella or whatever) and cover until cheese is melted.
+-If you want, you can put under the broiler or grill for a few minutes to brown the top before serving.

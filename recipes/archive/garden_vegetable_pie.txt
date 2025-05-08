@@ -1,0 +1,34 @@
+garden_vegetable_pie
+vegetable:2
+meat:1
+yield (meals * people):12
+prep.:30
+cook:35
+
+2 chopped_c broccoli
+2 chopped_c cauliflower
+0.5 # onions
+2 grated_c cheese (cheddar best)
+3 c milk
+1.5 c flour
+4 tsp baking powder
+2 tsp sugar
+10 tsp oil
+6 # eggs
+1 tsp salt
+0.5 tsp black pepper
+
+Cut up the broccoli and cauliflower into medium-sized pieces.
+Steam them.
+Get baking dish(es) out and put oil on to make it easier to clean.
+Chop the onion.  Put it in the baking dish.
+Preheat the oven to 375F when vegetables are almost steamed.
+Once the broccoli and cauliflower are done, cut them into smaller pieces.
+Put them in the baking dish.
+Mix the vegetables together.
+Put all other ingredients except cheese in the large bowl.
+Mix the ingredients in the bowl together.
+Put the mixture in the baking dish.
+Add the cheese.
+Mix it all together.
+Bake for about 35 minutes (until you can poke it with a fork with no liquid sticking to it).

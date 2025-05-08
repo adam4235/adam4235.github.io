@@ -1,0 +1,20 @@
+taco_salad
+vegetable:1
+meat:1
+yield (meals * people):5
+prep.:30
+cook:15
+recipe source: Amy (Caris recipe exchange)
+
+1 lb ground beef 
+1 package taco seasoning 
+1 # head lettuce
+1 # green pepper
+1 # red onion
+1 block cheese
+1 c French dressing
+1 bag corn chips
+
+Cook beef, adding taco seasoning to beef when cooked and stir, let simmer until it thickens. 
+Chop all veggies up, mix ingredients together.
+

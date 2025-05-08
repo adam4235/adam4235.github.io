@@ -1,0 +1,11 @@
+sausage_rolls
+vegetable:0
+meat:1
+yield:1
+prep.:1
+cook:12
+recipe source:package
+
+4 # sausage rolls
+
+Preheat oven to 350F. Cook for 12 min.

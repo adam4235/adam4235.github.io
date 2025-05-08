@@ -1,0 +1,18 @@
+pizza
+vegetable: 1
+meat: 1
+yield (meals * people): 2
+prep.: 5
+cook: 20
+
+1 # pizza crust
+1 bunch tomato sauce
+1 bunch cheese
+1 bunch pepperoni
+1 bunch onions
+
+chop the onion.
+grate the cheese.
+cut the pepperoni.
+Put it all together.
+Bake for 20 min at 350F on a cookie sheet (but use one that isn't non-stick so you can cut the pizza on it).

@@ -1,0 +1,25 @@
+hummus
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:20
+cook:0
+recipe source:Pastor's wife from Howie's church (board game night)
+See also:
+Mom's recipes, Simply in Season, 
+http://www.yummly.com/recipe/The-Homemade-Hummus-That-Changed-Everything-440333?prm-v1
+Worked OK with hulled tahini (though not much difference with or without tahini): http://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/
+This didn't work in the food processor, but it worked in the blender when I added water (it might work in the food processor if I make more - the liquid was below the blades): http://www.inspiredtaste.net/26901/easy-tahini-recipe/
+
+1 can chick peas, drained
+0.33 c tahini
+0.25 c lemon juice
+1 tsp salt
+4 cloves garlic
+0.5 c olive oil
+
+Cook chickpeas overnight
+Add all ingredients to food processor
+If it's too dry, keep adding a bit more oil
+PUT SOME IN THE FREEZER!  It goes bad after a few weeks in the fridge.
+

@@ -1,0 +1,37 @@
+vegetable:1
+meat:1
+yield (meals * people):6
+prep.:30
+cook:30
+recipe source:http://ohsheglows.com/2014/08/13/crispy-quinoa-cakes-vegan-gluten-free-nut-free/
+
+1 c quinoa
+4 tbsp ground flax seeds
+6 leaves kale
+1 c rolled oats
+1 grated_c sweet_potato
+0.5 chopped_c tomato
+4 chopped_tbsp onion
+2 cloves garlic
+0.5 c sunflower seeds
+2 tbsp basil
+2 tbsp peanut butter
+1 tbsp oregano
+1 tbsp apple cider vinegar
+6 tbsp flour
+1 bit red pepper flakes
+
+Cook quinoa (rinse for 2 min in strainer then boil for 12 min with twice as much water, until all the water is absorbed
+Soak flax seed in water at a 3:1 (water:flax) ratio in a large bowl for 5 min
+finely chop the kale, adding it
+grate the sweet potato, adding it
+finely chop the tomato, adding it
+finely chop the onion and garlic, adding them
+Add everything
+Preheat oven to 400F
+Mix everything together well
+Grease baking pans
+Wet your hands and make into patties, packing them tightly so they stay together
+Bake for 23 min
+
+Note: could use eggs instead of flax seed

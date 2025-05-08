@@ -1,0 +1,12 @@
+salmon_filet
+vegetable:0
+meat:1
+yield (meals * people):2
+prep.:0
+cook:15
+recipe source:http://www.ehow.com/how_2304367_pan-fry-salmon.html
+
+1 # salmon filet
+
+-Put the steak in the frying pan with a bit of water, covered.  Boil for a few minutes on medium heat, flip, boil for a few more minutes, remove cover, fry for a few minutes, flip, fry for a few more minutes.  At the end, you should be able to stick a fork into it and it should come out clean.  Salmon should be lighter pink at the end.
+-Let it sit for about 2 minutes before cutting it, so the juices are distributed throughout the salmon

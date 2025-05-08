@@ -1,0 +1,30 @@
+vegetable_soup
+vegetable:2
+meat:0
+yield:4
+prep:20
+cook:45
+time:60
+
+2 cubes McCormick All-Vegetable Bouillon Chicken Style
+4 c water
+1 #_large potatoes
+2 # carrots
+2 stalks celery
+1 c peas
+1 c green beans
+0.5 # onions
+1 c egg noodles
+
+-Peel the potatoes and cut into small cubes, putting them into the pot.
+-Chop the onion, putting it in a frying pan
+-Chop the celery, putting it into the frying pan. (note: it tastes good to put the celery leaves in the soup too - in the pot).
+-Fry the onion & celery on medium heat until it's a bit brown
+-Peel & dice the carrots, putting them in the pot
+-Put all vegetables in the pot
+-Put the water and bouillon in the pot.
+-Bring to a boil, then simmer 20-30 min, stirring occasionally.
+-Add the noodles, bring to a boil, then cook for 10 more minutes.
+
+Note: can try frying garlic too
+Note: can leave out some vegetables

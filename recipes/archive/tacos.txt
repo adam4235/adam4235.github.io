@@ -1,0 +1,37 @@
+tacos
+vegetable:1
+meat:1
+yield:4
+prep:25
+cook:40
+time:55
+
+1 lb ground beef
+1 # onions
+1 cloves garlic
+0.33 c tomato paste
+0.67 c water
+1 tsp chili powder
+0.5 tsp oregano
+0.25 tsp cumin
+1 bit salt
+1 bit pepper
+1 package taco shells or tortilla wraps
+1 bunch lettuce
+1 bunch cheese
+
+Cheese grater
+Frying pan
+Spatula or other plastic chopping tool (for ground beef)
+Cutting board
+Large knife
+Can opener
+Large spoon
+
+Chop onion.
+Mince garlic.
+In large frying pan, cook beef over medium heat until brown.  Add onion & garlic; cook until onion & garlic are soft (tender).
+
+Stir in tomato paste, water, chili powder, oregano, and cumin.  Simmer for 5-10 minutes, stirring occasionally.  Add salt and pepper.  If mixture becomes dry, add water. Shred lettuce, grate cheese, put on as toppings.
+
+Note: last time I made this, I didn't like it.  Maybe I should get a taco sauce instead of tomato paste and extra spices.

@@ -1,0 +1,30 @@
+soybean_casserole
+vegetable: 1
+meat: 1
+yield (meals * people): 4
+prep.: 10
+cook: 60
+recipe source: More-with-less
+
+5 T vegetable oil
+2 stalks celery
+0.5 # green pepper
+1 # onion OR
+1 bit nothing
+0.33 c white flour
+2 c milk
+1 tsp salt
+1 uncooked_c soybeans
+1 c bread crumbs OR
+0.25 c wheat germ
+
+-Soak soybeans overnight and boil for 3-4 hours.  DON'T USE THE PASTA POT - THE WATER WILL ALL BOIL AWAY DUE TO THE HOLES IN THEN TOP AND THEY'LL STICK!!  Best to use the glass pot, so it can be used for everything.
+-Saute vegetables in oil (preferably in the glass pot, after moving the beans to the strainer) for 5 min
+-Add flour, cook and stir until bubbly (< 3 min)
+-Preheat oven to 350F
+-Add milk and salt, bring just barely to a boil, stirring constantly
+-Add soybeans
+-Grease a casserole dish
+-Put the mixture in it
+-Put bread crumbs or wheat germ on top
+-Bake for 45min at 350F

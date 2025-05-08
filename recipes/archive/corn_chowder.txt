@@ -1,0 +1,30 @@
+corn_chowder
+vegetable:2
+meat:0
+yield (meals * people):8
+prep.:25
+cook:20
+Recipe source: More-with-less cookbook
+
+1 # onions
+2 c water
+4 # potatoes
+2 # carrots
+2 stalks celery
+2 tsp salt
+0.5 tsp black pepper
+4 c cream corn
+2 c milk
+2 grated_c cheese
+
+Start oil heating up in a large pot.
+Cut up the onion.
+Brown it in the pot.
+Peel and dice the potatoes and carrots and dice the celery, putting them into the pot.
+Add the water, salt and pepper to the pot.
+Boil, then simmer 10 minutes, stirring occasionally.
+Add the cream style corn.
+Boil lightly, then simmer 5 minutes, stirring occasionally.
+Turn off the heat.
+Add the milk and cheese.
+Stir until the cheese melts.  DON'T BOIL IT WITH THE MILK IN IT!  (That makes it go sour)

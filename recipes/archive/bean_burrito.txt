@@ -1,0 +1,15 @@
+bean_burrito
+vegetable:0
+meat:1
+yield (meals * people):
+prep.:2
+cook:
+recipe source:Combination
+
+1 # tortilla shell
+1 bunch refried beans - mexican section maybe
+1 bit cheese
+
+-put the beans on the tortilla
+-grate cheese on top
+-heat in microwave

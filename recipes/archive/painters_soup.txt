@@ -1,0 +1,29 @@
+painters_soup
+vegetable:1
+meat:1
+yield (meals * people):10
+prep.:
+cook:
+recipe source: mom
+
+0.5 c oil
+2 # onion
+4 cloves garlic
+2 # green pepper
+4 stalks celery
+4 # carrots
+2 # tomatoes
+1 tbsp parsley
+2 tsp basil
+4 # soup cubes
+8 c water
+4 c macaroni
+2 c kidney beans
+
+Cook beans overnight if using dried beans.
+Cut up vegetables (not tomatoes), fry in oil in large pot for about 10 min
+Add tomatoes, parsley, soup cubes, water, macaroni.  
+Bring to a boil and simmer 15 min.
+Add beans and heat thoroughly.
+Add salt and pepper to taste.
+

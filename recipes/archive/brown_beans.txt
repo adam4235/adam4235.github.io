@@ -1,0 +1,10 @@
+brown_beans
+vegetable:0
+meat:1
+yield (meals * people):1
+prep.:1
+cook:5
+
+1 can brown beans
+
+Just put them in a pot from the can and heat them up.

@@ -1,0 +1,29 @@
+hummus
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:20
+cook:0
+recipe source:Combination of some of mom's recipes, Simply in Season, 
+http://www.yummly.com/recipe/The-Homemade-Hummus-That-Changed-Everything-440333?prm-v1
+http://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/
+http://www.inspiredtaste.net/26901/easy-tahini-recipe/
+
+2 c chickpeas (uncooked)
+2 tbsp lemon juice
+4 tbsp olive oil
+0.33 c sesame seeds
+3 cloves garlic
+1 bit salt
+1 bit pepper
+1 tbsp parsley
+1 tsp cumin
+0.5 tsp hot sauce
+4 tbsp water
+
+Cook chickpeas overnight
+Make the tahini by blending sesame seeds in food processor with a bit of oil (blender didn't seem to work).
+Add an ingredient at a time, blending for a while - about a minute after each one.  Add water / oil to make it creamier.
+
+Worked OK last time, but still a bit bland.  More spices perhaps?
+

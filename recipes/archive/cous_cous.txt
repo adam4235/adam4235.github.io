@@ -1,0 +1,16 @@
+cous_cous
+vegetable:0
+meat:0
+prep: 3
+cook: 10
+yield (meals * people): 3
+
+0.5 c cous-cous
+1 bit curry powder
+1 bit butter
+1 c water
+
+Put the cous-cous and water on a stove element at maximum in a pot.
+When the water boils, turn it down to minimum and wait 5 min with the lid on. DON'T STIR IT!  (That wrecks it).
+There shouldn't be any water left to drain - if there is, keep boiling.
+Add the curry powder and butter.

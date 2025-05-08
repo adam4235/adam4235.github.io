@@ -1,0 +1,11 @@
+brussel_sprouts
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:5
+cook:15
+
+1 bunch brussel sprouts
+
+-cut into quarters
+-steam (or boil in a bit of water)

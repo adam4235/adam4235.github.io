@@ -1,0 +1,38 @@
+lentil_loaf
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:60
+cook:60
+recipe source:http://vegweb.com/index.php?topic=35070.0, modified with ideas from http://www.veganlunchbox.com/loaf_studio.html 
+
+1 c pinto beans
+2 c lentils
+2 c rolled oats
+3 tsp garlic powder (store in freezer)
+2 # soup cubes
+1.5 c ketchup, divided
+4 tbsp nutritional yeast
+0.4 lb tofu
+4 tbsp oil
+2 # green pepper
+2 # onion
+
+-Overnight, soak and cook pinto beans for about 2 hours
+-Cook the lentils
+-cook oatmeal
+-Chop and fry onion and green pepper
+-Add everything to a large bowl.  Mix well.
+-Preheat oven to 375F
+-Grease baking dishes (bread loaf pans work) and add the mixture to it.
+-Bake for 35-40 min.
+
+Note: original recipe had apple cider vinegar, but it still tasted good without it
+Note: original recipe didn't have nutritional yeast.  Is it necessary?
+Note: original recipe used bread instead of oatmeal, but it tasted good (probably better) with oatmeal.  However, it didn't stick together very well - try another binder next time?
+Try removing ketchup next time?
+Note: original recipe had these spices, but I couldn't tell the difference between one with spices and one without:
+2 tsp parsley
+2 tsp chives
+2 tsp chili powder
+

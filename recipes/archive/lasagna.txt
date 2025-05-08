@@ -1,0 +1,34 @@
+lasagna
+vegetable:1
+meat:1
+yield:8
+prep.:35
+cook:60
+time:75
+
+12 # lasagna noodles
+1 # onions
+1 cloves garlic
+1 lb ground beef
+700 ml pasta sauce
+1 tsp parsley
+1 tsp basil
+1 tbsp sugar
+500 g cottage cheese
+1 # eggs
+175 shredded_ml cheese - mozarella preferred
+
+The first part consists of 4 steps, which can be done in any order:
+
+1)Cook noodles.  Put 10 cups of water in a pot per 12 noodles, bring to a rapid boil.  Add the noodles.  Stir frequently until it starts boiling again.  Simmer for 12 min.  Drain.
+
+2)Make sauce.  Chop onions and garlic.  Chop parsley if using fresh parsley. Cook ground beef in a frying pan.  Add onions and garlic and cook them too.  Add pasta sauce and parsley, stir them in, then once it starts boiling simmer 5 min. (Cover the frying pan with a lid to speed things up).
+
+3)Make cheese mixture.  Combine cottage cheese and egg and stir together.
+
+4)Grate cheese.
+
+Preheat the oven to 350F.  I think the best layers are 3 noodles, then sauce, then 3 noodles, then cheese mixture, then 3 noodles, then sauce, then 3 noodles, then mozzarella cheese on the top.  Once it's in the dish, cover the dish with a cookie sheet or something and put it in the oven. Bake at 350F for 30-45 min.
+
+Note: basil and sugar added to the recipe later
+

@@ -1,0 +1,24 @@
+hamburger_helper
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30
+cook:45
+recipe source:Doris
+
+2 lb ground beef
+2 t salt
+1 t black pepper
+2 # onion
+2 stalks celery
+2 c peas
+3 c noodles ( or use twice as much leftover cooked noodles)
+1 grated_c cheese
+
+-Brown beef in a skillet with salt and pepper
+-While beef is browning, cook noodles according to package directions
+-Chop the onion and celery
+-Add them and the peas once the beef is browned
+-Spread cooked noodles over meat mixture.  
+-Sprinkle cheese over all
+-Simmer uncovered for 15 min to blend flavours.

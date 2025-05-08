@@ -1,0 +1,29 @@
+fettucini
+vegetable:0
+meat:0
+yield (meals * people):
+prep.:
+cook:
+recipe source:Mom
+
+1 package fettucini noodles
+2.5 c milk
+3 T white flour
+3 T butter
+0.5 tsp salt
+1.5 grated_c cheese
+
+-For noodles, follow package
+Cheese sauce:
+-Microwave butter
+-Stir in flour and salt until smooth
+-Whisk in milk
+-Microwave 3 minutes at 600W
+-Stir
+-Repeat {
+	-Microwave 2 minutes at 600W
+	-Stir
+-} until pretty thick
+-Add cheese
+-Microwave 2 minutes at 600W
+-Stir

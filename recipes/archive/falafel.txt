@@ -1,0 +1,31 @@
+falafel
+vegetable:1
+meat:1
+yield (meals * people):5
+prep.:15
+cook:10
+recipe source:The G.I. diet cookbook
+
+1.5 c chick peas
+4 cloves garlic
+4 tbsp parsley
+1.5 tsp cumin
+1 tsp salt
+1 tsp hot pepper sauce
+1 bunch flour
+0.25 c oil
+1 bunch lettuce
+1 bunch hummus
+1 bunch tortillas
+
+Cook chickpeas
+Mince garlic in food processor (NOT blender)
+Blend in food processor everything but flour and oil and lettuce and hummus (can mash with a fork too) - add water (about 1/2 c) if needed to make it work better
+Roll into balls (about 2 tbsp each), in flour, and flatten slightly
+Heat oil in non-stick frying pan over medium heat
+Fry for 10-15 min per side or until golden brown
+Put in pitas with hummus and lettuce
+
+Note: original recipe had lemon juice or lime juice, but it still tasted OK without it
+Next time try omitting hot sauce too?  Not sure if that causes acid reflux or not.
+

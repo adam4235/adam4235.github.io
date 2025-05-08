@@ -1,0 +1,13 @@
+brocolli
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:5
+cook:15
+
+1 bunch brocolli
+
+Cut it into strips and smaller pieces and cut off the bad parts.
+Wash it.
+steam it in a steamer for 15 min.
+

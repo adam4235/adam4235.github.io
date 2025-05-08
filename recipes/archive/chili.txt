@@ -1,0 +1,31 @@
+chili
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30
+cook:60
+Recipe source: mom, with sugar and tomatoes adapted from Andrew's recipe (see later/chili_easier.rcp for one with tomato sauce that goes quicker)
+
+3 # tomatoes
+1 T chili powder
+.5 tsp basil
+.5 tsp oregano
+.5 tsp salt
+.25 tsp pepper
+1/8 c sugar
+1 can kidney beans
+1 # <fried_ground_beef>
+1 # onions
+1 cloves garlic
+2 stalks celery
+
+Dice tomatoes and place in large pot. Turn on to medium-high heat. Wash beans with a seive, then add them, and bring to light boil. Add sugar and spices. Stir, and reduce heat just enough to keep it boiling. Continue stirring periodically. Butter or canola oil should be added as well to add consistency. Cook mixture for at least 1 hour, and up to 3 hours depending on the desired softness of the beans. Mixture will darken with time.
+-Make fried ground beef
+-Cut up celery, onions & garlic
+-Add them to the frying pan and fry them too until clear
+-Put everything in the pot
+-Boil, then simmer while stirring occasionally for a bit
+
+Note: original recipe said 2 or 3 T of chili pepper.  Last time I made it with 2 and I didn't like it.  It may be because I used Pasta Sauce instead of Tomato Sauce.
+
+If this recipe doesn't turn out good, look at the recipes in the "later" folder for the original recipes.

@@ -1,0 +1,29 @@
+creamy_cauliflower_casserole
+vegetable:1
+meat:0
+yield (meals * people):6
+prep.:30
+cook:60
+recipe source:http://vegweb.com/index.php?topic=35259.0
+
+1 # cauliflower
+2 # red pepper
+2 tbsp oil
+2 tbsp margarine
+0.5 c flour
+3 c milk
+1 tsp dry mustard
+2 tsp dry onion
+2 tsp garlic powder (store in freezer)
+2 tbsp nutritional yeast
+1 # soup cubes
+1 slice bread
+
+-Preheat oven to 350 degrees F.
+-Cut up cauliflower
+-Chop red pepper
+-Grease roasting pan or 9 x 13" baking dish.  Arrange cauliflower and red pepper in a single layer and roast for 20 minutes.  Meanwhile:
+-melt margarine and oil over medium heat in heavy saucepan. Add flour and stir constantly for 1-2 minutes. Whisk in milk, whisking constantly over medium low heat until thickened.
+-Add mustard, garlic, onion and nutritional yeast. Add vegetable broth, just until sauce is thinned enough that it is makes a nice creamy sauce. Grease a casserole dish.
+-Add vegetables. Pour sauce over vegetables and stir until coated. Make bread into crubms, add on top and bake for about 30 minutes, until top is browned.
+

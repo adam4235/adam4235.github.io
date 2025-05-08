@@ -1,0 +1,24 @@
+tortellini_stew
+vegetable:2
+meat:1
+prep.:10
+cook:30
+yield (meals * people): 5
+
+3 cubes soup broth
+454 g M&M Tortellini with Cheese
+1 # <fried_ground_beef>
+1 c medium or spicy salsa
+2 # carrots
+2 c mixed vegetables (ex. peas, beans, corn)
+.25 c flour
+
+-Add the soup cubes to a BIG pot and add enough water to make 5 cups.
+-Bring to a boil (doing the other steps in the meantime).
+-Fry the ground beef (doing the other steps in the meantime)
+-Chop up the carrots
+-Add frozen tortellini and carrots, bring to a boil, and simmer for 10 min.
+-Add meat and salsa, bring to a boil, and simmer for 15 min.
+-Stir in frozen vegetables and flour, bring to a boil, and simmer for about 5 min (until they're heated to your liking).
+
+Note: the purpose of the flour is to make the stew thicker. It wasn't in the original recipe but I think it improves it.

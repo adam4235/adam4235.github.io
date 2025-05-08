@@ -1,0 +1,17 @@
+egg_burrito
+vegetable:0
+meat:1
+yield (meals * people):
+prep.:2
+cook:
+recipe source:Combination
+
+1 # eggs
+1.5 Tbsp milk
+1 # tortilla shells
+1 bit cheese
+
+-make a scrambled egg
+-put on tortilla
+-grate cheese on top
+-heat in microwave

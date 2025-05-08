@@ -1,0 +1,39 @@
+chili_cornmeal_tofu
+vegetable:0
+meat:1
+yield (meals * people):
+prep.:
+cook:
+recipe source: Veganomicon
+
+1 bunch Vegetable oil
+1 lb extra-firm tofu, drained and pressed
+1 c soy milk
+2 tbsp cornstarch
+1 c cornmeal
+2 tbsp chili powder
+1 tsp cumin
+0.25 tsp cayenne
+1 tsp grated lime zest
+1.5 tsp salt
+
+-Slice the tofu widthwise into 8 slices
+-Cut each slice in half diagonally, giving 16 long triangles
+-Combine soy milk and cornstarch in a wide, shallow bowl.  Mix with
+fork until cornstarch is mostly dissolved.
+-In another shallow bowl, toss together cornmeal, spices, lime zest, and salt
+-Heat about 1/4 inch oil in a large frying pan over medium heat
+-Dip each tofu slice in the soy milk, drop into cornmeal with your dry
+hand, use your other hand to dredge it in the mixture, so that it's
+coated on all sides
+-Transfer the tofu to the skillet in 2 batches so as not to crowd the pan
+-Fry tofu for 3 min on one side, use tongs to flip over each piece,
+fry 2 more min
+-Drain the fried tofu on a clean paper bag or paper towels
+-Preheat oven to 350F
+-Line a baking sheet with baking parchment
+-Place coated tofu on the baking sheet in a single layer.
+-Spray oil until lightly coated
+-Flip over and spray the other side
+-Bake 12 min on each side
+

@@ -1,0 +1,13 @@
+turnip
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:5
+cook:15
+recipe source:
+
+1 # turnip
+
+-Peel it and cut it into cubes.
+-Cook it with water almost covering it, like boiled potatoes, for 15 min. (until soft when poked)
+-Optionally Add butter and mash

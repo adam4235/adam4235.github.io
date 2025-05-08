@@ -1,0 +1,35 @@
+collard_green_wraps
+vegetable:2
+meat:0
+yield (meals * people):4
+prep.:60
+cook:15
+recipe source:http://www.rawfoodrecipes.com/recipes/quinoa-collard-wraps.html
+
+8 # collard greens leaves
+1 c quinoa
+1 tbsp peanut butter
+1 # carrots
+1 chopped_tbsp ginger
+1 # shallot
+0.5 c soy beans
+1 tsp honey
+1 tbsp sesame oil
+0.25 tsp salt
+2 # beets
+1 # avocado
+
+-Cook the soy beans
+-Wash the quinoa for about 3 minutes with a strainer
+-Cook quinoa for 10 min with about twice as much water as quinoa
+-Wash the collard green leaves, set aside
+-Blend carrots, ginger, shallot, peanut butter, honey and vinegar in food processor
+-Add sesame oil and salt and blend them too
+-Grate the beets
+-Cut up the avocado
+-Take 2 collard greens leaves, overlap them halfway to form a larger wrapping area.  Put on them the blended mixture, then the quinoa, then the beets and avocado.  Wrap it up.
+
+Note: can also sprout the quinoa instead of cooking it
+Note: original recipe had 1 c sprouts as well
+Note: original recipe had miso paste, which I substituted with soy beans.  It also had tahini, which I substituted with peanut butter.  It also had lemon juice and brown rice vinegar, which I left out.  It's also nice to add a bit of another kind of sauce as well (I tried sweet potato dip last time).
+

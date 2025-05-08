@@ -1,0 +1,11 @@
+potatoes
+vegetable:1
+meat:0
+yield (meals * people):1
+prep:3
+cook:4
+
+1 # potatoes
+1 bit vegetable oil
+
+Wash and scrub potatos.  Rub each with oil.  Poke with a fork in several places.  Microwave at 550W for about 4 minutes per potato (time depends on many factors including size, shape and density of potatos), or until potato is soft.  Remove and wrap it (recipe says paper towel) for about 5 min.  Should stay hot for 30 min.  For mashed potatoes, scoop out the inside, add 1 tbsp butter and 1  tbsp milk, and mash it with a fork.

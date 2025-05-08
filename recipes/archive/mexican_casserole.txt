@@ -1,0 +1,27 @@
+mexican_casserole
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:40
+cook:50
+time:60
+
+1 lb ground beef
+1 # onions
+1 cloves garlic
+2 tsp chili powder
+1 dash cayenne
+680 ml corn
+2 c tomato sauce
+1 bunch corn chips
+1 grated_c cheese
+
+-Brown the beef, onion and garlic
+-Stir in chili powder, cayenne pepper, corn, and tomato sauce
+-Heat the oven to 350F
+-Grease a casserole dish (normally with cooking spray) and put the mixture in it
+-Bake for 20 min
+-Grate the cheese
+-Turn off the oven when the 20 min are up
+-Crush corn chips and sprinkle them on top and the cheese on top of that
+-Put back in the (turned off) oven until the cheese melts

@@ -1,0 +1,37 @@
+robbies_soup
+vegetable:2
+meat:0
+yield (meals * people):8
+prep.:30
+cook:45
+recipe source:Robbie
+
+1 bit margarine
+6 # carrots
+2 stalks celery
+2 cloves garlic
+4 # green onions
+2 # potatoes
+8 c water
+4 # soup cubes
+1 tbsp parsley
+1 tbsp savory
+2 tsp thyme
+0.5 tsp black pepper
+
+-melt butter in a pot / pan
+-Cut up the garlic
+-Fry the garlic for < 1 min (until it smells good)
+-cut up celery, onions
+-fry for a bit
+-add water and soup cubes, boil
+-Scrub carrots, cut them up, add them
+-Add the other vegetables
+-simmer 20 min
+-Add lentils/barley/rice/potatoes if desired. (Try adding barley next time.)
+-Add spices
+-Boil, simmer 15-20 min
+
+Note: original recipe involved 2 parts, with veggie scraps being fried and strained into the soup.  It was too complicated and wasteful though, so I modified it.
+Note: I tried without the spices and there was a slightly better taste with spices, but it wasn't that significant.  Thyme might have made an especially low difference.
+

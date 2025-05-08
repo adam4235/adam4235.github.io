@@ -1,0 +1,14 @@
+cauliflower
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:5
+cook:15
+
+1 bunch cauliflower
+
+Cut it into strips and smaller pieces and cut off the bad parts.
+Wash it.
+Put it in a pot.
+Cover most of it with water.
+Bring to a boil, then steam (cook with lid on on low heat) for about 10 minutes.

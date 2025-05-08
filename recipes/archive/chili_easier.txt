@@ -1,0 +1,27 @@
+chili
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30
+cook:60
+
+1 # <fried_ground_beef>
+1 # onions
+1 cloves garlic
+2 stalks celery
+1 T chili powder
+.5 tsp basil
+.5 tsp oregano
+700 ml tomato sauce
+.5 tsp salt
+.25 tsp pepper
+1 can kidney beans
+
+-Make fried ground beef
+-Cut up celery, onions & garlic
+-Add them to the frying pan and fry them too until clear
+-Put the kidney beans in the sieve to drain them and then wash them
+-Put everything in the pot
+-Boil, then simmer while stirring occasionally for about 10-30 minutes
+
+Note: original recipe said 2 or 3 T of chili pepper.  Last time I made it with 2 and I didn't like it.  It may be because I used Pasta Sauce instead of Tomato Sauce.

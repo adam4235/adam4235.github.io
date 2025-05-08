@@ -1,0 +1,10 @@
+cream_corn
+vegetable:1
+meat:0
+yield (meals * people):1
+prep.:1
+cook:4
+
+1 bunch cream corn
+
+Just microwave it.

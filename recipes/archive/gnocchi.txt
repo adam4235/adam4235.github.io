@@ -1,0 +1,48 @@
+gnocchi
+vegetable:1
+meat:0
+yield (meals * people):8
+prep.:60
+cook:40
+recipe source:David & Rebecca
+
+2 lb gnocchi (1 lb = 1 package)
+1 tbsp salt
+8 tbsp oil
+24 oz mushrooms (not mushroom soup mix)
+4 # shallots
+4 cloves garlic
+4 tsp flour
+0.5 tsp thyme
+2 # soup cubes
+2 c water
+1 c milk
+4 tbsp lemon juice OR
+8 tbsp dry white wine
+2 c peas
+2 bit black pepper
+2 tbsp parsley
+
+-Bring a bunch of water (not the amount above) to boil in a medium pot
+-Put peas in a cup if frozen
+-Add gnocchi to pot, with salt
+{
+-Cook until gnocchi float - about 2 min
+-Drain
+-Add veg. oil to a non-stick frying pan and fry gnocchi until golden brown
+}
+{
+-Heat oil in frying pan
+-Chop mushrooms, shallots
+-Add mushrooms and shallots to be fried.
+-Cover, fry for 4 min
+-Uncover, fry for 5-7 min more, chopping garlic in the meantime
+-Add garlic, flour & thyme, fry for 30 more seconds
+-Stir in soup cubes with water (or broth), milk, wine / lemon juice. (but see below)
+-Cook until thick (8-10 min)
+}
+-Add gnocchi & peas, cook for 1 min more
+-Add pepper and parsley
+
+It seems to be very liquid every time.  Try halving the amount of water next time.
+

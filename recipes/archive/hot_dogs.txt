@@ -1,0 +1,15 @@
+hot_dogs
+vegetable:0
+meat:1
+yield:2
+prep.:1
+cook:7
+
+1 # hot dogs
+1 # hot dog buns
+
+Note: this recipe assumes you have a non-stick frying pan. If you don't, put 1 tbsp of butter or margerine in it.
+
+-put the hot dogs in the frying pan.
+-turn it to medium heat.
+-fry until browned (~5-10 min).

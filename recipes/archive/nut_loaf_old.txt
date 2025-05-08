@@ -1,0 +1,35 @@
+This is the nut loaf recipe before improving it by trying combinations from http://www.veganlunchbox.com/loaf_studio.html
+nut_loaf
+vegetable:1
+meat:1
+yield (meals * people):8
+prep.:15
+cook:40
+recipe source:http://www.veg-world.com/recipes/nutroast.htm
+
+2 bit oil
+2 # onion
+4 cloves garlic
+10 # mushrooms
+2 tbsp flour
+2.5 c water
+2 # soup cubes
+3 c chopped nuts
+6 slices bread
+2 tbsp soy sauce
+1 tsp dried herbs
+2 bit black pepper
+
+-Chop and fry onion
+-Chop and add mushrooms
+-Chop and add garlic
+-Sprinkle flour on top.  Stir to mix it in.
+-Add stock and water, stirring constantly until it comes to a boil.
+-Simmer for 2-3 min.
+-Preheat oven to 375F
+-Make bread into breadcrumbs
+-Add them and everything else, stirring well.
+-Grease a baking dish.
+-Sprinkle flour in the baking dish, then put in the mixture, then sprinkle flour on it.
+-Bake for 30-40 min.
+

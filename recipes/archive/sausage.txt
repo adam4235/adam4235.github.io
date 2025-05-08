@@ -1,0 +1,11 @@
+sausage
+vegetable:0
+meat:1
+yield:1
+prep.:1
+cook:35
+
+1 # sausages
+
+Bake it at 375F for about 30min (until not pink inside).  Flip after
+20 min.

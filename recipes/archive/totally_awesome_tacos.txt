@@ -1,0 +1,25 @@
+totally_awesome_tacos
+vegetable:1
+meat:1
+yield (meals * people):3
+prep.:15
+cook:0
+recipe source: http://vegweb.com/recipes/totally-raw-totally-awesome-tacos, modified
+
+0.5 cup sunflower seeds
+1.5 teaspoons cumin
+1 teaspoon coriander (also called cilantro)
+2 tsp soy sauce
+0.5 teaspoon salt
+1 teaspoon dried ground jalapeno pepper
+0.5 teaspoon chili powder
+3 tablespoons water 
+1 bunch lettuce
+1 # avocado
+1 bit lime juice
+1 bunch Tortillas
+
+Blend in a food processor everything up to and including water
+Cut up avocado
+Put stuff in tortillas
+

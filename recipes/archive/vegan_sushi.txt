@@ -1,0 +1,20 @@
+vegan_sushi
+vegetable:2
+meat:0
+yield (meals * people):3
+prep.:30
+cook:20
+recipe source:Chris
+
+1 # carrot
+0.5 # sweet potatoes
+1 # avocado
+0.5 # red pepper OR
+0.5 # green pepper
+1.5 c sushi rice
+5 # seaweed sheets
+
+-Cook the rice
+-Grate the carrots and sweet potatoes, chop the avocado and pepper
+-Lay out each seaweed sheet on a sushi mat, put rice on top, put vegetables on top of that, roll it up
+

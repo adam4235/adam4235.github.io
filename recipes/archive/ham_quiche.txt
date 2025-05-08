@@ -1,0 +1,37 @@
+ham_quiche
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:20
+cook:40
+recipe source: Grocery store
+
+4 # eggs
+1 c cottage cheese
+2 tbsp vegetable oil
+0.25 c flour
+0.5 tsp baking powder
+1 c cheddar cheese or swiss cheese
+0.25 c green onion or regular onion
+1 # small tomato
+1 c diced ham (try getting lunchmeat ham at the market so I can eat the rest)
+
+-Melt the butter (15 seconds in microwave).
+-Whisk the eggs in a large bowl.
+-In another medium bowl, mix the cottage cheese, butter, flour and
+baking powder.
+-Whisk this mixture into the eggs.
+-Grate the cheese, putting it into the mixture.
+-Chop the onion, putting it into the mixture.
+-Preheat the oven to 400F.
+-Dice the tomato, putting it into the mixture.
+-Add the ham to the mixture.
+-Mix it all together.
+-Grease a baking dish.
+-Put the mixture in the baking dish.
+-Bake at 400F for 15 minutes, then reduce the heat to 325F and bake
+for another 25-30 minutes, or until you can poke a knife into the
+middle and it comes out clean.
+
+Note: original recipe said butter instead of vegetable oil
+

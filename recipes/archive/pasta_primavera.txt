@@ -1,0 +1,26 @@
+pasta_primavera
+vegetable:1
+meat:0
+yield (meals * people):4
+prep.:5
+cook:12
+recipe source:Pasta Pro instruction booklet
+
+16 oz pasta noodles
+2 cloves garlic
+1 c carrots
+1 c peas
+9 oz green beans
+1 oz Alfredo pasta sauce
+1 tbsp parsely
+1.5 tsp basil
+0.25 tsp pepper
+
+Bring water to a boil in Pasta Pro.  
+Add noodles and vegetables.  
+Cook pasta for as long as the package says.  
+Drain.  
+Place back on heat and immediately add other ingredients.  
+Toss lightly and serve.
+
+Note: original recipe called for 0.33 c parmesan cheese

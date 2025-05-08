@@ -1,0 +1,12 @@
+potato_patties
+vegetable: 2
+meat: 1
+yield: 1
+prep.: 10
+cook: 20
+
+2 # potato patties
+1 # eggs
+1 bit cheese
+
+Put the patties in the toaster oven at 450F.  Cook for ~15 min, flipping after ~8 min (follow directions on package).   Make a scrambled egg - but it will be one big thing in the frying pan.  Cut the egg in half, and put the 2 halves on each patty.  Slice some cheese & put it on the patties as well.  Put it back in the toaster oven until the cheese melts.

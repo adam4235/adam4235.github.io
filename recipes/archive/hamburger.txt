@@ -1,0 +1,14 @@
+hamburger
+vegetable:0
+meat:1
+yield:1
+prep.:2
+cook:5-10
+
+1 # M&M hamburger patties
+1 # hamburger buns
+1 bunch lettuce
+1 bit onions
+
+Put the patty in a frying pan on a bit above medium heat.  fry until
+brown on bottom; flip and fry until other side is brown too.

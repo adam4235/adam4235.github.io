@@ -1,0 +1,27 @@
+el_burgos
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:30
+cook:60
+recipe source:More-with-Less
+
+5 # potatoes
+1 lb ground beef
+1 # green pepper
+1 # onion
+2 shredded_c cheddar cheese
+1 tsp salt
+1 tbsp brown sugar
+2 c tomato sauce
+
+Peel & Slice the potatoes, putting them in a pot
+Almost cover with water
+Start them cooking
+Fry ground beef
+Chop green pepper & onion
+Add to ground beef once ready
+Preheat oven to 350F
+Combine other ingredients in a bowl
+Put in lasagna dish or casserole dish - alternate beef and potato layers, pouring the cheese-potato mixture on top
+Bake for 30 minutes

@@ -1,0 +1,23 @@
+hamburger_casserole
+vegetable:1
+meat:1
+yield (meals * people):4
+prep.:10
+cook:120
+recipe source:More-with-less
+
+1 lb ground beef
+1 c uncooked rice
+1 # carrot
+1 # onion
+2 cans tomato soup
+1 tsp salt
+1 bit pepper
+2 c water
+
+-Preheat oven to 325F
+-Boil water
+-Get casserole bowl with cover ready
+-Dice carrots & chop onions, putting in bowl
+-Put everything in bowl
+-Bake for 2 hours

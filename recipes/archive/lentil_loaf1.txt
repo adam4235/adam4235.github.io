@@ -1,0 +1,35 @@
+lentil_loaf
+vegetable:0
+meat:1
+yield (meals * people):8
+prep.:60
+cook:60
+recipe source:http://vegweb.com/index.php?topic=35070.0
+
+1 c pinto beans
+2 c lentils
+2 slices bread
+3 tsp garlic powder (store in freezer)
+2 tsp parsley
+2 tsp chives
+2 tsp chili powder
+2 # soup cubes
+2 tbsp apple cider vinegar
+1.5 c ketchup, divided
+0.4 lb tofu
+4 tbsp oil
+2 # green pepper
+2 # onion
+
+-Overnight, soak and cook pinto beans for about 2 hours
+-Cook the lentils
+-Put bread crumbs, dry seasonings, vinegar, 2/3 of the ketchup, tofu, lentils into a large bowl.
+-Chop and fry onion and green pepper
+-Preheat oven to 375F
+-Blend beans in food processor with the rest of the ketchup (or could just mash them in too).  Using a blender instead doesn't work.
+-Add mixture to large bowl, along with cooked vegetables.  Mix well.
+-Grease baking dishes (bread loaf pans work) and add the mixture to it.
+-Bake for 35-40 min.
+
+Note: tried with normal vinegar instead of apple cider vinegar.  Still tasted good.  I'm not sure if apple cider vinegar would taste a lot better.
+

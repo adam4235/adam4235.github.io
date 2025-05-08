@@ -1,0 +1,43 @@
+peanut_noodle_casserole
+vegetable:1
+meat:1
+yield (meals * people):8
+prep.:30
+cook:10
+recipe source:Julie, modified
+
+0.5 c soy sauce
+0.25 c rice vinegar
+0.66 cup water
+2 tbsp maple syrup - bring jar to market
+1 tsp salt
+1.33 c chunky peanut butter
+4 tbsp sesame oil
+1 tsp paprika
+1 tsp hot pepper sauce
+1.5 lb soba noodles
+1 bunch green beans
+2 # carrots
+2 c corn OR
+2 # corn_on_the_cob
+1 c honey-roasted peanuts
+0.66 cup sesame seeds
+1 tsp red pepper flakes
+
+-Make the peanut sauce by combining all ingredients up to and including hot pepper sauce in a blender or food processor and puree until smooth.
+-Bring a large stockpot of water to a boil and cook noodles until al dante, about 5 minutes.
+-In the meantime, cut green beans into 1-inch lengths
+-cut carrots into matchsticks
+-Add the beans, carrots, and corn to the pasta and continue cooking another 2-3 minutes or until noodles are tender.  (Julie says it usually takes longer for her)
+-Drain the pasta and vegetables, but don't rinse.
+-Spoon the peanut sauce over the noodles and vegetables.
+-Sprinkle with the peanuts, sesame seeds and pepper flakes.
+
+Note: original recipe said maple syrup instead of honey.  It tasted weird last time; try maple syrup instead.  It might also be that I used dry roasted peanuts (as the original recipe said) instead of honey roasted.
+
+Original recipe had dry-roasted peanuts instead of honey-roasted.
+
+tip: the sauce can be stored in the refrigerator for up to a week.  Also try it as a dipping sauce for fresh spring rolls.
+
+Note: last time tried substituting regular vinegar and olive oil, but it seemed a bit worse.  However, I noticed that the strong taste was soy sauce, so maybe try less soy sauce next time.  The soy sauce I used was Shoyu, which might have a stronger taste.
+

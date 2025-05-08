@@ -1,0 +1,32 @@
+fish_chowder
+vegetable: 1
+meat: 1
+yield (meals * people): 7
+prep.: 
+cook:
+recipe source: Mom's milk cookbook
+
+1 lb fish - haddock, cod or halibut fillets
+3 slices bacon
+0.33 chopped_c onion
+0.33 chopped_c celery
+2 diced_c potatoes
+1 # carrots
+0.66 c water
+1 tsp salt
+3 c milk
+1.5 c peas
+1.5 tsp worcestershire sauce
+1 bunch parsely
+1 bunch paprika
+
+cook bacon, drain, reserving dripping
+chop bacon, onion, celery, potatoes, carrots
+saute onion and celery in drippings until tender
+Add potatoes, carrots, fish, water, salt
+Bring to a boil
+Reduce heat; cover and simmer 10-15 minutes or until potatoes and fish are tender.
+Stir in milk, peas, worcestershire sauce.
+Cook over medium heat, stirring constantly, until mixture just comes to a boil and
+thickens (it won't thicken much though since I removed the flour from the recipe).
+Add bacon to the top, and sprinkle with paprika and/or parsely.

@@ -1,0 +1,27 @@
+golden_carrot_bake
+vegetable:1
+meat:0
+yield (meals * people):6
+prep.:15
+cook:90
+recipe source:Simply in Season, modified
+
+6 # carrots
+3 c water
+1.33 c rice
+0.5 tsp salt
+0.25 tsp black pepper
+3 grated_c cheese (about 1 package of fake cheese)
+2 c milk
+4 # eggs
+0.5 # onion
+1 bit cinnamon
+
+Grate carrots
+Boil everything up to and including pepper in a frying pan or pot for 45 min, or in a pressure cooker for 15 min (less if not brown rice).
+In the meantime, chop onion
+Preheat oven to 350F
+Add other ingredients, beating eggs into the mixture
+Put in baking dishes
+Bake for 1 hour
+

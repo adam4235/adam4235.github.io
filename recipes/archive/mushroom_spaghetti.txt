@@ -1,0 +1,25 @@
+mushroom_spaghetti
+vegetable:0
+meat:1
+yield (meals * people):4
+prep.:20 min.
+cook:10 min.
+
+1 lb ground beef
+0.5 # onions
+1 clove garlic
+0.5 tsp salt
+0.25 tsp black pepper
+0.5 tsp chili powder
+1 tsp Worcestershire sauce
+2 cans cream of mushroom soup (not low-fat, not powder)
+1 bunch spaghetti noodles
+
+-Brown beef
+-chop onions
+-Boil noodles according to package directions
+-add onions to beef when mostly done
+-Add everything else
+-Simmer until heated through
+
+Note: original recipe had 1/8 lb fresh mushrooms, sliced per 1/2 lb of ground beef

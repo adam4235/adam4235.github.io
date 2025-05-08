@@ -1,0 +1,29 @@
+broccoli_carrot_salad
+vegetable:1
+meat:0
+yield (meals * people):3
+prep.:20
+cook:0
+recipe source:Wing from Caris
+
+1 bit bacon OR
+1 bit nothing
+5 tbsp veganaise (at Sobeys)
+3 tbsp sugar OR
+3 tbsp maple syrup
+0.5 tsp vinegar OR
+1 bit nothing
+1 bunch broccoli
+3 # carrots
+1 # onion
+0.5 c raisins
+
+-fry bacon if using it
+-Combine mayo and sugar with vinegar in a big bowl
+-Cut brocilli into small pieces, adding it
+-Dice carrots, adding them
+-Chop onion, adding it
+-Mix it all together
+
+Note: tried without vinegar and with maple syrup instead of sugar.  It still tasted pretty good.
+
