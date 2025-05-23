@@ -16,7 +16,7 @@ recipe source: Susan, modified / http://www.eatingwell.com/recipes/garden_pasta_
 1 # yellow pepper OR
 1 # red pepper
 1 # carrot
-12 # kalamata olives - bring container to Aura
+12 # kalamata olives
 1 tbsp basil
 
 -Bring a large pot of lightly salted water to a boil. Cook pasta, stirring occasionally, until just tender, 8 to 10 minutes, or according to package directions. Drain and refresh under cold running water.
