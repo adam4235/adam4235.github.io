@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Rules to Expanse</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+	<h1>Rules to Expanse</h1>
+    <p>by Adam Richard</p>
+    <p><b>Players</b>: 2 or 4</p>
+    <p><b>Genre</b>: Abstract strategy, wargame</p>
+    <p><b>Introduction</b>: Expanse is an abstract wargame.  It has no theme and takes place on a board consisting of geometric shapes.</p>
+    <p><b>Object</b>: To own more of the board's spaces than your opponent.</p>
+    <p><b>Pieces</b>: 
+        <ul>
+            <li>Game board.</li>
+            <li>Cubes representing ownership (red and green, and yellow and blue for the 4 player variant).</li>
+            <li>Pieces representing units (red and green, and yellow and blue for the 4 player variant).</li>
+            <li>12 tokens representing special abilities.</li>
+        </ul>
+    </p>
+    <img alt="Game Board" src="fb1914eaac9aa234bba0bc1c1cd3ca88-1144158371.png" width="100%">
+    <p><b>Setup</b>: 
+        <ol>
+            <li>Place the game board between the players.</li>
+            <li>Set the stock of special abilities beside the board.</li>
+            <li>Choose a player to set up the board (the "setup player"), either randomly or by any other method.</li>
+            <li>That player puts one cube of each colour on any 2 different, non-adjacent pentagons on the board of their choice.</li>
+    <ul><li><b>Note</b>: "adjacent" means spaces that share an edge; spaces that touch only at a vertex are not adjacent.</li></ul>
+            <li>The other player then chooses which colour will be theirs, red or green.  Red always goes first.</li>
+        </ol>
+    </p>
+    <h2>Gameplay</h2>
+    <p>The board shown in the picture consists of pentagon spaces, and diamond regions which are blocked off (units can't go on the diamonds).</p>
+    <p>Each player's turn consists of taking a number of actions.  The number of actions you get is determined by how many spaces you own (represented by cubes on spaces).  At the beginning, you start with 2 actions per turn, and for every 2 spaces you own <b>at the start of your turn</b>, you get an extra action.  Taking actions is always optional.</p>
+    <p>Each action is one of the following possibilities:</p>
+    <ol>
+        <li><b>Add</b>: Add a new unit to an owned space from your stock.  You can't take this action if there are enemy units occupying the owned space.</li>
+        <li><b>Move</b>: Move any number of units from a single space to a single adjacent space.  However, each enemy unit in a space pins one unit, preventing it from moving out of the space.</li>
+        <li><b>Remove</b>: Remove an enemy unit from a space where you have more units than they do.  Units in adjacent spaces (supporters) also contribute to the strength of each side by half as much.  That is, the strength of each side is increased by the <b>total</b> number of units in adjacent spaces divided by 2, rounded down.  If the strengths of both sides are tied (after rounding), you can't take the Remove action.</li>
+        <li><b>Expand</b>: For <b>2</b> actions, claim ownership of a space by <b>replacing</b> a unit of your colour with a cube of your colour.  If your opponent already owned the space, remove their cube when you do so.
+        <ul>
+            <li>You can't take this action if there are enemy <b>units</b> on the space.  (You can take this action on an undefended enemy <b>cube</b> to take ownership of the space away from your opponent.)</li>
+            <li>You can't take this action if there are any adjacent spaces with cubes, of either colour.  Cubes must be at least 2 spaces apart.</li>
+        </ul></li>
+       <li><b>Research</b>: Take a special ability from the stock of special abilities and put it in front of you.  At the end of your turn, put the ability under a cube that you own which doesn't already have one.  This gives you that ability for future turns, for as long as you continue to control that cube.  You can't take this action if you don't have a cube to put it under.  Note that if your opponent takes the cube from you by Expanding on that space, they also steal your special ability without needing to Research it!</li>
+       <li><b>Eliminate</b>: Remove an opponent's cube from a space where you have more units than they do, according to the same rules as for the Remove action, except there must be no enemy units present in the space.  Any special ability under the cube is returned to the stock and your opponent loses that ability.</li>
+    </ol>
+    <p><b>Unit Cap</b>: Each space has a limit of 5 units that it can support.  You are allowed to have more units on a space than this limit, but at the end of your turn, units are removed down to the limit, alternating side for each removal, beginning with your units (the units of the current player).  For example, if there are 4 of your units and 4 of your opponent's units on a space at the end of your turn, remove one of yours, then one of theirs, then one of yours, leaving 5 units.</p>
+    <p><b>Special Abilities</b>: This is the list of special abilities and what each one does.  Note that none of the abilities stack, so having both copies of an ability has no extra effect compared to having just one copy (but it blocks your opponent from having that ability).</p>
+    <ul>
+        <li><b>Walls</b>: Increases the <b>defense</b> of spaces with your owned cubes by 1 in determining whether your opponent can remove units from these spaces.  (It has no effect in determining whether you can remove their pieces from your owned spaces.)  This ability doesn't stack if you own multiple special spaces of this type.</li>
+        <li><b>Sneak</b>: Your units aren't pinned when they move.</li>
+        <li><b>Range</b>: Lets you Remove enemy units from an adjacent space, provided you have the strength to do so.  When using the Range ability, you consider units adjacent to the target space (the space you want to remove the unit from) to be the half-strength contributors.  Additionally, any units you have in the target space contribute half-strength.  However, when using Range to Remove from a space where your opponent has an owned cube, their defense is increased by 1 (or two if they have Walls).  Range cannot be used with the Eliminate action to remove a cube in an adjacent space.</li>
+        <li><b>Resist</b>: Lets you Add units even if enemy units are present in the space with your cube.</li>
+        <li><b>Support</b>: The strength of your supporting units rounds up instead of down in determining strength for the Remove action.</li>
+        <li><b>Speed</b>: Once per turn, and only as your <b>last</b> action, when you take a move action, you can move your group of units two spaces instead of one.  Note: this does not allow you to move some units one space and other units two spaces in a single action; all units must always move the same number of spaces on a move action.</li>
+    </ul>
+    <h2>Game End</h2>
+    <p>When you have 2 more actions than your opponent at the <b>start</b> of your turn, the game is over and you are the winner.</p>
+    <h2>Stalemate</h2>
+    <p>If, at the start of any player's turn:
+    <ol>
+        <li>The players are tied in number of owned spaces, and</li>
+        <li>There are no new spaces on the board where an expand could occur (i.e. the only places you can expand would be to replace your opponent's owned space)</li>
+    </ol>
+    <p>then the game ends in a draw.</p>
+    <h2>Four Player Variant</h2>
+    <p>Expanse can also be played as a four player team game (2 versus 2).  To do so, you use 4 sets of cubes and units, red and blue versus green and yellow.  The new setup steps are:
+    <ol>
+        <li>Teammates sit opposite each other.</li>
+        <li>One team is chosen to collectively set up the board and the other team will decide which side they want to be.</li>
+        <li>The setup team places 4 cubes, one of each colour, none of which are adjacent.</li>
+        <li>The other team then chooses which pair of colours will be theirs.  Play will start with red and proceed clockwise.</li>
+        <li>Teammates then each pick a colour out of the 2 colours their team controls.</li>
+    </ol>
+    </p>
+    <p>The other rules are the same as for two player Expanse, with the following notes / exceptions:</p>
+    <ol>
+        <li>The game end condition is slightly different.  At the start of each player's turn, if that player's team's total actions is at <b>3</b> more than the other team's total actions, then the game is nearly over.  However, to win, the current player's team must maintain this condition until the current player's partner's next turn as well.</li>
+        <li>If one player gets a special ability, their partner does <b>not</b> get the special ability.</li>
+        <li>When taking the Remove action, your partner's units in adjacent spaces <b>do</b> support your units by the regular half-strength rules.  <b>Each</b> partner's supporters are totaled, divided by 2, and rounded down (for example, a single supporting unit of each side contributes a strength of 0).  Partner's units in the same space support at <b>full</b> strength, as if they were your own units.  However, don't forget that when using Range, your units in the target space are always half-strength, so your partner's are half-strength as well when using Range.  Unless both partners have Range, your partner's units in the space you choose to use Range from are merely half-strength supporters.</li>
+        <li>When removing units due to the unit cap at the end of a turn, the order of units that get removed is: first the current player, then a unit of the opposing team, clockwise player first, then the current player's partner, then an opponent (the other opponent if applicable), and so on.  In other words, the teams always take turns losing units one at a time, and within a team, each partner takes turn losing a unit.</li>
+        <li>It is possible, though rare, for one player to be eliminated.  In this case, their partner must gift them one of their owned spaces by replacing their cube on an owned space of their choice with a cube of the eliminated player's colour.</li>
+    </ol>
+    <h2>Custom Boards</h2>
+    <p>It is possible to play on other custom boards as well, made of any pattern of geometric shapes.  The unit cap for spaces of different shapes match the number of sides of the shape; for example, a board with hexagon spaces would have a unit cap of 6 units on those spaces, and square spaces would have a unit cap of 4 units.  Here is an example of another board with hexagon and square spaces (with the triangle regions being treated as blocked off):</p>
+    <img src="board2.png" alt="Game Board 2" width="100%">
+</body>
+</html>
+
