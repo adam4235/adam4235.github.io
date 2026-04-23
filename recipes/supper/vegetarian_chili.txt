@@ -9,7 +9,7 @@ recipe source: Mom, who got it from Angie, but I modified it
 1 c black beans
 1 c kidney beans
 2 c tomato sauce
-1 c water
+1.5 c water
 2 # onions
 3 cloves garlic
 2 # green peppers
@@ -23,7 +23,7 @@ recipe source: Mom, who got it from Angie, but I modified it
 
 Soak beans overnight if using dried beans, and cook them for an hour in pressure cooker
 Chop the vegetables, adding them to a pot
-Add everything, boil lightly, simmer for a while - but watch out, burns easily.  Last time it burned with my convection plate on 2, but still took about 30 minutes to cook.  Could try with the convection plate on 1 and cook it longer, or try the pressure cooker (I suspect it might not pressurize due to insufficient liquid, but maybe worth a try).
+Add everything to instant pot and cook for 15 min.  (Can also use a pot but it burned easily when doing that - when I added an extra 0.5 c of water and used the instant pot, it worked and didn't burn on.)
 
 Note: Original recipe had tomatoes instead of tomato sauce, and cheese.
 
