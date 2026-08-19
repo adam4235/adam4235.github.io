@@ -11,8 +11,8 @@ recipe source:Simply in Season, modified
 2 # potatoes
 4 # soup cubes
 5 c water
-0.25 tsp pepper
 
 -Chop vegetables
 -Add everything to Instant Pot, cook for 10 min
+-Add a bit of pepper if desired - but people often prefer it without pepper
 
