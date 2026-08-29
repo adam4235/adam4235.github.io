@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+
+<style>
+h1 {
+    text-align: center;
+}
+
+</style>
+<title>Algebrain - Playing 2 Player over a LAN (Local Area Network)</title>
+</head>
+<body>
+
+<h1>Algebrain - Playing 2 Player over a LAN (Local Area Network)</h1>
+
+<p>Although 2 players can play Algebrain on the same device, either with controllers or with one person using the keyboard / controller and another person using the mouse, it can be more convenient to have each player on their own device.  It especially lends itself well to each player having the own tablet, so they can each use the touchscreen interface.</p>
+
+<p>To set this up on your home network, you need to run a server program on some device on your home network that lets the 2 tablets (or computers or phones) communicate with each other.  To set this up:</p>
+
+<ol>
+    <li>Download and extract <a href="algebrain_lan_server.zip">these</a> files into a folder on a Linux laptop running somewhere on your home network.</li>
+    <li>Run the algebrain_server_lan executable in that package from a terminal with root priveleges (needed so players can connect on port 80):<br>
+    chmod u+x ./algebrain_server_lan<br>
+    sudo ./algebrain_server_lan
+    </li>
+</ol>
+
+<p>Now when each player is playing the game, it should scan your home network and find the computer with the server program running.  If it doesn't, or if doing so is too slow, you can do these steps to make it more convenient:</p>
+
+<ol>
+    <li>Install avahi-daemon on the Linux computer that's hosting the server program</li>
+    <li>As root user, edit /etc/avahi/avahi-daemon.conf and set the host-name using this line under the "server" section:<br>
+    host-name=algebrain
+    </li>
+</ol>
+
+<p>Now each player can start the game by browsing to <a href="http://algebrain.local">http://algebrain.local</a></p>
+
+<p>Within the game:</p>
+
+<ol>
+    <li>Each player chooses the "2 Player Cooperative LAN or Online" option</li>
+    <li>One player chooses Create Room, the other player chooses Join Room</li>
+</ol>
+
+<hr><a href="/index.html">Homepage</a>&nbsp;&nbsp;&nbsp;<a href="/email.html">Contact Me</a></body></html>
+
