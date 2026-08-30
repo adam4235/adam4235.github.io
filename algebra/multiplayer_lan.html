@@ -33,6 +33,9 @@ h1 {
     <li>As root user, edit /etc/avahi/avahi-daemon.conf and set the host-name using this line under the "server" section:<br>
     host-name=algebrain
     </li>
+    <li>Restart the daemon to have the change take effect:<br>
+    sudo systemctl restart avahi-daemon
+    </li>
 </ol>
 
 <p>Now each player can start the game by browsing to <a href="http://algebrain.local">http://algebrain.local</a></p>
