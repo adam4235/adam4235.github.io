@@ -12,13 +12,14 @@ recipe source:Mom
 1 chopped_tbsp ginger
 0.5 tbsp cumin
 0.5 tbsp coriander
-6 # soup cubes
+4 # soup cubes
+6 c water
 10 # carrots
 2 # potatoes
 
 -Chop the onions, garlic, and ginger root
 -Brown in a pot with oil and cumin and coriander for 3-4 min
--Add the soup mix with 1 c water per cube to the pot
+-Add the soup mix and water to the pot
 -Peel and chop the vegetables, adding them to a pot
 -Boil 20-30 min, or 15 min in an Instant Pot
 -puree in the pot with a hand blender (putting it in a blender makes it go over the top of the blender)
